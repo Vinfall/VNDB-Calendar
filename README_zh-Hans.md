@@ -14,7 +14,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 ## 搜索
 
-运行结果应该和 [这则 VNDB 搜索](https://vndb.org/r?q=&o=a&s=released&f=0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-) 一样，但我为了不错过新发行视觉小说而把起始发售日往前挪了 30 天。
+运行结果应该和 [这则 VNDB 搜索](https://vndb.org/r?q=&o=a&s=released&f=0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-) 一样，但我为了不错过新发行视觉小说而把起始发售日往前挪了 14 天。
 
 你可以 fork 这个项目后自行修改 [`vndb-calendar.py`](vndb-calendar.py) 中的 `filters` 和 `data`。
 
