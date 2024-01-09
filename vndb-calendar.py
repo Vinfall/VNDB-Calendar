@@ -22,6 +22,7 @@ _ICS_FILE = "vndb-rel-calendar.ics"
 _SHIFT_TIME = (datetime.now() - timedelta(days=14)).strftime("%Y-%m-%d")
 # Block word list, not sure why regex not working
 _TO_REPLACE = [
+    "();",
     " パッケージ版",
     " パッケージ特装版",
     " パッケージ初回版",
@@ -176,7 +177,7 @@ def process_json(results):
 
 # Make calendar
 def make_calendar(processed_results):
-    cal = Calendar(creator="VNDB-RelCalendar")
+    cal = Calendar(creator="VNDBRelCalendar")
     now = datetime.now()
     event_dict = {}
 
