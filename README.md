@@ -1,5 +1,7 @@
 # VNDB Release Calendar
 
+中文介绍请看 [README_zh-Hans](README_zh-Hans.md)
+
 ## Intro
 
 This tiny tool allows you to create a calendar of [VNDB](https://vndb.org) [upcoming releases](https://vndb.org/r?f=01731;o=a;s=released). Everything is supposed to be automated via GitHub Actions after initial setup. If you choose to publish the `ICS` file, you can just subscribe it in any calendar app that supports iCalendar.
@@ -14,7 +16,7 @@ This is created as a workaround (just in ICS rather than RSS) for personal use a
 
 The results should be similar to the one you would see in [this release query on VNDB](https://vndb.org/r?q=&o=a&s=released&f=0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-), except that I expand the release window one month earlier to avoid missing VNs.
 
-You can fork the repository and edit `filters` and `data` in `vndb-calendar.py` to change it.
+You can fork the repository and edit `filters` and `data` in [`vndb-calendar.py`](vndb-calendar.py) to change it.
 
 ## Todo
 
