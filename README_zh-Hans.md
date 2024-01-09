@@ -21,9 +21,9 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 ## Todo
 
 - [x] Remove redundant releases of the same VN
-- [x] Declutter common release variated titles like `ダウンロード版` and `DLカード版`
+- [x] Declutter common release variate titles like `ダウンロード版` and `DLカード版`
 - [ ] Better handling of partial date like `2026` and `2024-02`, or dates like `2024-01-01` would be a nightmare
-- [ ] Filter out BLG/otome game & other tags I wish to avoid
+- [ ] Filter out BLG/Otome game & other tags I wish to avoid
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
 - [ ] Make filters work like arguments (low priority, you can simply use [compact filters](https://api.vndb.org/kana#filters) as an alternative)
 
