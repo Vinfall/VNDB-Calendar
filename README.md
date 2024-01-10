@@ -22,7 +22,7 @@ You can fork the repository and edit `filters` and `data` in [`vndb-calendar.py`
 
 - [x] Remove redundant releases of the same VN
 - [x] Declutter common release variate titles like `ダウンロード版` and `DLカード版`
-- [ ] Better handling of partial date like `2026` and `2024-02`, or dates like `2024-01-01` would be a nightmare
+- [x] Better handling of incomplete date like `2026` and `2024-02`
 - [ ] Filter out BLG/Otome game & other tags I wish to avoid
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
@@ -31,7 +31,7 @@ You can fork the repository and edit `filters` and `data` in [`vndb-calendar.py`
 
 ## Contribution
 
-If you happen to know Elm and Perl, I suggest you to contribute to VNDB directly (reference: [vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb](https://code.blicky.net/yorhel/vndb/src/branch/master/lib/VNWeb/Misc/Feeds.pm)) so no third party tool is needed. That being said, any contribution is appreciated, either to VNDB or this repository.
+If you happen to know Perl, I suggest you to contribute to VNDB directly (reference: [vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb](https://code.blicky.net/yorhel/vndb/src/branch/master/lib/VNWeb/Misc/Feeds.pm)) so no third party tool is needed. That being said, any contribution is appreciated, either to VNDB or this repository.
 
 ## Acknowledgement
 

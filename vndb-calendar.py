@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Documentation: https://api.vndb.org/kana#post-release
+# Documentation
+# VNDB API: https://api.vndb.org/kana#post-release
+# ICS: https://icspy.readthedocs.io/en/stable/api.html#event
+# Dateparser: https://dateparser.readthedocs.io/en/latest/#incomplete-dates
 
 import os
 import sys
+import dateparser
 from datetime import datetime
 from datetime import timedelta
 import requests
@@ -103,6 +107,7 @@ data = {
 
 
 def get_page(max_page, data):
+    # Not sure why /vn does not work well with "released" filter so use /release instead
     api_url = "https://api.vndb.org/kana/release"
     headers = {"Content-Type": "application/json"}
     all_results = []
@@ -154,6 +159,7 @@ def process_json(results):
 
         processed_results.append(processed_result)
 
+    # Save results to JSON file
     with open(
         f"{_OUTPUT_FOLDER + _JSON_FILE}",
         "w",
@@ -161,6 +167,7 @@ def process_json(results):
     ) as file:
         json.dump(processed_results, file, ensure_ascii=False, indent=2)
 
+    # Save results to CSV file
     with open(
         _OUTPUT_FOLDER + _CSV_FILE, mode="w", newline="", encoding="utf-8"
     ) as csv_file:
@@ -175,6 +182,29 @@ def process_json(results):
     return processed_results
 
 
+# Function borrowed from SteamWishlistCalendar
+# https://github.com/icue/SteamWishlistCalendar/blob/b5995dd44e8a0e682e80962277bc905eed744768/swc.py#L33-L51
+def last_day_of_next_month(dt):
+    """
+    Returns the datetime of the last day of the next month.
+
+    Args:
+    dt: A datetime.datetime object.
+
+    Returns:
+    A datetime.datetime object.
+    """
+
+    year = dt.year
+    next_next_month = dt.month + 2
+    if next_next_month > 12:
+        next_next_month -= 12
+        year = dt.year + 1
+
+    # Subtracting 1 day from the first day of the next next month, to get the last day of next month.
+    return datetime(year, next_next_month, 1) - timedelta(days=1)
+
+
 # Make calendar
 def make_calendar(processed_results):
     cal = Calendar(creator="VNDBRelCalendar")
@@ -183,8 +213,22 @@ def make_calendar(processed_results):
 
     for result in processed_results:
         description_suffix = ""
-        release_date = result["released"]
         vid = result["vid"]
+
+        # Parse date to better fit into reality
+        release_date = dateparser.parse(
+            result["released"],
+            settings={
+                "PREFER_DAY_OF_MONTH": "last",
+                "PREFER_DATES_FROM": "future",
+                "PREFER_MONTH_OF_YEAR": "last",
+            },
+        )
+        while release_date.date() < now.date():
+            # If the estimated release date has already passed, pick the earliest upcoming last-of-a-month date
+            release_date = last_day_of_next_month(release_date)
+            # Only show estimation message in above cases
+            description_suffix = f'\nEstimated on "{release_date}"'
 
         # TODO: include more info
         event = Event(

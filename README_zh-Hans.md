@@ -22,7 +22,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 - [x] 同一个视觉小说的多个 release 去重
 - [x] 清理标题中的版本（比如 `ダウンロード版` 和 `DLカード版`）
-- [ ] Better handling of partial date like `2026` and `2024-02`, or dates like `2024-01-01` would be a nightmare
+- [x] 优化不完整日期（比如 `2026` 和 `2024-02`）的处理
 - [ ] Filter out BLG/Otome game & other tags I wish to avoid
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
@@ -31,7 +31,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 ## 贡献
 
-如果你刚好知道 Elm 和 Perl，我建议直接向 VNDB 提交代码（相关文件：[vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb](https://code.blicky.net/yorhel/vndb/src/branch/master/lib/VNWeb/Misc/Feeds.pm)），摆脱第三方工具，一劳永逸。当然，我也欢迎任何对本仓库的贡献。
+如果你恰好知道 Perl，我建议直接向 VNDB 提交代码（相关文件：[vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb](https://code.blicky.net/yorhel/vndb/src/branch/master/lib/VNWeb/Misc/Feeds.pm)），摆脱第三方工具，一劳永逸。当然，我也欢迎任何对本仓库的贡献。
 
 ## 致谢
 
