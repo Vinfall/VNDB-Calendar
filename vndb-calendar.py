@@ -4,7 +4,7 @@
 # Documentation
 # VNDB API: https://api.vndb.org/kana#post-release
 # ICS: https://icspy.readthedocs.io/en/stable/api.html#event
-# Dateparser: https://dateparser.readthedocs.io/en/latest/#incomplete-dates
+# Dateparser: https://dateparser.readthedocs.io/en/latest/settings.html#handling-incomplete-dates
 
 import os
 import sys
@@ -249,7 +249,7 @@ def make_calendar(processed_results):
             release_date = year + (
                 _MID_YEAR if mid_release_date > now.date() else "-12-31"
             )
-            description_suffix = f'\nEstimated on "{result["released"]}'
+            description_suffix = f'\nEstimated on "{result["released"]}"'
         # Complete remaining release date like `2024-03`
         yyyymm_only_match = re.match(_YYYYMM_ONLY_REGEX, release_date)
         if yyyymm_only_match:
