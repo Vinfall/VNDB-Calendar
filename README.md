@@ -4,7 +4,7 @@
 
 ## Intro
 
-This tiny tool allows you to create a calendar of [VNDB](https://vndb.org) [upcoming releases](https://vndb.org/r?f=01731;o=a;s=released). Everything is supposed to be automated via GitHub Actions after initial setup. If you choose to publish the `ICS` file, you can just subscribe it in any calendar app that supports iCalendar.
+This tiny tool allows you to create a calendar of [VNDB](https://vndb.org) [upcoming releases](https://vndb.org/r?f=01731;o=a;s=released). Everything is supposed to be automated via GitHub Actions after initial setup. If you choose to publish the `ICS` file, you can just subscribe it in any calendar app that supports iCalendar. An example including ja, zh-Hans & zh-Hant releases (not very suitable for en readers) is avaialable [here](https://raw.githubusercontent.com/Vinfall/VNDB-RelCalendar/main/output/vndb-rel-calendar.ics).
 
 ## Why
 
