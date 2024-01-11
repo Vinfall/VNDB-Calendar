@@ -24,7 +24,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - [x] 同一个视觉小说的多个 release 去重
 - [x] 清理标题中的版本（比如 `ダウンロード版` 和 `DLカード版`）
 - [x] 优化不完整日期（比如 `2026` 和 `2024-02`）的处理
-- [ ] Filter out BLG/Otome game & other tags I wish to avoid (partially done)
+- [x] 排除带有 BLG、乙女游戏和其他预期外标签的视觉小说
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
 - [ ] Generic filter for en & ja release (probably in a new branch, low priority as you can fork the repo and do it yourself)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)

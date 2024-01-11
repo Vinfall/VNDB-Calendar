@@ -81,6 +81,8 @@ max_page = 2
 
 # To get normalized filters from compact one:
 # curl https://api.vndb.org/kana/release --json '{"filters":my_filters,"normalized_filters":true,"results":0}'
+
+
 filters = [
     "and",
     # Comment the line below to show all language releases
@@ -100,6 +102,19 @@ filters = [
             ["tag", "!=", "g2002"],
             # This would filter out girl x girl romance as well, find a better way
             # ["tag", "!=", ["g134", 2, 1.4]],
+        ],
+    ],
+    # More unintended tags
+    [
+        "vn",
+        "=",
+        [
+            "and",
+            ["tag", "!=", "g83"],
+            ["tag", "!=", "g117"],
+            ["tag", "!=", "g161"],
+            ["tag", "!=", "g897"],
+            ["tag", "!=", "g3084"],
         ],
     ],
 ]

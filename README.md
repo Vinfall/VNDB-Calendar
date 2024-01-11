@@ -23,7 +23,7 @@ You can fork the repository and edit `filters` and `data` in [`vndb-calendar.py`
 - [x] Remove redundant releases of the same VN
 - [x] Declutter common release variate titles like `ダウンロード版` and `DLカード版`
 - [x] Better handling of incomplete date like `2026` and `2024-02`
-- [ ] Filter out BLG/Otome game & other tags I wish to avoid (partially done)
+- [x] Filter out BLG/Otome game & other tags I wish to avoid
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
 - [ ] Generic filter for en & ja release (probably in a new branch, low priority as you can fork the repo and do it yourself)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
