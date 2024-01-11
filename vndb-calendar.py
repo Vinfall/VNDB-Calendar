@@ -236,6 +236,7 @@ def make_calendar(processed_results):
     for result in processed_results:
         description_suffix = ""
         vid = result["vid"]
+        title = result["title"]
         release_date = result["released"]
 
         # Parse date to better fit into reality
@@ -267,7 +268,7 @@ def make_calendar(processed_results):
         # TODO: include more info
         event = Event(
             uid=vid,
-            name=result["title"],
+            name=title,
             description="https://vndb.org/" + vid + description_suffix,
             begin=release_date,
             last_modified=now,
@@ -276,7 +277,8 @@ def make_calendar(processed_results):
         event.make_all_day()
 
         # Only add events if it's a different VN
-        key = (vid, release_date)
+        # Do NOT use release_date as a VN can have multiple releases on different dates
+        key = (vid, title)
         if key not in event_dict:
             event_dict[key] = event
     for event in event_dict.values():
