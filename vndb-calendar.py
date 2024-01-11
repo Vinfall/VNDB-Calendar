@@ -28,7 +28,7 @@ _ICS_FILE = "vndb-rel-calendar.ics"
 _SHIFT_TIME = (datetime.now() - timedelta(days=14)).strftime("%Y-%m-%d")
 # Mid year
 _MID_YEAR = "-09-15"
-_YEAR_ONLY_REGEX = "^(\\d{4})\\$"
+_YEAR_ONLY_REGEX = "^(\\d{4})$"
 _YYYYMM_ONLY_REGEX = "^(\\d{4}-\\d{2})$"
 
 # Dumb block word list, not sure why regex not working
@@ -244,11 +244,12 @@ def make_calendar(processed_results):
         year_only_match = re.match(_YEAR_ONLY_REGEX, release_date)
         if year_only_match:
             year = year_only_match.group(1)
-            # If Sep 15 of this year passed, use the end of year.
+            # If Sep 15 of this year passed, use the end of year
             mid_release_date = datetime.strptime(year + _MID_YEAR, "%Y-%m-%d").date()
             release_date = year + (
                 _MID_YEAR if mid_release_date > now.date() else "-12-31"
             )
+            description_suffix = f'\nEstimated on "{result["released"]}'
         # Complete remaining release date like `2024-03`
         yyyymm_only_match = re.match(_YYYYMM_ONLY_REGEX, release_date)
         if yyyymm_only_match:
