@@ -75,17 +75,23 @@ filters = [
     ["rtype", "=", "complete"],
 ]
 
+# TODO: Alternatively, use compact filter to get rid of all weirdness
+# Side effect: no time shift
+# filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
+
 """
 # TODO: Remove BLG
+# Side effect: VNs with no tag would be filtered out as well
 (
     [
         "vn",
         "!=",
         [
             "any",
+            ["tag", "=", "g542"],
+            ["tag", "=", "g2002"],
+            # This would filter out girl x girl romance as well, find a better way
             ["tag", "=", ["g134", 2, 1.4]],
-            ["tag", "=", ["g542"]],
-            ["tag", "=", ["g2002"]],
         ],
     ],
 )

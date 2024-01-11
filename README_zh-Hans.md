@@ -25,6 +25,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - [x] 优化不完整日期（比如 `2026` 和 `2024-02`）的处理
 - [ ] Filter out BLG/Otome game & other tags I wish to avoid
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
+- [ ] Generic filter for en & ja release (probably in a new branch, low priority as you can fork the repo and do it yourself)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
 - [ ] Make filters work like arguments (low priority, you can simply use [compact filters](https://api.vndb.org/kana#filters) as an alternative)
 - [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (maybe not possible w/o refactoring)
@@ -37,3 +38,4 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 - 项目受 [SteamWishlistCalendar](https://github.com/icue/SteamWishlistCalendar) 启发，强烈建议用 SWC 替代邮件
 - 从 [VNDB Steam Enhancer](https://greasyfork.org/en/scripts/456166-vndb-steam-enhancer/code) 了解到如何与 VNDB API 交互
+- 感谢 VNDB 全体贡献者和编辑者

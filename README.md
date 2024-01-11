@@ -25,6 +25,7 @@ You can fork the repository and edit `filters` and `data` in [`vndb-calendar.py`
 - [x] Better handling of incomplete date like `2026` and `2024-02`
 - [ ] Filter out BLG/Otome game & other tags I wish to avoid
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
+- [ ] Generic filter for en & ja release (probably in a new branch, low priority as you can fork the repo and do it yourself)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
 - [ ] Make filters work like arguments (low priority, you can simply use [compact filters](https://api.vndb.org/kana#filters) as an alternative)
 - [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (maybe not possible w/o refactoring)
@@ -37,3 +38,4 @@ If you happen to know Perl, I suggest you to contribute to VNDB directly (refere
 
 - Inspired by [SteamWishlistCalendar](https://github.com/icue/SteamWishlistCalendar), which I highly recommend in favor of email notifications
 - [VNDB Steam Enhancer](https://greasyfork.org/en/scripts/456166-vndb-steam-enhancer/code) is another learning source for interacting with VNDB API
+- Thanks to all VNDB contributors & editors for making such a great site available
