@@ -52,6 +52,7 @@ _TO_REPLACE = [
     " デラックスDL版",
     " デラックスPK版",
     " PK版 デラックス版",
+    "Windows パッケージ版",
     " - Adult Version",
     # " - Adult Patch",
     " - Censored Version",
@@ -78,6 +79,8 @@ fields = "id, title, alttitle, released, vns.id"
 # This is sufficient enough in most cases
 max_page = 2
 
+# To get normalized filters from compact one:
+# curl https://api.vndb.org/kana/release --json '{"filters":my_filters,"normalized_filters":true,"results":0}'
 filters = [
     "and",
     # Comment the line below to show all language releases
@@ -87,29 +90,23 @@ filters = [
     ["released", ">=", _SHIFT_TIME],
     ["vn", "=", ["and", ["released", ">=", _SHIFT_TIME]]],
     ["rtype", "=", "complete"],
-]
-
-# TODO: Alternatively, use compact filter to get rid of all weirdness
-# Side effect: no time shift
-# filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
-
-"""
-# TODO: Remove BLG
-# Side effect: VNs with no tag would be filtered out as well
-(
+    # Comment filters below to unhide BLG/Otome games
     [
         "vn",
-        "!=",
+        "=",
         [
-            "any",
-            ["tag", "=", "g542"],
-            ["tag", "=", "g2002"],
+            "and",
+            ["tag", "!=", "g542"],
+            ["tag", "!=", "g2002"],
             # This would filter out girl x girl romance as well, find a better way
-            ["tag", "=", ["g134", 2, 1.4]],
+            # ["tag", "!=", ["g134", 2, 1.4]],
         ],
     ],
-)
-"""
+]
+
+# Alternatively, use compact filter to get rid of all weirdness
+# Side effect: no time shift
+# filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
 
 
 data = {
