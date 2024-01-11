@@ -31,9 +31,9 @@ _MID_YEAR = "-09-15"
 _YEAR_ONLY_REGEX = "^(\\d{4})\\$"
 _YYYYMM_ONLY_REGEX = "^(\\d{4}-\\d{2})$"
 
-# Block word list, not sure why regex not working
+# Dumb block word list, not sure why regex not working
 _TO_REPLACE = [
-    "();",
+    "();",  # A special case for v33120
     " パッケージ版",
     " パッケージ特装版",
     " パッケージ初回版",
@@ -41,18 +41,24 @@ _TO_REPLACE = [
     " ダウンロード通常版",
     " ダウンロード豪華版",
     " オナホール同梱版",
+    " ダブルパック",
     " DL版",
+    " PK版",
     " DL通常版",
     " DLカード版",
     " 通常DL版",
     " 通常PK版",
+    " デラックス版",
     " デラックスDL版",
     " デラックスPK版",
+    " PK版 デラックス版",
     " - Adult Version",
+    # " - Adult Patch",
     " - Censored Version",
     " - Download Edition",
     " - Package Edition",
     " - Physical Edition",
+    "Normal Edition",
     " 単体版",
     " 通常版",
     " 特典版",
@@ -68,6 +74,7 @@ _TO_REPLACE = [
 
 # Query parameters
 # fields = "id,title,alttitle,languages.mtl,platforms,media,vns.rtype,producers,released,minage,patch,uncensored,official,extlinks"
+fields = "id, title, alttitle, released, vns.id"
 # This is sufficient enough in most cases
 max_page = 2
 
@@ -107,7 +114,7 @@ filters = [
 
 data = {
     "filters": filters,
-    "fields": "id, title, alttitle, released, vns.id",
+    "fields": fields,
     "sort": "released",
     "reverse": False,
     "results": 100,
@@ -120,7 +127,9 @@ data = {
 
 
 def get_page(max_page, data):
-    # Not sure why /vn does not work well with "released" filter so use /release instead
+    # Reasons not using /vn
+    # 1. not working well with "released" filter
+    # 2. too many alttitles, or no alttitle at all
     api_url = "https://api.vndb.org/kana/release"
     headers = {"Content-Type": "application/json"}
     all_results = []
