@@ -230,18 +230,18 @@ def make_calendar(processed_results):
         release_date = result["released"]
 
         # Parse date to better fit into reality
+        # Match release date like `2026`
         year_only_match = re.match(_YEAR_ONLY_REGEX, release_date)
         if year_only_match:
-            # Match release date like `2026`
             year = year_only_match.group(1)
             # If Sep 15 of this year passed, use the end of year.
             mid_release_date = datetime.strptime(year + _MID_YEAR, "%Y-%m-%d").date()
             release_date = year + (
                 _MID_YEAR if mid_release_date > now.date() else "-12-31"
             )
+        # Complete remaining release date like `2024-03`
         yyyymm_only_match = re.match(_YYYYMM_ONLY_REGEX, release_date)
         if yyyymm_only_match:
-            # Complete remaining release date like `2024-03`
             release_date = dateparser.parse(
                 release_date,
                 settings={
