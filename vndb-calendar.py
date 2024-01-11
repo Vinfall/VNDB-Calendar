@@ -22,8 +22,15 @@ _OUTPUT_FOLDER = "output/"
 _CSV_FILE = "vndb-release.txt"
 _JSON_FILE = "vndb-release.json"
 _ICS_FILE = "vndb-rel-calendar.ics"
+
+# Date format
 # _SHIFT_TIME = "today"
 _SHIFT_TIME = (datetime.now() - timedelta(days=14)).strftime("%Y-%m-%d")
+# Mid year
+_MID_YEAR = "-09-15"
+_YEAR_ONLY_REGEX = "^(\\d{4})\\$"
+_YYYYMM_ONLY_REGEX = "^(\\d{4}-\\d{2})$"
+
 # Block word list, not sure why regex not working
 _TO_REPLACE = [
     "();",
@@ -220,21 +227,33 @@ def make_calendar(processed_results):
     for result in processed_results:
         description_suffix = ""
         vid = result["vid"]
+        release_date = result["released"]
 
         # Parse date to better fit into reality
-        release_date = dateparser.parse(
-            result["released"],
-            settings={
-                "PREFER_DAY_OF_MONTH": "last",
-                "PREFER_DATES_FROM": "future",
-                "PREFER_MONTH_OF_YEAR": "last",
-            },
-        )
-        while release_date.date() < now.date():
-            # If the estimated release date has already passed, pick the earliest upcoming last-of-a-month date
-            release_date = last_day_of_next_month(release_date)
-            # Only show estimation message in above cases
-            description_suffix = f'\nEstimated on "{release_date}"'
+        year_only_match = re.match(_YEAR_ONLY_REGEX, release_date)
+        if year_only_match:
+            # Match release date like `2026`
+            year = year_only_match.group(1)
+            # If Sep 15 of this year passed, use the end of year.
+            mid_release_date = datetime.strptime(year + _MID_YEAR, "%Y-%m-%d").date()
+            release_date = year + (
+                _MID_YEAR if mid_release_date > now.date() else "-12-31"
+            )
+        yyyymm_only_match = re.match(_YYYYMM_ONLY_REGEX, release_date)
+        if yyyymm_only_match:
+            # Complete remaining release date like `2024-03`
+            release_date = dateparser.parse(
+                release_date,
+                settings={
+                    "PREFER_DAY_OF_MONTH": "last",
+                    "PREFER_DATES_FROM": "future",
+                },
+            )
+            while release_date.date() < now.date():
+                # If the estimated release date has already passed, pick the earliest upcoming last-of-a-month date
+                release_date = last_day_of_next_month(release_date)
+                # Only show estimation message in above cases
+                description_suffix = f'\nEstimated on "{result["released"]}"'
 
         # TODO: include more info
         event = Event(
