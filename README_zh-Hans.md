@@ -24,7 +24,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - [x] 同一个视觉小说的多个 release 去重
 - [x] 清理标题中的版本（比如 `ダウンロード版` 和 `DLカード版`）
 - [x] 优化不完整日期（比如 `2026` 和 `2024-02`）的处理
-- [ ] Filter out BLG/Otome game & other tags I wish to avoid
+- [ ] Filter out BLG/Otome game & other tags I wish to avoid (partially done)
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
 - [ ] Generic filter for en & ja release (probably in a new branch, low priority as you can fork the repo and do it yourself)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
@@ -37,6 +37,6 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 ## 致谢
 
-- 项目受 [SteamWishlistCalendar](https://github.com/icue/SteamWishlistCalendar) 启发，强烈建议用 SWC 替代邮件
+- 项目受 [SteamWishlistCalendar](https://github.com/icue/SteamWishlistCalendar) 启发，强烈建议用 SWC 替代 Steam 邮件通知
 - 从 [VNDB Steam Enhancer](https://greasyfork.org/en/scripts/456166-vndb-steam-enhancer/code) 了解到如何与 VNDB API 交互
 - 感谢 VNDB 全体贡献者和编辑者
