@@ -31,46 +31,27 @@ _MID_YEAR = "-09-15"
 _YEAR_ONLY_REGEX = "^(\\d{4})$"
 _YYYYMM_ONLY_REGEX = "^(\\d{4}-\\d{2})$"
 
-# Dumb block word list, not sure why regex not working
+# Block word list full of hacky regex
 _TO_REPLACE = [
-    "();",  # A special case for v33120
-    " パッケージ版",
-    " パッケージ特装版",
-    " パッケージ初回版",
-    " ダウンロード版",
-    " ダウンロード通常版",
-    " ダウンロード豪華版",
+    "\\(\\);",  # A special case for v33120
+    "(Windows)? パッケージ(特装)?(初回)?版",
+    " ダウンロード(通常)?(豪華)?版",
     " オナホール同梱版",
     " ダブルパック",
-    " DL版",
-    " PK版",
-    " DL通常版",
-    " DLカード版",
-    " 通常DL版",
-    " 通常PK版",
-    " デラックス版",
-    " デラックスDL版",
-    " デラックスPK版",
+    " (通常)?DL(通常)?(カード)?版",
+    " (通常)?PK版",
+    # " 通常DL版",
+    " デラックス(DL)?(PK)?版",
     " PK版 デラックス版",
-    "Windows パッケージ版",
-    " - Adult Version",
-    # " - Adult Patch",
-    " - Censored Version",
-    " - Download Edition",
-    " - Package Edition",
-    " - Physical Edition",
+    " - .*? Version$",
+    # " - .*? Patch$",
     "Normal Edition",
     " 単体版",
     " 通常版",
     " 特典版",
-    " 限定版",
-    " 豪華版",
-    " 初回版",
-    " 豪華限定版",
-    " 初回限定版",
-    " 初回特典版",
-    " 豪華特装版",
-    " 完全生産限定版",
+    " (完全生産)?限定版",
+    " 豪華(限定)?(特装)?版",
+    " 初回(限定)?(特典)?版",
 ]
 
 # Query parameters
@@ -114,6 +95,7 @@ filters = [
             ["tag", "!=", "g117"],
             ["tag", "!=", "g161"],
             ["tag", "!=", "g897"],
+            ["tag", "!=", "g1300"],
             ["tag", "!=", "g3084"],
         ],
     ],
@@ -185,11 +167,9 @@ def process_json(results):
             processed_result["title"] = result["alttitle"]
         else:
             processed_result["title"] = result["title"]
-        # Replace release variated titles like `ダウンロード版` and `DLカード版`
+        # Replace trailing release variations like `ダウンロード版` and `DLカード版`
         for keyword in _TO_REPLACE:
-            processed_result["title"] = re.sub(
-                re.escape(keyword), "", processed_result["title"]
-            )
+            processed_result["title"] = re.sub(keyword, "", processed_result["title"])
 
         processed_results.append(processed_result)
 
