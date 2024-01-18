@@ -33,7 +33,6 @@ _YYYYMM_ONLY_REGEX = "^(\\d{4}-\\d{2})$"
 
 # Block word list full of hacky regex
 _TO_REPLACE = [
-    "\\(\\);",  # A special case for v33120
     "(Windows)? パッケージ(特装)?(初回)?版",
     " ダウンロード(通常)?(豪華)?版",
     " オナホール同梱版",
@@ -52,6 +51,9 @@ _TO_REPLACE = [
     " (完全生産)?限定版",
     " 豪華(限定)?(特装)?版",
     " 初回(限定)?(特典)?版",
+    # Special cases
+    "\\(\\);",  # v33120
+    " 拡張KIT版",  # v47887
 ]
 
 # Query parameters
@@ -91,6 +93,7 @@ filters = [
         "=",
         [
             "and",
+            ["tag", "!=", "g7"],
             ["tag", "!=", "g83"],
             ["tag", "!=", "g117"],
             ["tag", "!=", "g161"],
@@ -101,17 +104,20 @@ filters = [
             ["tag", "!=", "g3084"],
         ],
     ],
-    # No NEKOPARA/Sakura series, and much more
+    # No Da Capo/NEKOPARA/Sakura series, and much more
     [
         "producer",
         "=",
         [
             "and",
+            ["id", "!=", "p65"],
             ["id", "!=", "p1741"],
             ["id", "!=", "p4019"],
             ["id", "!=", "p4488"],
             ["id", "!=", "p5008"],
             ["id", "!=", "p20602"],
+            # Otome game dev
+            ["id", "!=", "p567"],
         ],
     ],
 ]
