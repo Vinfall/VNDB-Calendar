@@ -148,7 +148,7 @@ parser.add_argument(
     "--filter",
     required=False,
     default=default_filters,
-    help="Custom filter",
+    help="custom compact filter, see https://api.vndb.org/kana#filters",
 )
 # 2 is sufficient enough in most cases
 parser.add_argument(
@@ -157,7 +157,7 @@ parser.add_argument(
     type=int,
     required=False,
     default=2,
-    help="Max pages of query results",
+    help="max pages of query results",
 )
 args = parser.parse_args()
 
