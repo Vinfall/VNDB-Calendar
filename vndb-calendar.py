@@ -4,8 +4,10 @@
 # Documentation
 # VNDB API: https://api.vndb.org/kana#post-release
 # ICS: https://icspy.readthedocs.io/en/stable/api.html#event
+# Argparse: https://docs.python.org/3/library/argparse.html
 # Dateparser: https://dateparser.readthedocs.io/en/latest/settings.html#handling-incomplete-dates
 
+import argparse
 import os
 import sys
 import dateparser
@@ -59,14 +61,12 @@ _TO_REPLACE = [
 # Query parameters
 # fields = "id,title,alttitle,languages.mtl,platforms,media,vns.rtype,producers,released,minage,patch,uncensored,official,extlinks"
 fields = "id, title, alttitle, released, vns.id"
-# This is sufficient enough in most cases
-max_page = 2
 
 # To get normalized filters from compact one:
 # curl https://api.vndb.org/kana/release --json '{"filters":my_filters,"normalized_filters":true,"results":0}'
 
 
-filters = [
+default_filters = [
     "and",
     # Comment the line below to show all language releases
     ["or", ["lang", "=", "ja"], ["lang", "=", "zh-Hans"], ["lang", "=", "zh-Hant"]],
@@ -128,7 +128,7 @@ filters = [
 
 
 data = {
-    "filters": filters,
+    "filters": default_filters,
     "fields": fields,
     "sort": "released",
     "reverse": False,
@@ -141,6 +141,27 @@ data = {
 }
 
 
+# Arguments for easy customization
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "-f",
+    "--filter",
+    required=False,
+    default=default_filters,
+    help="Custom filter",
+)
+# 2 is sufficient enough in most cases
+parser.add_argument(
+    "-p",
+    "--max-page",
+    type=int,
+    required=False,
+    default=2,
+    help="Max pages of query results",
+)
+args = parser.parse_args()
+
+
 def get_page(max_page, data):
     # Reasons not using /vn
     # 1. not working well with "released" filter
@@ -151,6 +172,7 @@ def get_page(max_page, data):
 
     for page in range(1, max_page + 1):
         data["page"] = page
+        data["filters"] = args.filter
         response = requests.post(api_url, data=json.dumps(data), headers=headers)
 
         if response.status_code == 200:
@@ -303,6 +325,6 @@ def make_calendar(processed_results):
 
 
 os.makedirs(_OUTPUT_FOLDER, exist_ok=True)
-j = get_page(max_page, data)
+j = get_page(args.max_page, data)
 results = process_json(j)
 make_calendar(results)

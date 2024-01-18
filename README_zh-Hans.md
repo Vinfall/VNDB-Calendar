@@ -13,11 +13,15 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 这是个人使用的替代方案（虽然协议从 RSS 修改为 ICS），同时当作博客文章 [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) 的拓展。
 
-## 搜索
+## 使用
 
 运行结果应该近似 [这则 VNDB 搜索](https://vndb.org/r?f=0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx)，但我为了不错过新发行视觉小说而把起始发售日往前挪了 14 天。
 
-你可以 fork 这个项目后自行修改 [`vndb-calendar.py`](vndb-calendar.py) 中的 `filters` 和 `data`。
+你可以通过（可选）参数运行脚本来自定义结果：
+- `python vndb-calendar.py -f {自定义的 compact filter} -p {最大页数}`
+- 以中日视觉小说为例：`python vndb-calendar.py -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-"`
+- `-f` 或 `--filter`：自定义 [compact filters](https://api.vndb.org/kana#filters)，默认为我高度自定义的个人方案
+- `-p` 或 `--max-page`：搜索结果的最大页数，默认为 `2`
 
 ## Todo
 
@@ -25,10 +29,9 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - [x] 清理标题中的版本（比如 `ダウンロード版` 和 `DLカード版`）
 - [x] 优化不完整日期（比如 `2026` 和 `2024-02`）的处理
 - [x] 排除带有 BLG、乙女游戏和其他预期外标签的视觉小说
+- [x] 允许通过运行参数自定义搜索（具体参见 VNDB API 文档的 [compact filters](https://api.vndb.org/kana#filters) 部分）
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
-- [ ] Generic filter for en & ja release (probably in a new branch, low priority as you can fork the repo and do it yourself)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
-- [ ] Make filters work like arguments (low priority, you can simply use [compact filters](https://api.vndb.org/kana#filters) as an alternative)
 - [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (maybe not possible w/o refactoring)
 
 ## 贡献
