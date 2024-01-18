@@ -1,0 +1,42 @@
+name: gen-en-calendar
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # 4:00 UTC everyday
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: execute py script
+        run: python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0
+
+      - name: upload artifact to release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: True
+          prerelease: False
+          tag: "en"
+          omitBody: True
+          omitBodyDuringUpdate: True
+          omitNameDuringUpdate: True
+          artifacts: "output/vndb-*"
+          token: ${{ secrets.GITHUB_TOKEN }}
