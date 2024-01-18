@@ -17,10 +17,11 @@ This is created as a workaround (just in ICS rather than RSS) for personal use a
 The results should be similar to the one you would see in [this release query on VNDB](https://vndb.org/r?f=0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx), except that I expand the release window 14 days earlier to avoid missing VNs.
 
 To customize the query, run the script with optional parameters:
-- `python vndb-calendar.py -f {customized_compact_filter} -p {max_page}`
-- Example of generic filters for en & ja releases: `python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-"`
+- `python vndb-calendar.py -f {customized_compact_filter} -p {max_page} -t {shift_time}`
+- Example of generic filters for en & ja upcoming releases: `python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0`
 - `-f` or `--filter`: your custom [compact filters](https://api.vndb.org/kana#filters), by default it would use my personalized one
 - `-p` or `--max-page`: maximum pages of query results, by default it will be `2`
+- `-t` or `--shift-time`: show *new* releases X days ago, it's really upcoming release if set to `0`, by default it will be `14`
 
 ## Todo
 

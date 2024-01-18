@@ -159,6 +159,14 @@ parser.add_argument(
     default=2,
     help="max pages of query results",
 )
+parser.add_argument(
+    "-t",
+    "--shift-time",
+    type=int,
+    required=False,
+    default=None,
+    help='show "new" releases X days ago, it\'s really upcoming release if set to 0',
+)
 args = parser.parse_args()
 
 
@@ -172,7 +180,13 @@ def get_page(max_page, data):
 
     for page in range(1, max_page + 1):
         data["page"] = page
-        data["filters"] = args.filter
+        if args.shift_time:
+            _SHIFT_TIME_NEW = (
+                datetime.now() - timedelta(days=args.shift_time)
+            ).strftime("%Y-%m-%d")
+            data["filters"] = args.filter.replace(_SHIFT_TIME, _SHIFT_TIME_NEW)
+        else:
+            data["filters"] = args.filter
         response = requests.post(api_url, data=json.dumps(data), headers=headers)
 
         if response.status_code == 200:
