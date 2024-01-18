@@ -4,7 +4,7 @@
 
 ## Intro
 
-This tiny tool allows you to create a calendar of [VNDB](https://vndb.org) [upcoming releases](https://vndb.org/r?f=01731;o=a;s=released). Everything is supposed to be automated via GitHub Actions after initial setup. If you choose to publish the `ICS` file, you can just subscribe it in any calendar app that supports iCalendar. A highly customized example including ja, zh-Hans & zh-Hant releases (not very suitable for en readers) is avaialable [here](https://raw.githubusercontent.com/Vinfall/VNDB-RelCalendar/main/output/vndb-rel-calendar.ics).
+This tiny tool allows you to create a calendar of [VNDB](https://vndb.org) [upcoming releases](https://vndb.org/r?f=01731;o=a;s=released). Everything is supposed to be automated via GitHub Actions after initial setup. If you choose to publish the `ICS` file, you can just subscribe it in any calendar app that supports iCalendar. An example including en & ja releases is avaialable [here](https://github.com/Vinfall/VNDB-RelCalendar/releases/download/en/vndb-rel-calendar.ics).
 
 ## Why
 
@@ -13,8 +13,6 @@ For now VNDB only offers RSS for *Recent Changes*, but not *Upcoming Releases* o
 This is created as a workaround (just in ICS rather than RSS) for personal use and serves as an extended practice of my blog post [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) (written in Chinese).
 
 ## Usage
-
-The results should be similar to the one you would see in [this release query on VNDB](https://vndb.org/r?f=0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx), except that I expand the release window 14 days earlier to avoid missing VNs.
 
 To customize the query, run the script with optional parameters:
 - `python vndb-calendar.py -f {customized_compact_filter} -p {max_page} -t {shift_time}`
@@ -30,8 +28,9 @@ To customize the query, run the script with optional parameters:
 - [x] Better handling of incomplete date like `2026` and `2024-02`
 - [x] Filter out BLG/Otome game & other tags I wish to avoid
 - [x] Add filters arguments (you can use [compact filters](https://api.vndb.org/kana#filters) to quickly customize the results)
-- [ ] Generic filter for en & ja release (probably in a tagged automated release, low priority as DIY instructions are given in [#Usage](#usage))
+- [x] Make calendar with generic en & ja releases (in a tagged automated release)
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
+- [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
 - [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (maybe not possible w/o refactoring)
 

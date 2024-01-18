@@ -5,7 +5,7 @@
 这是一个创建 [VNDB](https://vndb.org) [upcoming releases](https://vndb.org/r?f=01731;o=a;s=released) 日历的小工具。
 初始化后即可由 GitHub Actions 自动更新。
 如果公开 `ICS` 文件，那么可以在任意支持 iCalendar 的日历应用中订阅。
-[点击这里](https://raw.githubusercontent.com/Vinfall/VNDB-RelCalendar/main/output/vndb-rel-calendar.ics)获取包含中日双语视觉小说的（高度自定义）示例文件。
+[点击这里](https://github.com/Vinfall/VNDB-RelCalendar/releases/download/zh/vndb-rel-calendar.ics)获取包含中日双语视觉小说的示例文件。
 
 ## 目的
 
@@ -15,11 +15,9 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 ## 使用
 
-运行结果应该近似 [这则 VNDB 搜索](https://vndb.org/r?f=0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx)，但我为了不错过新发行视觉小说而把起始发售日往前挪了 14 天。
-
 你可以通过（可选）参数运行脚本来自定义结果：
 - `python vndb-calendar.py -f {自定义的 compact filter} -p {最大页数}`
-- 以中日视觉小说为例：`python vndb-calendar.py -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-"`
+- 以中日未发售视觉小说为例：`python vndb-calendar.py -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0`
 - `-f` 或 `--filter`：自定义 [compact filters](https://api.vndb.org/kana#filters)，默认为我高度自定义的个人方案
 - `-p` 或 `--max-page`：搜索结果的最大页数，默认为 `2`
 - `-t` 或 `--shift-time`：显示 X 天前发售到尚未发售的视觉小说，设置为 `0` 才是真正的「即将发售作品」，默认为 `14`
@@ -31,6 +29,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - [x] 优化不完整日期（比如 `2026` 和 `2024-02`）的处理
 - [x] 排除带有 BLG、乙女游戏和其他预期外标签的视觉小说
 - [x] 允许通过运行参数自定义搜索（具体参见 VNDB API 文档的 [compact filters](https://api.vndb.org/kana#filters) 部分）
+- [x] （自动化发布）通用的中日视觉小说发售日历
 - [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
 - [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (maybe not possible w/o refactoring)

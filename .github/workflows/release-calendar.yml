@@ -1,4 +1,4 @@
-name: gen-en-calendar
+name: release-calendar
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: execute py script
+      - name: make en & ja release calendar
         run: python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0
 
       - name: upload artifact to release
@@ -40,3 +40,19 @@ jobs:
           omitNameDuringUpdate: True
           artifacts: "output/vndb-*"
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: make zh & ja release calendar
+        run: python vndb-calendar.py -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0
+
+      - name: upload artifact to release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: True
+          prerelease: False
+          tag: "zh"
+          omitBody: True
+          omitBodyDuringUpdate: True
+          omitNameDuringUpdate: True
+          artifacts: "output/vndb-*"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
