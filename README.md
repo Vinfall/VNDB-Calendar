@@ -26,13 +26,15 @@ To customize the query, run the script with optional parameters:
 - [x] Remove redundant releases of the same VN
 - [x] Declutter common release variate titles like `ダウンロード版` and `DLカード版`
 - [x] Better handling of incomplete date like `2026` and `2024-02`
+- [x] Find out why many filters would make responses 400 (misplaced filter params)
 - [x] Filter out BLG/Otome game & other tags I wish to avoid
 - [x] Add filters arguments (you can use [compact filters](https://api.vndb.org/kana#filters) to quickly customize the results)
 - [x] Make calendar with generic en & ja releases (in a tagged automated release)
-- [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
+- [x] Add VN description in calendar events
+- [ ] Parse [VNDB formatting codes](https://vndb.org/d9#4)
 - [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
-- [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (maybe not possible w/o refactoring)
+- [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, it is quite long with VN description already)
 
 ## Contribution
 

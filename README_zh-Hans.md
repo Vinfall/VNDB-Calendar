@@ -27,12 +27,15 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - [x] 同一个视觉小说的多个 release 去重
 - [x] 清理标题中的版本（比如 `ダウンロード版` 和 `DLカード版`）
 - [x] 优化不完整日期（比如 `2026` 和 `2024-02`）的处理
+- [x] 排查自定义筛选返回 400 的原因（筛选填写有误）
 - [x] 排除带有 BLG、乙女游戏和其他预期外标签的视觉小说
 - [x] 允许通过运行参数自定义搜索（具体参见 VNDB API 文档的 [compact filters](https://api.vndb.org/kana#filters) 部分）
 - [x] （自动化发布）通用的中日视觉小说发售日历
-- [ ] Find out why many filters would make responses 400, and add more info in calendar events afterwards
+- [x] 在日历事件中添加视觉小说介绍
+- [ ] Parse [VNDB formatting codes](https://vndb.org/d9#4)
+- [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
-- [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (maybe not possible w/o refactoring)
+- [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, it is quite long with VN description already)
 
 ## 贡献
 

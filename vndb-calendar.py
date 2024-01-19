@@ -3,6 +3,7 @@
 
 # Documentation
 # VNDB API: https://api.vndb.org/kana#post-release
+# VNDB Formatting Codes: https://vndb.org/d9#4
 # ICS: https://icspy.readthedocs.io/en/stable/api.html#event
 # Argparse: https://docs.python.org/3/library/argparse.html
 # Dateparser: https://dateparser.readthedocs.io/en/latest/settings.html#handling-incomplete-dates
@@ -60,7 +61,7 @@ _TO_REPLACE = [
 
 # Query parameters
 # fields = "id,title,alttitle,languages.mtl,platforms,media,vns.rtype,producers,released,minage,patch,uncensored,official,extlinks"
-fields = "id, title, alttitle, released, vns.id"
+fields = "id, title, alttitle, released, vns.id, vns.description"
 
 # To get normalized filters from compact one:
 # curl https://api.vndb.org/kana/release --json '{"filters":my_filters,"normalized_filters":true,"results":0}'
@@ -180,11 +181,13 @@ def get_page(max_page, data):
 
     for page in range(1, max_page + 1):
         data["page"] = page
+        # Use custom time shift, if any
         if args.shift_time:
             _SHIFT_TIME_NEW = (
                 datetime.now() - timedelta(days=args.shift_time)
             ).strftime("%Y-%m-%d")
             data["filters"] = args.filter.replace(_SHIFT_TIME, _SHIFT_TIME_NEW)
+        # Or use the default value
         else:
             data["filters"] = args.filter
         response = requests.post(api_url, data=json.dumps(data), headers=headers)
@@ -213,9 +216,11 @@ def process_json(results):
         # Convert list to single string in case release contains multiple VNs
         vns_ids = result.get("vns", [])
         first_vns_id = vns_ids[0]["id"] if vns_ids else None
+        first_vns_intro = vns_ids[0]["description"] if vns_ids else ""
         # Build new json
         processed_result = {
             "vid": first_vns_id,
+            "intro": first_vns_intro,
             "id": result["id"],
             "released": result["released"],
         }
@@ -242,13 +247,16 @@ def process_json(results):
     with open(
         _OUTPUT_FOLDER + _CSV_FILE, mode="w", newline="", encoding="utf-8"
     ) as csv_file:
-        fieldnames = ["vid", "id", "title", "released"]
+        # Do not save lengthy intro
+        fields_to_save = ["vid", "id", "title", "released"]
         # Use semi-column seperator to avoid mismatches
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames, delimiter=";")
+        writer = csv.DictWriter(csv_file, fieldnames=fields_to_save, delimiter=";")
 
         writer.writeheader()
         for result in processed_results:
-            writer.writerow(result)
+            # Compact fields
+            selected_data = {field: result[field] for field in fields_to_save}
+            writer.writerow(selected_data)
 
     return processed_results
 
@@ -287,6 +295,7 @@ def make_calendar(processed_results):
         vid = result["vid"]
         title = result["title"]
         release_date = result["released"]
+        url = "https:///vndb.org/" + vid
 
         # Parse date to better fit into reality
         # Match release date like `2026`
@@ -315,11 +324,15 @@ def make_calendar(processed_results):
                 # Only show estimation message in above cases
                 description_suffix = f'\nEstimated on "{result["released"]}"'
 
+        if result["intro"]:
+            description = url + "\n" + result["intro"] + description_suffix
+        else:
+            description = url + "\n" + description_suffix
         # TODO: include more info
         event = Event(
             uid=vid,
             name=title,
-            description="https://vndb.org/" + vid + description_suffix,
+            description=description,
             begin=release_date,
             last_modified=now,
             categories=["vn_release"],
