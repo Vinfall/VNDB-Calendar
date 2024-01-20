@@ -15,11 +15,12 @@ This is created as a workaround (just in ICS rather than RSS) for personal use a
 ## Usage
 
 To customize the query, run the script with optional parameters:
-- `python vndb-calendar.py -f {customized_compact_filter} -p {max_page} -t {shift_time}`
-- Example of generic filters for en & ja upcoming releases: `python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0`
+- `python vndb-calendar.py -f {customized_compact_filter} -p {max_page} -t {shift_time} -d {1 or 0}`
+- Example of generic filters for en & ja upcoming releases with description: `python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0 -d 1`
 - `-f` or `--filter`: your custom [compact filters](https://api.vndb.org/kana#filters), by default it would use my personalized one
 - `-p` or `--max-page`: maximum pages of query results, by default it will be `2`
 - `-t` or `--shift-time`: show *new* releases X days ago, it's really upcoming release if set to `0`, by default it will be `14`
+- `-d`, `--description` or `--intro`: add VN description to calendar event, bool type (only `0`/`1` is supported), by default `0`/`False`
 
 ## Todo
 
@@ -30,7 +31,7 @@ To customize the query, run the script with optional parameters:
 - [x] Filter out BLG/Otome game & other tags I wish to avoid
 - [x] Add filters arguments (you can use [compact filters](https://api.vndb.org/kana#filters) to quickly customize the results)
 - [x] Make calendar with generic en & ja releases (in a tagged automated release)
-- [x] Add VN description in calendar events
+- [x] Add VN description in calendar events and make it a parameter
 - [ ] Parse [VNDB formatting codes](https://vndb.org/d9#4)
 - [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)

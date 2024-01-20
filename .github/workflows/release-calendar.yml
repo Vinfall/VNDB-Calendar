@@ -27,7 +27,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: make en & ja release calendar
-        run: python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0
+        run: python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0 -d 1
 
       - name: upload artifact to release
         uses: ncipollo/release-action@v1
@@ -42,7 +42,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: make zh & ja release calendar
-        run: python vndb-calendar.py -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0
+        run: python vndb-calendar.py -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0 -d 1
 
       - name: upload artifact to release
         uses: ncipollo/release-action@v1

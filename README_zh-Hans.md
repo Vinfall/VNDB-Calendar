@@ -16,11 +16,12 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 ## 使用
 
 你可以通过（可选）参数运行脚本来自定义结果：
-- `python vndb-calendar.py -f {自定义的 compact filter} -p {最大页数}`
-- 以中日未发售视觉小说为例：`python vndb-calendar.py -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0`
+- `python vndb-calendar.py -f {自定义的 compact filter} -p {最大页数} -d {1 或 0}`
+- 以中日未发售视觉小说（带介绍）为例：`python vndb-calendar.py -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0 -d 1`
 - `-f` 或 `--filter`：自定义 [compact filters](https://api.vndb.org/kana#filters)，默认为我高度自定义的个人方案
 - `-p` 或 `--max-page`：搜索结果的最大页数，默认为 `2`
 - `-t` 或 `--shift-time`：显示 X 天前发售到尚未发售的视觉小说，设置为 `0` 才是真正的「即将发售作品」，默认为 `14`
+- `-d`，`--description` 或 `--intro`：添加视觉小说介绍，布尔类型（只接受 `0` 或 `1`），默认为 `0`/`False`
 
 ## Todo
 
@@ -31,7 +32,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - [x] 排除带有 BLG、乙女游戏和其他预期外标签的视觉小说
 - [x] 允许通过运行参数自定义搜索（具体参见 VNDB API 文档的 [compact filters](https://api.vndb.org/kana#filters) 部分）
 - [x] （自动化发布）通用的中日视觉小说发售日历
-- [x] 在日历事件中添加视觉小说介绍
+- [x] 在日历事件中添加视觉小说介绍，并设置为可选参数
 - [ ] Parse [VNDB formatting codes](https://vndb.org/d9#4)
 - [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)

@@ -61,7 +61,7 @@ _TO_REPLACE = [
 
 # Query parameters
 # fields = "id,title,alttitle,languages.mtl,platforms,media,vns.rtype,producers,released,minage,patch,uncensored,official,extlinks"
-fields = "id, title, alttitle, released, vns.id, vns.description"
+fields = "id, title, alttitle, released, vns.id"
 
 # To get normalized filters from compact one:
 # curl https://api.vndb.org/kana/release --json '{"filters":my_filters,"normalized_filters":true,"results":0}'
@@ -168,6 +168,15 @@ parser.add_argument(
     default=None,
     help='show "new" releases X days ago, it\'s really upcoming release if set to 0',
 )
+parser.add_argument(
+    "-d",
+    "--description",
+    "--intro",
+    type=bool,
+    required=False,
+    default=False,
+    help="add VN description to calendar event",
+)
 args = parser.parse_args()
 
 
@@ -179,17 +188,23 @@ def get_page(max_page, data):
     headers = {"Content-Type": "application/json"}
     all_results = []
 
+    # Parse parameters
+    # Use custom time shift, if any
+    if args.shift_time:
+        _SHIFT_TIME_NEW = (datetime.now() - timedelta(days=args.shift_time)).strftime(
+            "%Y-%m-%d"
+        )
+        data["filters"] = args.filter.replace(_SHIFT_TIME, _SHIFT_TIME_NEW)
+    # Or use the default value
+    else:
+        data["filters"] = args.filter
+    # Add intro if related parameter is set
+    if args.description:
+        data["fields"] = "id, title, alttitle, released, vns.id, vns.description"
+
     for page in range(1, max_page + 1):
         data["page"] = page
-        # Use custom time shift, if any
-        if args.shift_time:
-            _SHIFT_TIME_NEW = (
-                datetime.now() - timedelta(days=args.shift_time)
-            ).strftime("%Y-%m-%d")
-            data["filters"] = args.filter.replace(_SHIFT_TIME, _SHIFT_TIME_NEW)
-        # Or use the default value
-        else:
-            data["filters"] = args.filter
+
         response = requests.post(api_url, data=json.dumps(data), headers=headers)
 
         if response.status_code == 200:
@@ -216,14 +231,15 @@ def process_json(results):
         # Convert list to single string in case release contains multiple VNs
         vns_ids = result.get("vns", [])
         first_vns_id = vns_ids[0]["id"] if vns_ids else None
-        first_vns_intro = vns_ids[0]["description"] if vns_ids else ""
         # Build new json
         processed_result = {
             "vid": first_vns_id,
-            "intro": first_vns_intro,
             "id": result["id"],
             "released": result["released"],
         }
+        if args.description:
+            first_vns_intro = vns_ids[0]["description"] if vns_ids else ""
+            processed_result["intro"] = first_vns_intro
         # Prefer alternative title, if available
         if result["alttitle"] is not None:
             processed_result["title"] = result["alttitle"]
@@ -324,7 +340,7 @@ def make_calendar(processed_results):
                 # Only show estimation message in above cases
                 description_suffix = f'\nEstimated on "{result["released"]}"'
 
-        if result["intro"]:
+        if args.description and result["intro"]:
             description = url + "\n" + result["intro"] + description_suffix
         else:
             description = url + "\n" + description_suffix
