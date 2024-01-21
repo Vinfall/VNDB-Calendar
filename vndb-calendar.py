@@ -111,13 +111,17 @@ default_filters = [
         "=",
         [
             "and",
-            ["id", "!=", "p65"],
-            ["id", "!=", "p1741"],
+            # Bad scenarios / nukige
+            ["id", "!=", "p3337"],
             ["id", "!=", "p4019"],
             ["id", "!=", "p4488"],
+            # Personal preferences
+            ["id", "!=", "p65"],
+            ["id", "!=", "p1741"],
             ["id", "!=", "p5008"],
+            # AI / photographic
             ["id", "!=", "p20602"],
-            # Otome game dev
+            # Otome game
             ["id", "!=", "p567"],
         ],
     ],
