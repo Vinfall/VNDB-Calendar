@@ -36,8 +36,8 @@ _YYYYMM_ONLY_REGEX = "^(\\d{4}-\\d{2})$"
 
 # Block word list full of hacky regex
 _TO_REPLACE = [
-    "(Windows)? パッケージ(特装)?(初回)?版",
-    " ダウンロード(通常)?(豪華)?版",
+    "(Windows)?( )?パッケージ(特装)?(初回)?版",
+    "( )?ダウンロード(通常)?(豪華)?版",
     " オナホール同梱版",
     " ダブルパック",
     " (通常)?DL(通常)?(カード)?版",
@@ -120,6 +120,7 @@ default_filters = [
             ["id", "!=", "p1741"],
             ["id", "!=", "p5008"],
             # AI / photographic
+            ["id", "!=", "p20544"],
             ["id", "!=", "p20602"],
             # Otome game
             ["id", "!=", "p567"],
