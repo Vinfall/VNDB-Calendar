@@ -210,18 +210,6 @@
     "title": "The Symbiant Re:Union - Adult Patch"
   },
   {
-    "vid": "v43062",
-    "id": "r109223",
-    "released": "2024-01",
-    "title": "Hazy Mind"
-  },
-  {
-    "vid": "v47805",
-    "id": "r114841",
-    "released": "2024-01",
-    "title": "ナイト・ケース・ファイルズ"
-  },
-  {
     "vid": "v48809",
     "id": "r118132",
     "released": "2024-02-02",
@@ -936,6 +924,12 @@
     "title": "The Witch In The Woods"
   },
   {
+    "vid": "v43062",
+    "id": "r109223",
+    "released": "2024",
+    "title": "Hazy Mind"
+  },
+  {
     "vid": "v45425",
     "id": "r109362",
     "released": "2024",
@@ -1024,6 +1018,12 @@
     "id": "r114731",
     "released": "2024",
     "title": "夏日事件簿"
+  },
+  {
+    "vid": "v47805",
+    "id": "r114841",
+    "released": "2024",
+    "title": "ナイト・ケース・ファイルズ"
   },
   {
     "vid": "v47817",
