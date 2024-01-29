@@ -348,7 +348,7 @@ def make_calendar(processed_results):
         if args.description and result["intro"]:
             description = url + "\n" + result["intro"] + description_suffix
         else:
-            description = url + "\n" + description_suffix
+            description = url + description_suffix
         # TODO: include more info
         event = Event(
             uid=vid,
