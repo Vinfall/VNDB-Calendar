@@ -318,6 +318,7 @@ def make_calendar(processed_results):
     for result in processed_results:
         description_suffix = ""
         vid = result["vid"]
+        rid = result["id"][1:]
         title = result["title"]
         release_date = result["released"]
         url = "https:///vndb.org/" + vid
@@ -355,7 +356,7 @@ def make_calendar(processed_results):
             description = url + description_suffix
         # TODO: include more info
         event = Event(
-            uid=vid,
+            uid=rid,  # release identifier is more unique
             name=title,
             description=description,
             begin=release_date,
