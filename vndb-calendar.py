@@ -40,24 +40,27 @@ _TO_REPLACE = [
     "( )?ダウンロード(通常)?(豪華)?版",
     " オナホール同梱版",
     " ダブルパック",
+    " (超)?スタァライト(EDITION)?(版)?",
     " (通常)?DL(通常)?(カード)?版",
     " (通常)?PK版",
     # " 通常DL版",
     " デラックス(DL)?(PK)?版",
     " PK版 デラックス版",
     " - .*? Version$",
+    " - .*?Limited Edition",
     # " - .*? Patch$",
     "Normal Edition",
     " 単体版",
     " 通常版",
     " 特典版",
-    " (完全生産)?限定版",
+    " (抱き枕カバー付き)?(完全生産)?限定版",
     " 豪華(限定)?(特装)?版",
     " 初回(限定)?(特典)?版",
     # Special cases
     "\\(\\);",  # v33120
     " (ゆい)?(みお)?(ひまり)?初恋BOX",  # v47056
     " 拡張KIT版",  # v47887
+    "Super Memorial Edition",  # v48420
 ]
 
 # Query parameters
@@ -66,7 +69,6 @@ fields = "id, title, alttitle, released, vns.id"
 
 # To get normalized filters from compact one:
 # curl https://api.vndb.org/kana/release --json '{"filters":my_filters,"normalized_filters":true,"results":0}'
-
 
 default_filters = [
     "and",
@@ -104,7 +106,9 @@ default_filters = [
             ["tag", "!=", "g1300"],
             ["tag", "!=", "g1462"],
             ["tag", "!=", "g2051"],
+            ["tag", "!=", "g2548"],
             ["tag", "!=", "g3084"],
+            ["tag", "!=", "g3391"],
         ],
     ],
     # No Da Capo/NEKOPARA/Sakura series, and much more
@@ -114,6 +118,7 @@ default_filters = [
         [
             "and",
             # Bad scenarios / nukige
+            ["id", "!=", "p215"],
             ["id", "!=", "p3337"],
             ["id", "!=", "p4019"],
             ["id", "!=", "p4488"],
@@ -123,6 +128,7 @@ default_filters = [
             ["id", "!=", "p200"],
             ["id", "!=", "p1741"],
             ["id", "!=", "p5008"],
+            ["id", "!=", "p13679"],
             # AI / photographic
             ["id", "!=", "p20544"],
             ["id", "!=", "p20602"],
