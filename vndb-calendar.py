@@ -62,6 +62,14 @@ _TO_REPLACE = [
     " 拡張KIT版",  # v47887
     "Super Memorial Edition",  # v48420
 ]
+# Normalize character (full -> half width)
+_TO_REPLACE_WIDTH = (
+    ("　", " "),
+    ("～", "~"),
+    ("！", "!"),
+    ("？", "?"),
+    # ("×", " x "),
+)
 
 # Query parameters
 # fields = "id,title,alttitle,languages.mtl,platforms,media,vns.rtype,producers,released,minage,patch,uncensored,official,extlinks"
@@ -74,11 +82,11 @@ fields = "id, title, alttitle, released, vns.id"
 # Side effect: no time shift
 # filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
 
-_TAG_ID_FILTER = [7, 83, 117, 161, 897, 937, 1300, 1462, 2051, 2548, 3084, 3391]
+_TAG_ID_FILTER = [7, 83, 117, 161, 897, 937, 1300, 1462, 2051, 2548, 3084, 3105, 3391]
 # fmt: off
 _PROD_ID_FILTER = [
     # Bad scenario / nukige
-    215, 3337, 4019, 4488, 7234,
+    215, 1873, 2107, 3337, 4019, 4488, 7234,
     # Personal preferences
     65, 200, 1741, 5008, 13679,
     # AI / photographic
@@ -252,6 +260,15 @@ def process_json(results):
         # Replace trailing release variations like `ダウンロード版` and `DLカード版`
         for keyword in _TO_REPLACE:
             processed_result["title"] = re.sub(keyword, "", processed_result["title"])
+        # Replace full width characters with normal ones
+        for pair in _TO_REPLACE_WIDTH:
+            processed_result["title"] = re.sub(
+                pair[0], pair[1], processed_result["title"]
+            )
+            if args.description and processed_result["intro"]:
+                processed_result["intro"] = re.sub(
+                    pair[0], pair[1], processed_result["intro"]
+                )
 
         processed_results.append(processed_result)
 
