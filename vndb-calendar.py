@@ -70,6 +70,25 @@ fields = "id, title, alttitle, released, vns.id"
 # To get normalized filters from compact one:
 # curl https://api.vndb.org/kana/release --json '{"filters":my_filters,"normalized_filters":true,"results":0}'
 
+# Alternatively, use compact filter to get rid of all weirdness
+# Side effect: no time shift
+# filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
+
+_TAG_ID_FILTER = [7, 83, 117, 161, 897, 937, 1300, 1462, 2051, 2548, 3084, 3391]
+# fmt: off
+_PROD_ID_FILTER = [
+    # Bad scenario / nukige
+    215, 3337, 4019, 4488, 7234,
+    # Personal preferences
+    65, 200, 1741, 5008, 13679,
+    # AI / photographic
+    20544, 20602,
+    # Otome game
+    567,
+]
+# fmt: on
+
+
 default_filters = [
     "and",
     # Comment the line below to show all language releases
@@ -97,18 +116,8 @@ default_filters = [
         "=",
         [
             "and",
-            ["tag", "!=", "g7"],
-            ["tag", "!=", "g83"],
-            ["tag", "!=", "g117"],
-            ["tag", "!=", "g161"],
-            ["tag", "!=", "g897"],
-            ["tag", "!=", "g937"],
-            ["tag", "!=", "g1300"],
-            ["tag", "!=", "g1462"],
-            ["tag", "!=", "g2051"],
-            ["tag", "!=", "g2548"],
-            ["tag", "!=", "g3084"],
-            ["tag", "!=", "g3391"],
+            # Loop through all tag ids in the list
+            *[["tag", "!=", f"g{i}"] for i in _TAG_ID_FILTER],
         ],
     ],
     # No Da Capo/NEKOPARA/Sakura series, and much more
@@ -117,31 +126,11 @@ default_filters = [
         "=",
         [
             "and",
-            # Bad scenarios / nukige
-            ["id", "!=", "p215"],
-            ["id", "!=", "p3337"],
-            ["id", "!=", "p4019"],
-            ["id", "!=", "p4488"],
-            ["id", "!=", "p7234"],
-            # Personal preferences
-            ["id", "!=", "p65"],
-            ["id", "!=", "p200"],
-            ["id", "!=", "p1741"],
-            ["id", "!=", "p5008"],
-            ["id", "!=", "p13679"],
-            # AI / photographic
-            ["id", "!=", "p20544"],
-            ["id", "!=", "p20602"],
-            # Otome game
-            ["id", "!=", "p567"],
+            # Loop through all producer ids in the list
+            *[["id", "!=", f"p{i}"] for i in _PROD_ID_FILTER],
         ],
     ],
 ]
-
-# Alternatively, use compact filter to get rid of all weirdness
-# Side effect: no time shift
-# filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
-
 
 data = {
     "filters": default_filters,
