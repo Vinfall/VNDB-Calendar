@@ -41,7 +41,7 @@ _TO_REPLACE = [
     " オナホール同梱版",
     " ダブルパック",
     " (超)?スタァライト(EDITION)?(版)?",
-    " (通常)?DL(通常)?(カード)?版",
+    " (通常)?(DL|ＤＬ)(通常)?(カード)?版",
     " (通常)?PK版",
     # " 通常DL版",
     " デラックス(DL)?(PK)?版",
@@ -53,7 +53,8 @@ _TO_REPLACE = [
     " 単体版",
     " 通常版",
     " 特典版",
-    " (抱き枕カバー付き)?(完全生産)?限定版",
+    " (完全生産)?限定版",
+    " 抱き枕カバー付き(.*)?",
     " 豪華(限定)?(特装)?版",
     " 初回(限定)?(特典)?版",
     # Special cases
@@ -82,15 +83,15 @@ fields = "id, title, alttitle, released, vns.id"
 # Side effect: no time shift
 # filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
 
-_TAG_ID_FILTER = [7, 83, 117, 161, 897, 937, 1300, 1462, 2051, 2548, 3084, 3105, 3391]
 # fmt: off
+_TAG_ID_FILTER = [7, 83, 117, 161, 358, 897, 937, 988, 1300, 1462, 2051, 2548, 3084, 3105, 3391]
 _PROD_ID_FILTER = [
     # Bad scenario / nukige
     215, 1873, 2107, 3337, 4019, 4488, 7234,
     # Personal preferences
     65, 200, 1741, 5008, 13679,
-    # AI / photographic
-    20544, 20602,
+    # AIGC / photographic
+    20456, 20544, 20602,
     # Otome game
     567,
 ]
