@@ -84,7 +84,7 @@ fields = "id, title, alttitle, released, vns.id"
 # filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
 
 # fmt: off
-_TAG_ID_FILTER = [7, 83, 117, 153, 161, 358, 897, 937, 988, 1300, 1462, 2051, 2548, 3084, 3105, 3391]
+_TAG_ID_FILTER = [7, 83, 117, 153, 161, 358, 897, 937, 988, 1300, 1462, 2051, 2548, 3084, 3105, 3391, 3684]
 _PROD_ID_FILTER = [
     # Bad scenario / nukige
     215, 1873, 2107, 2667, 3337, 4019, 4488, 7234, 13110,
@@ -93,7 +93,7 @@ _PROD_ID_FILTER = [
     # AIGC / photographic
     20359, 20456, 20544, 20602,
     # Otome game
-    567,
+    567
 ]
 # fmt: on
 
