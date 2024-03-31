@@ -59,7 +59,6 @@ _TO_REPLACE = [
     " 初回(限定)?(特典)?版",
     " 数量限定(.*)?版"
     # Special cases
-    "\\(\\);",  # v33120
     " (ゆい)?(みお)?(ひまり)?初恋BOX",  # v47056
     " 拡張KIT版",  # v47887
     "Super Memorial Edition",  # v48420
@@ -88,7 +87,7 @@ fields = "id, title, alttitle, released, vns.id"
 _TAG_ID_FILTER = [7, 83, 117, 153, 161, 358, 897, 937, 988, 1300, 1462, 2051, 2548, 3084, 3105, 3391]
 _PROD_ID_FILTER = [
     # Bad scenario / nukige
-    215, 1873, 2107, 2667, 3337, 4019, 4488, 7234,
+    215, 1873, 2107, 2667, 3337, 4019, 4488, 7234, 13110,
     # Personal preferences
     65, 200, 1741, 5008, 13454, 13679,
     # AIGC / photographic
