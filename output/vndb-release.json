@@ -6,12 +6,6 @@
     "title": "El Diablo"
   },
   {
-    "vid": "v50022",
-    "id": "r120837",
-    "released": "2024-03-19",
-    "title": "完蛋我被OX包围了"
-  },
-  {
     "vid": "v49809",
     "id": "r120282",
     "released": "2024-03-21",
@@ -28,12 +22,6 @@
     "id": "r121100",
     "released": "2024-03-24",
     "title": "忘川游"
-  },
-  {
-    "vid": "v45774",
-    "id": "r110126",
-    "released": "2024-03-26",
-    "title": "Blood Midnight Blossom"
   },
   {
     "vid": "v50123",
@@ -1116,12 +1104,6 @@
     "title": "夏への方舟Ⅱ"
   },
   {
-    "vid": "v49548",
-    "id": "r119623",
-    "released": "2024",
-    "title": "Cthulhu Mythos ADV 呪禍に沈む島"
-  },
-  {
     "vid": "v49567",
     "id": "r119689",
     "released": "2024",
@@ -1198,5 +1180,23 @@
     "id": "r121281",
     "released": "2024",
     "title": "ランジェリーズ R-18 DLC"
+  },
+  {
+    "vid": "v41125",
+    "id": "r101057",
+    "released": "2025",
+    "title": "RatPark"
+  },
+  {
+    "vid": "v48253",
+    "id": "r115760",
+    "released": "2025",
+    "title": "银雀：十三月的爱恋"
+  },
+  {
+    "vid": "v49544",
+    "id": "r119608",
+    "released": "2025",
+    "title": "夏への方舟Ⅲ"
   }
 ]
