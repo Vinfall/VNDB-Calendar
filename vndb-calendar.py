@@ -59,9 +59,10 @@ _TO_REPLACE = [
     " 初回(限定)?(特典)?版",
     " 数量限定(.*)?版"
     # Special cases
-    " (ゆい)?(みお)?(ひまり)?初恋BOX",  # v47056
     " 拡張KIT版",  # v47887
     "Super Memorial Edition",  # v48420
+    " ROYAL EDITION",  # v49512
+    " if エロパッチ対応.*版",  # v50140
 ]
 # Normalize character (full -> half width)
 _TO_REPLACE_WIDTH = (
