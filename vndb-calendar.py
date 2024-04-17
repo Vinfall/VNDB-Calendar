@@ -369,7 +369,7 @@ def make_calendar(processed_results):
             description = url + description_suffix
         # TODO: include more info
         event = Event(
-            uid=rid,  # release identifier is more unique
+            uid=rid,  # release identifier is more unique, but would conflict with event_dict below
             name=title,
             description=description,
             begin=release_date,
