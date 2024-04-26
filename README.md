@@ -32,6 +32,7 @@ To customize the query, run the script with optional parameters:
 - [x] Add filters arguments (you can use [compact filters](https://api.vndb.org/kana#filters) to quickly customize the results)
 - [x] Make calendar with generic en & ja releases (in a tagged automated release)
 - [x] Add VN description in calendar events and make it a parameter
+- [ ] Switch to [query](https://query.vndb.org)?
 - [ ] Fix event parsing bug caused by `rid` & `event_dict`
 - [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
 - [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
