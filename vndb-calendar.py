@@ -47,8 +47,9 @@ _TO_REPLACE = [
     " デラックス(DL)?(PK)?版",
     " PK版 デラックス版",
     " - .*? Version$",
-    " - .*?Limited Edition",
+    " - .*? Edition$",
     # " - .*? Patch$",
+    # " ~ 追加エピソード",
     "Normal Edition",
     " 単体版",
     " 通常版",
@@ -62,6 +63,8 @@ _TO_REPLACE = [
     " 拡張KIT版",  # v47887
     "Super Memorial Edition",  # v48420
     " ROYAL EDITION",  # v49512
+    " episode LIA （豪華版）",  # v49512 again
+    " B2タペストリー付き",  # 49934
     " if エロパッチ対応.*版",  # v50140
 ]
 # Normalize character (full -> half width)
@@ -88,7 +91,7 @@ fields = "id, title, alttitle, released, vns.id"
 _TAG_ID_FILTER = [7, 83, 117, 153, 161, 358, 897, 937, 988, 1300, 1462, 2051, 2548, 3084, 3105, 3391, 3684]
 _PROD_ID_FILTER = [
     # Bad scenario / nukige
-    215, 1873, 2107, 2667, 3337, 4019, 4488, 7234, 12518, 13110,
+    215, 1873, 1976, 2107, 2667, 3337, 4019, 4488, 7234, 12518, 13110, 13155,
     # Personal preferences
     65, 200, 226, 1741, 5008, 13454, 13679,
     # AIGC / photographic
