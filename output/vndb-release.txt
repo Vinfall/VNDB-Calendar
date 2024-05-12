@@ -1,6 +1,4 @@
 vid;id;title;released
-v49422;r119232;つぼみのほころび;2024-04-27
-v50660;r122572;月明のノキエラ;2024-04-27
 v50625;r122477;The Demon Lord and Hero;2024-04-28
 v50661;r122573;Calling !!;2024-04-30
 v50678;r122627;KUMA2 Not a Lemon;2024-05-03
@@ -8,7 +6,6 @@ v47894;r115046;Wife of My Boss;2024-05-04
 v47894;r115047;Wife of My Boss - 18+ Patch;2024-05-04
 v50684;r122640;雄关漫道，一梦万里;2024-05-04
 v50674;r122617;デビルガール;2024-05-09
-v50779;r122986;My Days With Mia;2024-05-10
 v50648;r122520;神无迷宫;2024-05-15
 v28615;r72435;Read Only Memories: NEURODIVER;2024-05-16
 v28615;r122545;Read Only Memories: NEURODIVER;2024-05-16
