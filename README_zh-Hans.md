@@ -5,7 +5,7 @@
 这是一个创建 [VNDB](https://vndb.org) [upcoming releases](https://vndb.org/r?f=01731;o=a;s=released) 日历的小工具。
 初始化后即可由 GitHub Actions 自动更新。
 如果公开 `ICS` 文件，那么可以在任意支持 iCalendar 的日历应用中订阅。
-[点击这里](https://github.com/Vinfall/VNDB-RelCalendar/releases/download/zh/vndb-rel-calendar.ics)获取包含中日双语视觉小说的示例文件。
+[点击这里](https://github.com/Vinfall/VNDB-Calendar/releases/download/zh/vndb-calendar.ics)获取包含中日双语视觉小说的示例文件。
 
 ## 目的
 

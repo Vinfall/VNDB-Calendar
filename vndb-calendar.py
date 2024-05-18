@@ -23,7 +23,7 @@ from ics import Calendar, Event
 _OUTPUT_FOLDER = "output/"
 _CSV_FILE = "vndb-release.txt"
 _JSON_FILE = "vndb-release.json"
-_ICS_FILE = "vndb-rel-calendar.ics"
+_ICS_FILE = "vndb-calendar.ics"
 
 # Date format
 # _SHIFT_TIME = "today"
