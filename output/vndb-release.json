@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v50678",
-    "id": "r122627",
-    "released": "2024-05-03",
-    "title": "KUMA2 Not a Lemon"
-  },
-  {
     "vid": "v47894",
     "id": "r115046",
     "released": "2024-05-04",
@@ -42,6 +36,12 @@
     "title": "Read Only Memories: NEURODIVER"
   },
   {
+    "vid": "v45719",
+    "id": "r109982",
+    "released": "2024-05-16",
+    "title": "筮灵 SHILING"
+  },
+  {
     "vid": "v28615",
     "id": "r122545",
     "released": "2024-05-16",
@@ -60,10 +60,16 @@
     "title": "Read Only Memories: NEURODIVER"
   },
   {
-    "vid": "v45719",
-    "id": "r109982",
+    "vid": "v48125",
+    "id": "r123187",
     "released": "2024-05-17",
-    "title": "筮灵 Ghost of Conviction"
+    "title": "オトメ世界の歩き方 導入体験版"
+  },
+  {
+    "vid": "v49954",
+    "id": "r123189",
+    "released": "2024-05-17",
+    "title": "プリマドール：無名典礼 体験版"
   },
   {
     "vid": "v50789",
@@ -220,6 +226,18 @@
     "id": "r122062",
     "released": "2024-05",
     "title": "贝果爱情故事"
+  },
+  {
+    "vid": "v50861",
+    "id": "r123183",
+    "released": "2024-05",
+    "title": "机械恋心"
+  },
+  {
+    "vid": "v50862",
+    "id": "r123185",
+    "released": "2024-06-07",
+    "title": "隨侍神側"
   },
   {
     "vid": "v49420",
@@ -418,6 +436,12 @@
     "id": "r116910",
     "released": "2024-07",
     "title": "Samuel Sage: The Mystery at Penby Inn"
+  },
+  {
+    "vid": "v50863",
+    "id": "r123184",
+    "released": "2024-07",
+    "title": "香草布蕾與玫瑰怪盜"
   },
   {
     "vid": "v46873",
@@ -706,6 +730,12 @@
     "id": "r99119",
     "released": "2024",
     "title": "OMEGA 6 The Video Game"
+  },
+  {
+    "vid": "v40216",
+    "id": "r99400",
+    "released": "2024",
+    "title": "BLACKBOX黑箱LSS-慈爱的救济者"
   },
   {
     "vid": "v40725",
@@ -1168,29 +1198,5 @@
     "id": "r119608",
     "released": "2025",
     "title": "夏への方舟Ⅲ"
-  },
-  {
-    "vid": "v49544",
-    "id": "r119609",
-    "released": "2025",
-    "title": "夏への方舟Ⅲ"
-  },
-  {
-    "vid": "v49544",
-    "id": "r119610",
-    "released": "2025",
-    "title": "夏への方舟Ⅲ"
-  },
-  {
-    "vid": "v50215",
-    "id": "r121428",
-    "released": "2025",
-    "title": "アマカノ３（仮）"
-  },
-  {
-    "vid": "v50480",
-    "id": "r122038",
-    "released": "2025",
-    "title": "夏日遠洋假期"
   }
 ]
