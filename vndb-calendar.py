@@ -12,8 +12,7 @@ import argparse
 import os
 import sys
 import dateparser
-from datetime import datetime
-from datetime import timedelta
+from datetime import datetime, timedelta
 import requests
 import json
 import csv
@@ -328,7 +327,7 @@ def last_day_of_next_month(dt):
 
 # Make calendar
 def make_calendar(processed_results):
-    cal = Calendar(creator="VNDBRelCalendar")
+    cal = Calendar(creator="VNDBCalendar")
     now = datetime.now()
     event_dict = {}
 
