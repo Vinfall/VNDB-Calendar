@@ -2,7 +2,7 @@ name: release-calendar
 
 on:
   schedule:
-    - cron: '0 4 * * *' # 4:00 UTC everyday
+    - cron: "0 4 * * *" # 4:00 UTC everyday
   workflow_dispatch:
 
 jobs:
@@ -12,7 +12,6 @@ jobs:
       matrix:
         python-version: ["3.12"]
     steps:
-
       - name: Checkout repo
         uses: actions/checkout@v4
 
@@ -29,7 +28,7 @@ jobs:
       - name: make en & ja release calendar
         run: |
           python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0 -d 1
-          sed -i 's/LAST-MODIFIED/DTSTAMP/g' output/vndb-rel-calendar.ics
+          sed -i 's/LAST-MODIFIED/DTSTAMP/g' output/vndb-calendar.ics
 
       - name: upload artifact to release
         uses: ncipollo/release-action@v1
@@ -46,7 +45,7 @@ jobs:
       - name: make zh & ja release calendar
         run: |
           python vndb-calendar.py -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0 -d 1
-          sed -i 's/LAST-MODIFIED/DTSTAMP/g' output/vndb-rel-calendar.ics
+          sed -i 's/LAST-MODIFIED/DTSTAMP/g' output/vndb-calendar.ics
 
       - name: upload artifact to release
         uses: ncipollo/release-action@v1
@@ -59,4 +58,3 @@ jobs:
           omitNameDuringUpdate: True
           artifacts: "output/vndb-*"
           token: ${{ secrets.GITHUB_TOKEN }}
-

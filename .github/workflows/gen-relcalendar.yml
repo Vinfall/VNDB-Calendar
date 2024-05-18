@@ -1,8 +1,8 @@
-name: gen-relcalendar
+name: gen-calendar
 
 on:
   schedule:
-    - cron: '0 4 * * *' # 4:00 UTC everyday
+    - cron: "0 4 * * *" # 4:00 UTC everyday
   workflow_dispatch:
 
 jobs:
@@ -12,7 +12,6 @@ jobs:
       matrix:
         python-version: ["3.12"]
     steps:
-
       - name: Checkout repo
         uses: actions/checkout@v4
 
@@ -29,7 +28,7 @@ jobs:
       - name: execute py script
         run: |
           python vndb-calendar.py
-          sed -i 's/LAST-MODIFIED/DTSTAMP/g' output/vndb-rel-calendar.ics
+          sed -i 's/LAST-MODIFIED/DTSTAMP/g' output/vndb-calendar.ics
 
       - name: check release changes
         id: check_changes
