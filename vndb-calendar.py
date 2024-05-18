@@ -366,6 +366,10 @@ def make_calendar(processed_results):
                 # Only show estimation message in above cases
                 description_suffix = f'\nEstimated on "{result["released"]}"'
 
+        # Ensure release_date is a datetime object
+        if isinstance(release_date, str):
+            release_date = datetime.strptime(release_date, "%Y-%m-%d")
+
         if args.description and result["intro"]:
             description = url + "\n" + result["intro"] + description_suffix
         else:
@@ -373,21 +377,22 @@ def make_calendar(processed_results):
         # TODO: include more info
         event = Event(
             uid=rid,  # release identifier is more unique, but would conflict with event_dict below
-            name=title,
+            summary=title,
             description=description,
             begin=release_date,
             last_modified=now,
+            dtstamp=now,
             categories=["vn_release"],
         )
         event.make_all_day()
 
-        # Only add events if it's a different VN
+        # Only append events if it's a different VN
         # Do NOT use release_date as a VN can have multiple releases on different dates
         key = (vid, title)
         if key not in event_dict:
             event_dict[key] = event
     for event in event_dict.values():
-        cal.events.add(event)
+        cal.events.append(event)
 
     with open(_OUTPUT_FOLDER + _ICS_FILE, "w", encoding="utf-8") as f:
         f.write(cal.serialize())
