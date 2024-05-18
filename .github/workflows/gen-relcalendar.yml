@@ -26,9 +26,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: execute py script
-        run: |
-          python vndb-calendar.py
-          sed -i 's/LAST-MODIFIED/DTSTAMP/g' output/vndb-calendar.ics
+        run: python vndb-calendar.py
 
       - name: check release changes
         id: check_changes
