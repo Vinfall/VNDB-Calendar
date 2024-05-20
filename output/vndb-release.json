@@ -48,22 +48,34 @@
     "title": "Read Only Memories: NEURODIVER"
   },
   {
-    "vid": "v39638",
-    "id": "r98339",
+    "vid": "v43028",
+    "id": "r123264",
     "released": "2024-05-17",
-    "title": "Deluge: Sermon for the Dead"
-  },
-  {
-    "vid": "v39638",
-    "id": "r123201",
-    "released": "2024-05-17",
-    "title": "Deluge: Sermon for the Dead"
+    "title": "視靈 貳"
   },
   {
     "vid": "v50789",
     "id": "r123021",
     "released": "2024-05-18",
-    "title": "星之终途后日谈：渺茫希望的日记"
+    "title": "終のステラ後日談：微かな希望の日記"
+  },
+  {
+    "vid": "v50789",
+    "id": "r123228",
+    "released": "2024-05-19",
+    "title": "終のステラ後日談：微かな希望の日記"
+  },
+  {
+    "vid": "v50883",
+    "id": "r123240",
+    "released": "2024-05-20",
+    "title": "Sugar,sugar,sugarcoat"
+  },
+  {
+    "vid": "v50485",
+    "id": "r122062",
+    "released": "2024-05-21",
+    "title": "贝果爱情故事"
   },
   {
     "vid": "v46553",
@@ -208,12 +220,6 @@
     "id": "r114731",
     "released": "2024-05",
     "title": "夏日事件簿"
-  },
-  {
-    "vid": "v50485",
-    "id": "r122062",
-    "released": "2024-05",
-    "title": "贝果爱情故事"
   },
   {
     "vid": "v50861",
@@ -1190,12 +1196,6 @@
   {
     "vid": "v49544",
     "id": "r119608",
-    "released": "2025",
-    "title": "夏への方舟Ⅲ"
-  },
-  {
-    "vid": "v49544",
-    "id": "r119609",
     "released": "2025",
     "title": "夏への方舟Ⅲ"
   }
