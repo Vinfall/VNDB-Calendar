@@ -56,15 +56,16 @@ _TO_REPLACE = [
     " (完全生産)?限定版",
     " 抱き枕カバー付き(.*)?",
     " 豪華(限定)?(特装)?版",
-    " 初回(限定)?(特典)?版",
-    " 数量限定(.*)?版"
+    " 初回(限定)?(特典)?(特装)?版",
+    " 数量限定(.*)?版",
     # Special cases
-    " 拡張KIT版",  # v47887
-    "Super Memorial Edition",  # v48420
     " ROYAL EDITION",  # v49512
     " episode LIA （豪華版）",  # v49512 again
     " B2タペストリー付き",  # 49934
     " if エロパッチ対応.*版",  # v50140
+    " ボイスドラマ付き限定版",  # v51288
+    " ゆめは初恋BOX",  # v50959
+    " タペストリー付属版",  # v51309
 ]
 # Normalize character (full -> half width)
 _TO_REPLACE_WIDTH = (
