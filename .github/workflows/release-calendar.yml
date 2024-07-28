@@ -2,8 +2,11 @@ name: release-calendar
 
 on:
   schedule:
-    - cron: "0 4 * * *" # 4:00 UTC everyday
+    - cron: 0 4 * * * # 4:00 UTC everyday
   workflow_dispatch:
+
+permissions:
+  contents: write # required to make release
 
 jobs:
   build:
@@ -33,11 +36,11 @@ jobs:
         with:
           allowUpdates: True
           prerelease: False
-          tag: "en"
+          tag: en
           omitBody: True
           omitBodyDuringUpdate: True
           omitNameDuringUpdate: True
-          artifacts: "output/vndb-*"
+          artifacts: output/vndb-*
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: make zh & ja release calendar
@@ -48,9 +51,9 @@ jobs:
         with:
           allowUpdates: True
           prerelease: False
-          tag: "zh"
+          tag: zh
           omitBody: True
           omitBodyDuringUpdate: True
           omitNameDuringUpdate: True
-          artifacts: "output/vndb-*"
+          artifacts: output/vndb-*
           token: ${{ secrets.GITHUB_TOKEN }}

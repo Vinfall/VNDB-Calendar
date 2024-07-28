@@ -5,15 +5,19 @@ on:
     branches:
       - main
     paths-ignore:
-      - "output/**"
+      - output/**
   pull_request:
+
+permissions:
+  contents: read
+  pull-requests: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.11", "3.12", "3.13-dev"]
+        python-version: ["3.11", "3.12", 3.13-dev]
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python ${{ matrix.python-version }}

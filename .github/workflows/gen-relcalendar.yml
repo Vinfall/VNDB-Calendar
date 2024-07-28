@@ -2,8 +2,11 @@ name: gen-calendar
 
 on:
   schedule:
-    - cron: "0 4 * * *" # 4:00 UTC everyday
+    - cron: 0 4 * * * # 4:00 UTC everyday
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:

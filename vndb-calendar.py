@@ -9,14 +9,15 @@
 # Dateparser: https://dateparser.readthedocs.io/en/latest/settings.html#handling-incomplete-dates
 
 import argparse
-import os
-import sys
-import dateparser
-from datetime import datetime, timedelta
-import requests
-import json
 import csv
+import json
+import os
 import re
+import sys
+from datetime import datetime, timedelta
+
+import dateparser
+import requests
 from ics import Calendar, Event
 
 # Output files
@@ -77,8 +78,8 @@ _TO_REPLACE_WIDTH = (
 )
 
 # Query parameters
-# fields = "id,title,alttitle,languages.mtl,platforms,media,vns.rtype,producers,released,minage,patch,uncensored,official,extlinks"
-fields = "id, title, alttitle, released, vns.id"
+# FIELDS = "id,title,alttitle,languages.mtl,platforms,media,vns.rtype,producers,released,minage,patch,uncensored,official,extlinks"
+FIELDS = "id, title, alttitle, released, vns.id"
 
 # To get normalized filters from compact one:
 # curl https://api.vndb.org/kana/release --json '{"filters":my_filters,"normalized_filters":true,"results":0}'
@@ -88,7 +89,10 @@ fields = "id, title, alttitle, released, vns.id"
 # filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
 
 # fmt: off
-_TAG_ID_FILTER = [7, 83, 117, 153, 161, 358, 897, 937, 988, 1300, 1462, 2051, 2548, 3084, 3105, 3391, 3684]
+_TAG_ID_FILTER = [
+    7, 83, 117, 153, 161, 358, 897, 937, 988,
+    1300, 1462, 2051, 2548, 3084, 3105, 3391, 3684
+]
 _PROD_ID_FILTER = [
     # Bad scenario / nukige
     215, 1873, 1976, 2107, 2667, 3337, 4019, 4488, 5402, 7234, 11860, 12518, 13110, 13155,
@@ -147,7 +151,7 @@ default_filters = [
 
 data = {
     "filters": default_filters,
-    "fields": fields,
+    "fields": FIELDS,
     "sort": "released",
     "reverse": False,
     "results": 100,
@@ -208,10 +212,10 @@ def get_page(max_page, data):
     # Parse parameters
     # Use custom time shift, if any
     if args.shift_time:
-        _SHIFT_TIME_NEW = (datetime.now() - timedelta(days=args.shift_time)).strftime(
+        SHIFT_TIME_NEW = (datetime.now() - timedelta(days=args.shift_time)).strftime(
             "%Y-%m-%d"
         )
-        data["filters"] = args.filter.replace(_SHIFT_TIME, _SHIFT_TIME_NEW)
+        data["filters"] = args.filter.replace(_SHIFT_TIME, SHIFT_TIME_NEW)
     # Or use the default value
     else:
         data["filters"] = args.filter
@@ -222,7 +226,9 @@ def get_page(max_page, data):
     for page in range(1, max_page + 1):
         data["page"] = page
 
-        response = requests.post(api_url, data=json.dumps(data), headers=headers)
+        response = requests.post(
+            api_url, data=json.dumps(data), headers=headers, timeout=15
+        )
 
         if response.status_code == 200:
             json_data = response.json()
@@ -322,7 +328,7 @@ def last_day_of_next_month(dt):
         next_next_month -= 12
         year = dt.year + 1
 
-    # Subtracting 1 day from the first day of the next next month, to get the last day of next month.
+    # Subtracte 1 day from the first day of the next next month, to get the last day of next month.
     return datetime(year, next_next_month, 1) - timedelta(days=1)
 
 
@@ -335,7 +341,7 @@ def make_calendar(processed_results):
     for result in processed_results:
         description_suffix = ""
         vid = result["vid"]
-        rid = result["id"][1:]
+        rid = result["id"][1:]  # TODO: err in game bundle (is a fix even possible?)
         title = result["title"]
         release_date = result["released"]
         url = "https:///vndb.org/" + vid
@@ -362,7 +368,8 @@ def make_calendar(processed_results):
                 },
             )
             while release_date.date() < now.date():
-                # If the estimated release date has already passed, pick the earliest upcoming last-of-a-month date
+                # If the estimated release date has already passed,
+                # pick the earliest upcoming last-of-a-month date
                 release_date = last_day_of_next_month(release_date)
                 # Only show estimation message in above cases
                 description_suffix = f'\nEstimated on "{result["released"]}"'
