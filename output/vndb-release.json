@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v38882",
-    "id": "r96988",
-    "released": "2024-07-22",
-    "title": "Arrival of the Goddess"
-  },
-  {
     "vid": "v45401",
     "id": "r109308",
     "released": "2024-07-24",
@@ -75,7 +69,7 @@
     "vid": "v51099",
     "id": "r123685",
     "released": "2024-07-26",
-    "title": "再び冬が来るとき"
+    "title": "When Winter Comes Again"
   },
   {
     "vid": "v51280",
@@ -178,6 +172,12 @@
     "id": "r124195",
     "released": "2024-08-02",
     "title": "流る星 -a wish star- -18+ Patch"
+  },
+  {
+    "vid": "v52141",
+    "id": "r126019",
+    "released": "2024-08-04",
+    "title": "Unicorn Overlord -国王的假日-"
   },
   {
     "vid": "v51291",
@@ -732,12 +732,6 @@
     "title": "蛟の巫女"
   },
   {
-    "vid": "v47552",
-    "id": "r114263",
-    "released": "2024-09-27",
-    "title": "初恋マスターアップ"
-  },
-  {
     "vid": "v50072",
     "id": "r120938",
     "released": "2024-09-27",
@@ -1198,5 +1192,11 @@
     "id": "r115787",
     "released": "2024",
     "title": "Lilac 〜side Witch〜"
+  },
+  {
+    "vid": "v48262",
+    "id": "r115788",
+    "released": "2024",
+    "title": "Lilac 〜side Wizard〜"
   }
 ]
