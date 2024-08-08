@@ -1,35 +1,5 @@
 [
   {
-    "vid": "v45401",
-    "id": "r109308",
-    "released": "2024-07-24",
-    "title": "RoomNo.404"
-  },
-  {
-    "vid": "v49182",
-    "id": "r118409",
-    "released": "2024-07-24",
-    "title": "深夜拉麵"
-  },
-  {
-    "vid": "v51767",
-    "id": "r125252",
-    "released": "2024-07-24",
-    "title": "アパシー殺人クラブ"
-  },
-  {
-    "vid": "v51920",
-    "id": "r125570",
-    "released": "2024-07-24",
-    "title": "风物恋歌（The Memory of Mallet)"
-  },
-  {
-    "vid": "v51983",
-    "id": "r125701",
-    "released": "2024-07-24",
-    "title": "Veronica the Little Devil"
-  },
-  {
     "vid": "v49056",
     "id": "r118092",
     "released": "2024-07-25",
@@ -69,7 +39,7 @@
     "vid": "v51099",
     "id": "r123685",
     "released": "2024-07-26",
-    "title": "When Winter Comes Again"
+    "title": "再び冬が来るとき"
   },
   {
     "vid": "v51280",
@@ -192,6 +162,12 @@
     "title": "咫尺遥心-Proof of existence"
   },
   {
+    "vid": "v41815",
+    "id": "r102067",
+    "released": "2024-08-07",
+    "title": "少女☆歌劇 レヴュースタァライト 舞台奏像劇 遙かなるエルドラド"
+  },
+  {
     "vid": "v34021",
     "id": "r87558",
     "released": "2024-08-08",
@@ -200,12 +176,6 @@
   {
     "vid": "v41815",
     "id": "r102066",
-    "released": "2024-08-08",
-    "title": "少女☆歌劇 レヴュースタァライト 舞台奏像劇 遙かなるエルドラド"
-  },
-  {
-    "vid": "v41815",
-    "id": "r102067",
     "released": "2024-08-08",
     "title": "少女☆歌劇 レヴュースタァライト 舞台奏像劇 遙かなるエルドラド"
   },
@@ -1198,5 +1168,35 @@
     "id": "r115186",
     "released": "2024",
     "title": "Teacher Seduction"
+  },
+  {
+    "vid": "v47953",
+    "id": "r115187",
+    "released": "2024",
+    "title": "Teacher Seduction - 18+ Patch"
+  },
+  {
+    "vid": "v48236",
+    "id": "r115677",
+    "released": "2024",
+    "title": "琉璃烟火-Flame in Glass-"
+  },
+  {
+    "vid": "v48262",
+    "id": "r115787",
+    "released": "2024",
+    "title": "Lilac 〜side Witch〜"
+  },
+  {
+    "vid": "v48262",
+    "id": "r115788",
+    "released": "2024",
+    "title": "Lilac 〜side Wizard〜"
+  },
+  {
+    "vid": "v48532",
+    "id": "r116697",
+    "released": "2024",
+    "title": "虹彩都市"
   }
 ]
