@@ -1,17 +1,5 @@
 [
   {
-    "vid": "v52035",
-    "id": "r125822",
-    "released": "2024-07-30",
-    "title": "鸟之谜"
-  },
-  {
-    "vid": "v52085",
-    "id": "r125939",
-    "released": "2024-07-30",
-    "title": "いっぴきオオカミ温泉紀行♨ 大阪・有馬編"
-  },
-  {
     "vid": "v52032",
     "id": "r125821",
     "released": "2024-07-31",
@@ -138,10 +126,10 @@
     "title": "失楽園カルタ"
   },
   {
-    "vid": "v49337",
-    "id": "r118896",
-    "released": "2024-08-12",
-    "title": "完美恋人~fragile love"
+    "vid": "v51965",
+    "id": "r125674",
+    "released": "2024-08-11",
+    "title": "若津谷村の祟り"
   },
   {
     "vid": "v51298",
@@ -294,16 +282,16 @@
     "title": "ゴーヘルゴー つきおとしてこ"
   },
   {
-    "vid": "v30338",
-    "id": "r77674",
-    "released": "2024-08-30",
-    "title": "CrocApoca!! Crocodile maiden at the End of the World"
-  },
-  {
     "vid": "v47551",
     "id": "r114262",
     "released": "2024-08-30",
     "title": "アマナツ＋"
+  },
+  {
+    "vid": "v47757",
+    "id": "r114731",
+    "released": "2024-08-30",
+    "title": "夏日事件簿"
   },
   {
     "vid": "v49512",
@@ -504,6 +492,12 @@
     "title": "姦染 RE:UNION"
   },
   {
+    "vid": "v30338",
+    "id": "r77674",
+    "released": "2024-09-13",
+    "title": "CrocApoca!! Crocodile maiden at the End of the World"
+  },
+  {
     "vid": "v51909",
     "id": "r125544",
     "released": "2024-09-13",
@@ -520,6 +514,12 @@
     "id": "r125546",
     "released": "2024-09-13",
     "title": "VenusBlood DarkChronicle Episode:6 虜囚の令嬢たち"
+  },
+  {
+    "vid": "v50574",
+    "id": "r122289",
+    "released": "2024-09-15",
+    "title": "茜色"
   },
   {
     "vid": "v50566",
@@ -882,6 +882,12 @@
     "title": "夢幻のティル・ナ・ノーグ"
   },
   {
+    "vid": "v52201",
+    "id": "r126189",
+    "released": "2024-12-29",
+    "title": "少女地獄カルデア"
+  },
+  {
     "vid": "v51964",
     "id": "r125673",
     "released": "2024-12-30",
@@ -1192,11 +1198,5 @@
     "id": "r121281",
     "released": "2024",
     "title": "ランジェリーズ R-18 DLC"
-  },
-  {
-    "vid": "v50245",
-    "id": "r121477",
-    "released": "2024",
-    "title": "誰是中之人"
   }
 ]
