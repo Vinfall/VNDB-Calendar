@@ -1,8 +1,8 @@
 # VNDB Release Calendar
 
-中文介绍请看 [README_zh-Hans](README_zh-Hans.md)
-
 [![Build](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/gen-calendar.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/gen-calendar.yml) [![Release](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release-calendar.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release-calendar.yml) [![Test](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml)
+
+中文介绍请看 [README_zh-Hans](README_zh-Hans.md)
 
 ## Intro
 
