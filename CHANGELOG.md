@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.6.1] - 2024-08-15
+
+### 🚀 Features
+
+- Update prod filter
+- Update regex & prod filters
+
+### 🐛 Fixes
+
+- Badge location
+
+### 🛠️ Chores
+
+- Add ci badge
+- Cache installed packages
+- Rename workflow
+
 ## [3.5.0] - 2024-08-03
 
 ### 🚀 Features
