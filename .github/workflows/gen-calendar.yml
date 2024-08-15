@@ -1,4 +1,4 @@
-name: gen-calendar
+name: Build custom calendar
 
 on:
   schedule:

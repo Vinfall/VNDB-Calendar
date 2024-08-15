@@ -1,4 +1,4 @@
-name: release-calendar
+name: Release
 
 on:
   schedule:
