@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.8.0] - 2024-09-01
+
+### 🚀 Features
+
+- Update regex & prod filter
+
+### 🛠️ Chores
+
+- Update ref
+- Ignore test on docs change
+- Update changelog
+
 ## [3.6.1] - 2024-08-15
 
 ### 🚀 Features
