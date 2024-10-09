@@ -37,7 +37,7 @@ _YYYYMM_ONLY_REGEX = "^(\\d{4}-\\d{2})$"
 # Block word list full of hacky regex
 _TO_REPLACE = [
     "(Windows)?( )?パッケージ(特装)?(初回)?版",
-    "( )?ダウンロード(通常)?(豪華)?版",
+    "( )?ダウンロード(通常)?(豪華)?(カード)?版",
     " オナホール同梱版",
     " ダブルパック",
     " (超)?スタァライト(EDITION)?(版)?",
