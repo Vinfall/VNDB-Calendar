@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.11.2] - 2024-10-09
+
+### 🚀 Features
+
+- Update regex & prod filter
+- Update regex
+
+### 🐛 Fixes
+
+- Fix pypy -mpip install
+
+### 📦 Dependencies
+
+- Bump python matrix to 3.13 as per PEP 719, add pypy3.10
+
+### 🛠️ Chores
+
+- Use unique cache key
+
 ## [3.9.0] - 2024-10-02
 
 ### 🚀 Features
