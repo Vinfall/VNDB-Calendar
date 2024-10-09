@@ -119,7 +119,6 @@ v45382;r110046;BitterSweet Detectives' Tea Party;2024
 v46569;r111672;メルト・アウェイ;2024
 v46693;r111957;アニマロイドガール;2024
 v47805;r114841;ナイト・ケース・ファイルズ;2024
-v47858;r114961;Norn's Dine;2024
 v47953;r115186;Teacher Seduction;2024
 v47953;r115187;Teacher Seduction - 18+ Patch;2024
 v48236;r115677;琉璃烟火-Flame in Glass-;2024
@@ -199,3 +198,4 @@ v52237;r126261;False Spider;2025
 v52251;r126286;赝作 次元契约 Others;2025
 v52288;r126386;我与她们的大学画相;2025
 v52402;r126672;Coffee Talk Tokyo;2025
+v52407;r126682;9-nine- スピンオフ;2025

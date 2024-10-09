@@ -720,12 +720,6 @@
     "title": "ナイト・ケース・ファイルズ"
   },
   {
-    "vid": "v47858",
-    "id": "r114961",
-    "released": "2024",
-    "title": "Norn's Dine"
-  },
-  {
     "vid": "v47953",
     "id": "r115186",
     "released": "2024",
@@ -1198,5 +1192,11 @@
     "id": "r126672",
     "released": "2025",
     "title": "Coffee Talk Tokyo"
+  },
+  {
+    "vid": "v52407",
+    "id": "r126682",
+    "released": "2025",
+    "title": "9-nine- スピンオフ"
   }
 ]
