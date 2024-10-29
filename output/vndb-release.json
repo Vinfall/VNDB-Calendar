@@ -624,12 +624,6 @@
     "title": "EDEN.schemata();"
   },
   {
-    "vid": "v33894",
-    "id": "r87162",
-    "released": "2024",
-    "title": "DIG-ROCK -Documentary of Youthful Sounds-"
-  },
-  {
     "vid": "v36005",
     "id": "r91486",
     "released": "2024",
@@ -700,12 +694,6 @@
     "id": "r111957",
     "released": "2024",
     "title": "アニマロイドガール"
-  },
-  {
-    "vid": "v47805",
-    "id": "r114841",
-    "released": "2024",
-    "title": "ナイト・ケース・ファイルズ"
   },
   {
     "vid": "v47953",
@@ -832,12 +820,6 @@
     "id": "r123871",
     "released": "2024",
     "title": "吸血鬼の花嫁 The Novel Game"
-  },
-  {
-    "vid": "v51168",
-    "id": "r123890",
-    "released": "2024",
-    "title": "メビウス・コード"
   },
   {
     "vid": "v51193",
@@ -1198,5 +1180,23 @@
     "id": "r120956",
     "released": "2025",
     "title": "Nightmare×sisters Ω~終末のレクイエム~"
+  },
+  {
+    "vid": "v50076",
+    "id": "r120958",
+    "released": "2025",
+    "title": "顔のない月-待宵の双椿-"
+  },
+  {
+    "vid": "v50215",
+    "id": "r121428",
+    "released": "2025",
+    "title": "アマカノ３（仮）"
+  },
+  {
+    "vid": "v50480",
+    "id": "r122038",
+    "released": "2025",
+    "title": "夏日遠洋假期"
   }
 ]
