@@ -18,7 +18,7 @@ $(VENV):
 	source $(VENV)/bin/activate; \
 	$(PIP) install -r $(REQUIREMENTS)
 
-custom: ## build my custom calendar
+run: ## build my custom calendar
 	$(PYTHON) ${GENERATOR}
 
 en: ## build VNDB calendar with en & ja releases
