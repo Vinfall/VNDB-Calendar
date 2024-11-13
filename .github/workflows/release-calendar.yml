@@ -45,12 +45,12 @@ jobs:
       - name: upload artifact to release
         uses: ncipollo/release-action@v1
         with:
-          allowUpdates: True
-          prerelease: False
+          allowUpdates: true
+          prerelease: false
           tag: en
-          omitBody: True
-          omitBodyDuringUpdate: True
-          omitNameDuringUpdate: True
+          omitBody: true
+          omitBodyDuringUpdate: true
+          omitNameDuringUpdate: true
           artifacts: output/vndb-*
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -60,11 +60,11 @@ jobs:
       - name: upload artifact to release
         uses: ncipollo/release-action@v1
         with:
-          allowUpdates: True
-          prerelease: False
+          allowUpdates: true
+          prerelease: false
           tag: zh
-          omitBody: True
-          omitBodyDuringUpdate: True
-          omitNameDuringUpdate: True
+          omitBody: true
+          omitBodyDuringUpdate: true
+          omitNameDuringUpdate: true
           artifacts: output/vndb-*
           token: ${{ secrets.GITHUB_TOKEN }}
