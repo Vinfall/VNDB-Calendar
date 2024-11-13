@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.13.3] - 2024-11-13
+
+### 🚀 Features
+
+- Update regex filter
+- Add Makefile
+
+### 🎨 Styling
+
+- Lint
+- Set insert_final_newline to false for yaml
+- Add editorconfig
+
+### 🛠️ Chores
+
+- Rename command
+- Use make command in test
+- Update changelog
+
 ## [3.11.2] - 2024-10-09
 
 ### 🚀 Features
