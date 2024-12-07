@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.14.1] - 2024-12-07
+
+### 📚 Docs
+
+- Silent changelog update
+
 ## [3.14.0] - 2024-12-07
 
 ### 🚀 Features
@@ -13,10 +19,6 @@ All notable changes to this project will be documented in this file.
 ### 🐛 Fixes
 
 - Fix make command
-
-### 🛠️ Chores
-
-- Update changelog
 
 ## [3.13.3] - 2024-11-13
 
@@ -35,7 +37,6 @@ All notable changes to this project will be documented in this file.
 
 - Rename command
 - Use make command in test
-- Update changelog
 
 ## [3.11.2] - 2024-10-09
 
@@ -62,10 +63,6 @@ All notable changes to this project will be documented in this file.
 
 - Update prod filter
 
-### 🛠️ Chores
-
-- Update changelog
-
 ## [3.8.0] - 2024-09-01
 
 ### 🚀 Features
@@ -74,7 +71,6 @@ All notable changes to this project will be documented in this file.
 
 ### 🛠️ Chores
 
-- Update changelog
 - Update ref
 - Ignore test on docs change
 
