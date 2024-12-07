@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.14.0] - 2024-12-07
+
+### 🚀 Features
+
+- Update regex filters
+
+## [3.13.4] - 2024-11-13
+
+### 🐛 Fixes
+
+- Fix make command
+
+### 🛠️ Chores
+
+- Update changelog
+
 ## [3.13.3] - 2024-11-13
 
 ### 🚀 Features
