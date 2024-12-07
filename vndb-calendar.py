@@ -48,6 +48,7 @@ _TO_REPLACE = [
     " PK版 デラックス版",
     "( )?- .*? Version$",
     "( )?- .*? Edition$",
+    " (Download|Standard|Package) Edition",
     # "( )?- .*? Patch$",
     # " ~ 追加エピソード",
     "Normal Edition",
@@ -61,13 +62,15 @@ _TO_REPLACE = [
     " 数量限定(.*)?版",
     # Special cases
     # " Episode:[0-9].*?$",  # VenusBlood series
-    " B2タペストリー付き",  # 49934
+    " B2タペストリー付き",  # v49934
     " ボイスドラマ付き限定版",  # v51288
     " ゆめは初恋BOX",  # v50959
     " タペストリー付属版",  # v51309
     " 夢だから",  # v51928
     " スペシャルボックス",  # v50614
     " DLsite限定版",  # v53297
+    " ひばり抱き枕カバー付き",  # v53124
+    " 調査員限定スペシャルセット",  # v53545
 ]
 # Normalize character (full -> half width)
 _TO_REPLACE_WIDTH = (
