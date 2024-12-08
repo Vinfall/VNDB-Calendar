@@ -420,12 +420,6 @@
     "title": "KARAKARA 3"
   },
   {
-    "vid": "v33120",
-    "id": "r85556",
-    "released": "2024",
-    "title": "EDEN.schemata();"
-  },
-  {
     "vid": "v36005",
     "id": "r91486",
     "released": "2024",
@@ -1072,6 +1066,12 @@
     "id": "r122426",
     "released": "2025-11",
     "title": "クローバー・メモリーズ 特殊演出パッチ"
+  },
+  {
+    "vid": "v33120",
+    "id": "r85556",
+    "released": "2025",
+    "title": "EDEN.schemata();"
   },
   {
     "vid": "v26012",
