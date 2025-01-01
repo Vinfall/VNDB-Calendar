@@ -1,17 +1,5 @@
 [
   {
-    "vid": "v28331",
-    "id": "r118052",
-    "released": "2024-12-17",
-    "title": "Aurelia"
-  },
-  {
-    "vid": "v28331",
-    "id": "r130361",
-    "released": "2024-12-17",
-    "title": "Aurelia"
-  },
-  {
     "vid": "v48522",
     "id": "r116658",
     "released": "2024-12-19",
@@ -264,166 +252,16 @@
     "title": "グリーンベルの花言葉"
   },
   {
-    "vid": "v24371",
-    "id": "r59792",
-    "released": "2024",
-    "title": "KARAKARA 3"
-  },
-  {
-    "vid": "v24371",
-    "id": "r72929",
-    "released": "2024",
-    "title": "KARAKARA 3"
-  },
-  {
-    "vid": "v36005",
-    "id": "r91486",
-    "released": "2024",
-    "title": "天狐札记"
-  },
-  {
-    "vid": "v36662",
-    "id": "r93117",
-    "released": "2024",
-    "title": "无垢之恋：绽放于春之花海"
-  },
-  {
-    "vid": "v41473",
-    "id": "r101548",
-    "released": "2024",
-    "title": "维罗瓦年代记：绯红之狼"
-  },
-  {
-    "vid": "v44938",
-    "id": "r107945",
-    "released": "2024",
-    "title": "The Witch In The Woods"
-  },
-  {
-    "vid": "v46569",
-    "id": "r111672",
-    "released": "2024",
-    "title": "メルト・アウェイ"
-  },
-  {
-    "vid": "v47953",
-    "id": "r115186",
-    "released": "2024",
-    "title": "Teacher Seduction"
-  },
-  {
-    "vid": "v47953",
-    "id": "r115187",
-    "released": "2024",
-    "title": "Teacher Seduction - 18+ Patch"
-  },
-  {
-    "vid": "v48236",
-    "id": "r115677",
-    "released": "2024",
-    "title": "琉璃烟火-Flame in Glass-"
-  },
-  {
-    "vid": "v48900",
-    "id": "r117553",
-    "released": "2024",
-    "title": "キミと出会うも多生の縁"
-  },
-  {
-    "vid": "v49094",
-    "id": "r118155",
-    "released": "2024",
-    "title": "プログレスオルター"
-  },
-  {
-    "vid": "v48236",
-    "id": "r118440",
-    "released": "2024",
-    "title": "琉璃烟火-Flame in Glass-"
-  },
-  {
-    "vid": "v50094",
-    "id": "r121061",
-    "released": "2024",
-    "title": "立ち絵が変なポーズの恋愛アドベンチャー"
-  },
-  {
-    "vid": "v50513",
-    "id": "r122135",
-    "released": "2024",
-    "title": "遥岸灯海"
-  },
-  {
     "vid": "v50515",
     "id": "r122147",
     "released": "2024",
     "title": "まことリングオブフォーチュン"
   },
   {
-    "vid": "v50685",
-    "id": "r122641",
-    "released": "2024",
-    "title": "破晓时分的书信-朝闻篇"
-  },
-  {
-    "vid": "v50758",
-    "id": "r122872",
-    "released": "2024",
-    "title": "ゆめうつつクインテット"
-  },
-  {
-    "vid": "v50831",
-    "id": "r123108",
-    "released": "2024",
-    "title": "우주공강"
-  },
-  {
-    "vid": "v51021",
-    "id": "r123529",
-    "released": "2024",
-    "title": "雑音系少年少女"
-  },
-  {
-    "vid": "v51193",
-    "id": "r123955",
-    "released": "2024",
-    "title": "ヒバリでなくナイチンゲールでもなく"
-  },
-  {
-    "vid": "v51194",
-    "id": "r123957",
-    "released": "2024",
-    "title": "PAIL BLUE PLANET"
-  },
-  {
-    "vid": "v52250",
-    "id": "r126285",
-    "released": "2024",
-    "title": "东北在逃青年"
-  },
-  {
     "vid": "v52505",
     "id": "r126930",
     "released": "2024",
     "title": "灰色的彩虹"
-  },
-  {
-    "vid": "v53097",
-    "id": "r128116",
-    "released": "2024",
-    "title": "厌恶"
-  },
-  {
-    "vid": "v53466",
-    "id": "r129071",
-    "released": "2024",
-    "title": "爱上幻影的少年"
-  },
-  {
-    "vid": "v53545",
-    "id": "r129280",
-    "released": "2024",
-    "title": "都市伝説解体センター"
   },
   {
     "vid": "v46873",
@@ -792,6 +630,12 @@
     "title": "GROWTH EXPERIMENT"
   },
   {
+    "vid": "v53545",
+    "id": "r129280",
+    "released": "2025-02",
+    "title": "都市伝説解体センター"
+  },
+  {
     "vid": "v50075",
     "id": "r120956",
     "released": "2025-03-28",
@@ -1014,6 +858,18 @@
     "title": "Near-Death-Expedition"
   },
   {
+    "vid": "v24371",
+    "id": "r59792",
+    "released": "2025",
+    "title": "KARAKARA 3"
+  },
+  {
+    "vid": "v24371",
+    "id": "r72929",
+    "released": "2025",
+    "title": "KARAKARA 3"
+  },
+  {
     "vid": "v33120",
     "id": "r85556",
     "released": "2025",
@@ -1032,6 +888,12 @@
     "title": "猫妖孽缘"
   },
   {
+    "vid": "v36005",
+    "id": "r91486",
+    "released": "2025",
+    "title": "天狐札记"
+  },
+  {
     "vid": "v38426",
     "id": "r96160",
     "released": "2025",
@@ -1042,6 +904,12 @@
     "id": "r101057",
     "released": "2025",
     "title": "RatPark"
+  },
+  {
+    "vid": "v41473",
+    "id": "r101548",
+    "released": "2025",
+    "title": "维罗瓦年代记：绯红之狼"
   },
   {
     "vid": "v41484",
@@ -1104,6 +972,18 @@
     "title": "anemoi -アネモイ-"
   },
   {
+    "vid": "v47953",
+    "id": "r115186",
+    "released": "2025",
+    "title": "Teacher Seduction"
+  },
+  {
+    "vid": "v47953",
+    "id": "r115187",
+    "released": "2025",
+    "title": "Teacher Seduction - 18+ Patch"
+  },
+  {
     "vid": "v48253",
     "id": "r115760",
     "released": "2025",
@@ -1146,6 +1026,12 @@
     "title": "VIRTUAL GIRL @ WORLD'S END"
   },
   {
+    "vid": "v49094",
+    "id": "r118155",
+    "released": "2025",
+    "title": "プログレスオルター"
+  },
+  {
     "vid": "v50076",
     "id": "r120958",
     "released": "2025",
@@ -1164,10 +1050,22 @@
     "title": "夏日遠洋假期"
   },
   {
+    "vid": "v50685",
+    "id": "r122641",
+    "released": "2025",
+    "title": "破晓时分的书信-朝闻篇"
+  },
+  {
     "vid": "v50824",
     "id": "r123097",
     "released": "2025",
     "title": "赫雷斯的角鬥場 III"
+  },
+  {
+    "vid": "v51021",
+    "id": "r123529",
+    "released": "2025",
+    "title": "雑音系少年少女"
   },
   {
     "vid": "v51142",
@@ -1180,6 +1078,12 @@
     "id": "r123871",
     "released": "2025",
     "title": "吸血鬼の花嫁 The Novel Game"
+  },
+  {
+    "vid": "v51193",
+    "id": "r123955",
+    "released": "2025",
+    "title": "ヒバリでなくナイチンゲールでもなく"
   },
   {
     "vid": "v51590",
@@ -1198,5 +1102,101 @@
     "id": "r125747",
     "released": "2025",
     "title": "夏日口袋：你所未知的物语"
+  },
+  {
+    "vid": "v52162",
+    "id": "r126089",
+    "released": "2025",
+    "title": "破碎棱镜"
+  },
+  {
+    "vid": "v52175",
+    "id": "r126125",
+    "released": "2025",
+    "title": "透明的她与真实的我"
+  },
+  {
+    "vid": "v52237",
+    "id": "r126261",
+    "released": "2025",
+    "title": "False Spider"
+  },
+  {
+    "vid": "v52251",
+    "id": "r126286",
+    "released": "2025",
+    "title": "赝作 次元契约 Others"
+  },
+  {
+    "vid": "v52288",
+    "id": "r126386",
+    "released": "2025",
+    "title": "我与她们的大学画相"
+  },
+  {
+    "vid": "v52402",
+    "id": "r126672",
+    "released": "2025",
+    "title": "Coffee Talk Tokyo"
+  },
+  {
+    "vid": "v52407",
+    "id": "r126682",
+    "released": "2025",
+    "title": "9-nine- スピンオフ"
+  },
+  {
+    "vid": "v47037",
+    "id": "r126744",
+    "released": "2025",
+    "title": "ダークオークション - ヒトラーの遺産 -"
+  },
+  {
+    "vid": "v47037",
+    "id": "r126745",
+    "released": "2025",
+    "title": "ダークオークション - ヒトラーの遺産 -"
+  },
+  {
+    "vid": "v52513",
+    "id": "r126954",
+    "released": "2025",
+    "title": "MagicSweets-给予幸福的魔法糖果-"
+  },
+  {
+    "vid": "v52547",
+    "id": "r127014",
+    "released": "2025",
+    "title": "OPUS：心相吾山"
+  },
+  {
+    "vid": "v52557",
+    "id": "r127029",
+    "released": "2025",
+    "title": "爱之巢"
+  },
+  {
+    "vid": "v52743",
+    "id": "r127354",
+    "released": "2025",
+    "title": "井域：喀洛之血"
+  },
+  {
+    "vid": "v52778",
+    "id": "r127440",
+    "released": "2025",
+    "title": "KANADE"
+  },
+  {
+    "vid": "v53038",
+    "id": "r127948",
+    "released": "2025",
+    "title": "唯"
+  },
+  {
+    "vid": "v53115",
+    "id": "r128163",
+    "released": "2025",
+    "title": "徨恍"
   }
 ]
