@@ -7,7 +7,7 @@ PIP = pip
 
 # Dependencies & scripts
 REQUIREMENTS = requirements.txt
-GENERATOR = vndb-calendar.py
+GENERATOR = vndb_calendar.py
 
 install: $(VENV) ## install dependencies in venv
 	$(PIP) install -r $(REQUIREMENTS)
