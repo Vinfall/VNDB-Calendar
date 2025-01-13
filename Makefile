@@ -36,6 +36,12 @@ uninstall: ## uninstall venv & clean cache
 	rm -rf $(VENV)
 	pip cache purge || true
 
+## generate changelog (only run after git tag)
+changelog:
+	git cliff -o CHANGELOG.md
+	git add CHANGELOG.md
+	git commit -m 'chore: update changelog'
+
 help: ## show this help
 	@echo "Specify a command:"
 	@grep -E '^[0-9a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[0;36m%-12s\033[m %s\n", $$1, $$2}'
