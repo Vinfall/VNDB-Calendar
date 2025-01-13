@@ -1,4 +1,4 @@
-# VNDB Release Calendar
+# VNDB Calendar
 
 [![Build](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/gen-calendar.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/gen-calendar.yml) [![Release](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release-calendar.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release-calendar.yml) [![Test](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml)
 
@@ -25,7 +25,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - `-t` 或 `--shift-time`：显示 X 天前发售到尚未发售的视觉小说，设置为 `0` 才是真正的「即将发售作品」，默认为 `14`
 - `-d`，`--description` 或 `--intro`：添加视觉小说介绍，布尔类型（只接受 `0` 或 `1`），默认为 `0`/`False`
 
-## Todo
+## TODO
 
 - [x] 同一个视觉小说的多个 release 去重
 - [x] 清理标题中的版本（比如 `ダウンロード版` 和 `DLカード版`）
@@ -35,10 +35,9 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - [x] 允许通过运行参数自定义搜索（具体参见 VNDB API 文档的 [compact filters](https://api.vndb.org/kana#filters) 部分）
 - [x] （自动化发布）通用的中日视觉小说发售日历
 - [x] 在日历事件中添加视觉小说介绍，并设置为可选参数
-- [ ] Parse [VNDB formatting codes](https://vndb.org/d9#4)
+- [ ] User wishlist, just like SteamWishlistCalendar
 - [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
-- [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
-- [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, it is quite long with VN description already)
+- [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, quite long already with VN description)
 
 ## 贡献
 

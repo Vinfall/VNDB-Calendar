@@ -1,4 +1,4 @@
-# VNDB Release Calendar
+# VNDB Calendar
 
 [![Build](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/gen-calendar.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/gen-calendar.yml) [![Release](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release-calendar.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release-calendar.yml) [![Test](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml)
 
@@ -24,7 +24,7 @@ To customize the query, run the script with optional parameters:
 - `-t` or `--shift-time`: show *new* releases X days ago, it's really upcoming release if set to `0`, by default it will be `14`
 - `-d`, `--description` or `--intro`: add VN description to calendar event, bool type (only `0`/`1` is supported), by default `0`/`False`
 
-## Todo
+## TODO
 
 - [x] Remove redundant releases of the same VN
 - [x] Declutter common release variate titles like `ダウンロード版` and `DLカード版`
@@ -34,12 +34,12 @@ To customize the query, run the script with optional parameters:
 - [x] Add filters arguments (you can use [compact filters](https://api.vndb.org/kana#filters) to quickly customize the results)
 - [x] Make calendar with generic en & ja releases (in a tagged automated release)
 - [x] Add VN description in calendar events and make it a parameter
-- [ ] Switch to [query](https://query.vndb.org)?
+- [ ] User wishlist, just like SteamWishlistCalendar
 - [ ] Fix event parsing bug caused by `rid` & `event_dict`
 - [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
-- [ ] User wishlist, just like SteamWishlistCalendar (low priority as I don't use VNDB this way)
-- [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, it is quite long with VN description already)
+- [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, quite long already with VN description)
 - ~~Parse [VNDB formatting codes](https://vndb.org/d9#4)~~
+- ~~Switch to [query](https://query.vndb.org)~~
 
 ## Contribution
 
