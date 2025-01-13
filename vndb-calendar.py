@@ -82,7 +82,8 @@ _TO_REPLACE_WIDTH = (
 )
 
 # Query parameters
-# FIELDS = "id,title,alttitle,languages.mtl,platforms,media,vns.rtype,producers,released,minage,patch,uncensored,official,extlinks"
+# FIELDS = "id,title,alttitle,languages.mtl,platforms,media,
+#           vns.rtype,producers,released,minage,patch,uncensored,official,extlinks"
 FIELDS = "id, title, alttitle, released, vns.id"
 
 # To get normalized filters from compact one:
@@ -99,9 +100,11 @@ _TAG_ID_FILTER = [
 ]
 _PROD_ID_FILTER = [
     # Bad scenario / nukige
-    215, 918, 1873, 1976, 2107, 2320, 2667, 3337, 4019, 4488, 5321, 5402, 7234, 11860, 12518, 13110, 13155,
+    215, 918, 1873, 1976, 2107, 2320, 2667, 3337, 4019, 4488, 5321, 5402, 7234,
+    11860, 12518, 13110, 13155,
     # Personal preferences
-    65, 200, 226, 507, 1463, 1741, 3489, 4680, 5008, 7573, 7812, 10984, 11642, 13454, 13679, 18430, 20086, 20682,
+    65, 200, 226, 507, 1463, 1741, 3489, 4680, 5008, 7573, 7812,
+    10984, 11642, 13454, 13679, 18430, 20086, 20682,
     # AIGC / photographic
     20359, 20456, 20544, 20602, 22932,
     # Otome game
@@ -153,7 +156,7 @@ default_filters = [
     ],
 ]
 
-data = {
+default_data = {
     "filters": default_filters,
     "fields": FIELDS,
     "sort": "released",
@@ -216,10 +219,10 @@ def get_page(max_page, data):
     # Parse parameters
     # Use custom time shift, if any
     if args.shift_time:
-        SHIFT_TIME_NEW = (datetime.now() - timedelta(days=args.shift_time)).strftime(
+        shift_time_new = (datetime.now() - timedelta(days=args.shift_time)).strftime(
             "%Y-%m-%d"
         )
-        data["filters"] = args.filter.replace(_SHIFT_TIME, SHIFT_TIME_NEW)
+        data["filters"] = args.filter.replace(_SHIFT_TIME, shift_time_new)
     # Or use the default value
     else:
         data["filters"] = args.filter
@@ -411,6 +414,6 @@ def make_calendar(processed_results):
 
 
 os.makedirs(_OUTPUT_FOLDER, exist_ok=True)
-j = get_page(args.max_page, data)
-results = process_json(j)
-make_calendar(results)
+j = get_page(args.max_page, default_data)
+res = process_json(j)
+make_calendar(res)
