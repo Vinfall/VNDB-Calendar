@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.1.0] - 2025-01-13
+
+### 🛠️ Chores
+
+- Bump to 4.1.0
+- Make changelog
+
+## [4.0.0] - 2025-01-13
+
+### 🚀 Features
+
+- Add wishlist caldendar
+- Add pyproject.toml
+
+### 📚 Docs
+
+- Add wishlist usage
+- Update todo
+
+### 📦 Dependencies
+
+- Bump default python version to 3.13
+
+### 🎨 Styling
+
+- Lint
+
+### 🛠️ Chores
+
+- Rename
+
 ## [3.14.1] - 2024-12-07
 
 ### 📚 Docs
