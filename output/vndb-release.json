@@ -1,41 +1,5 @@
 [
   {
-    "vid": "v52201",
-    "id": "r126189",
-    "released": "2024-12-30",
-    "title": "少女地獄カルデア"
-  },
-  {
-    "vid": "v52202",
-    "id": "r126195",
-    "released": "2024-12-30",
-    "title": "望却のエディシウス"
-  },
-  {
-    "vid": "v52201",
-    "id": "r129722",
-    "released": "2024-12-30",
-    "title": "少女地獄カルデア"
-  },
-  {
-    "vid": "v54123",
-    "id": "r130575",
-    "released": "2024-12-30",
-    "title": "ショートケーキの埋葬"
-  },
-  {
-    "vid": "v54198",
-    "id": "r130704",
-    "released": "2024-12-30",
-    "title": "グリーンベルの花言葉"
-  },
-  {
-    "vid": "v54309",
-    "id": "r130968",
-    "released": "2024-12-30",
-    "title": "Journey to die"
-  },
-  {
     "vid": "v51964",
     "id": "r125673",
     "released": "2025-01-03",
@@ -48,12 +12,6 @@
     "title": "UCOPIA"
   },
   {
-    "vid": "v54309",
-    "id": "r131011",
-    "released": "2025-01-09",
-    "title": "Journey to die"
-  },
-  {
     "vid": "v54366",
     "id": "r131083",
     "released": "2025-01-09",
@@ -64,6 +22,12 @@
     "id": "r130377",
     "released": "2025-01-10",
     "title": "One Room ー花坂結衣メモリアルー"
+  },
+  {
+    "vid": "v49335",
+    "id": "r118893",
+    "released": "2025-01-13",
+    "title": "大科学家"
   },
   {
     "vid": "v47757",
@@ -636,6 +600,18 @@
     "title": "夏目友人帳 ~葉月の記~"
   },
   {
+    "vid": "v49055",
+    "id": "r118090",
+    "released": "2025-06-12",
+    "title": "VIRTUAL GIRL @ WORLD'S END"
+  },
+  {
+    "vid": "v49055",
+    "id": "r118091",
+    "released": "2025-06-12",
+    "title": "VIRTUAL GIRL @ WORLD'S END"
+  },
+  {
     "vid": "v51151",
     "id": "r123822",
     "released": "2025-06",
@@ -808,18 +784,6 @@
     "id": "r117296",
     "released": "2025",
     "title": "Lost Seed"
-  },
-  {
-    "vid": "v49055",
-    "id": "r118090",
-    "released": "2025",
-    "title": "VIRTUAL GIRL @ WORLD'S END"
-  },
-  {
-    "vid": "v49055",
-    "id": "r118091",
-    "released": "2025",
-    "title": "VIRTUAL GIRL @ WORLD'S END"
   },
   {
     "vid": "v49094",
