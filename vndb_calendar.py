@@ -347,10 +347,12 @@ def make_calendar(processed_results):
 
     for result in processed_results:
         description_suffix = ""
-        vid = result["vid"]
-        rid = result["id"][1:]  # TODO: err in game bundle (is a fix even possible?)
-        title = result["title"]
-        release_date = result["released"]
+        vid, rid, title, release_date = (
+            result["vid"],
+            result["id"][1:],  # TODO: err in game bundle (is a fix even possible?)
+            result["title"],
+            result["released"],
+        )
         url = "https:///vndb.org/" + vid
 
         # Parse date to better fit into reality
