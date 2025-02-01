@@ -2,11 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.2.0] - 2025-02-01
+
+### 📦 Dependencies
+
+- Mv to pyproject.toml altoghther
+
+### 🛠️ Chores
+
+- Update metadata in pyproject.toml
+- Mute version bump in changelog
+- Simplify code
+
 ## [4.1.0] - 2025-01-13
 
 ### 🛠️ Chores
 
-- Bump to 4.1.0
 - Make changelog
 
 ## [4.0.0] - 2025-01-13
