@@ -10,11 +10,11 @@ REQUIREMENTS = requirements.txt
 GENERATOR = vndb_calendar.py
 
 install: $(VENV) ## install dependencies in venv
-	$(PIP) install -r $(REQUIREMENTS)
+	$(PIP) install .
 
 $(VENV):
-	@echo "Setting up virtualenv..."
-	virtualenv $(VENV)
+	@echo "Setting up venv..."
+	${PYTHON} -m venv $(VENV)
 	source $(VENV)/bin/activate; \
 	$(PIP) install -r $(REQUIREMENTS)
 
