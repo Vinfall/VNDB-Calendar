@@ -6,7 +6,6 @@ PYTHON = python
 PIP = pip
 
 # Dependencies & scripts
-REQUIREMENTS = requirements.txt
 GENERATOR = vndb_calendar.py
 
 install: $(VENV) ## install dependencies in venv
@@ -16,7 +15,7 @@ $(VENV):
 	@echo "Setting up venv..."
 	${PYTHON} -m venv $(VENV)
 	source $(VENV)/bin/activate; \
-	$(PIP) install -r $(REQUIREMENTS)
+	$(PIP) install .
 
 run: ## build my custom calendar
 	$(PYTHON) ${GENERATOR}
@@ -30,11 +29,10 @@ zh: ## build VNDB calendar with zh-Hans/zh-Hant & ja releases
 clean: ## clean up outputs
 	-rm output/*
 
-uninstall: ## uninstall venv & clean cache
+uninstall: ## uninstall venv
 	@echo "Cleaning up..."
 	@deactivate || true
 	rm -rf $(VENV)
-	pip cache purge || true
 
 ## generate changelog (only run after git tag)
 changelog:
