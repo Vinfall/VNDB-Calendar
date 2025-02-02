@@ -1,38 +1,17 @@
 # Varables
-VENV = .venv
-# PYTHON = $(VENV)/bin/python
-# PIP = $(VENV)/bin/pip
-PYTHON = python
-PIP = pip
-
-# Dependencies & scripts
 GENERATOR = vndb_calendar.py
 
-install: $(VENV) ## install dependencies in venv
-	$(PIP) install .
-
-$(VENV):
-	@echo "Setting up venv..."
-	${PYTHON} -m venv $(VENV)
-	source $(VENV)/bin/activate; \
-	$(PIP) install .
-
 run: ## build my custom calendar
-	$(PYTHON) ${GENERATOR}
+	uv run ${GENERATOR}
 
 en: ## build VNDB calendar with en & ja releases
-	$(PYTHON) ${GENERATOR} -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0 -d 1
+	uv run ${GENERATOR} -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0 -d 1
 
 zh: ## build VNDB calendar with zh-Hans/zh-Hant & ja releases
-	$(PYTHON) ${GENERATOR} -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0 -d 1
+	uv run ${GENERATOR} -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0 -d 1
 
 clean: ## clean up outputs
 	-rm output/*
-
-uninstall: ## uninstall venv
-	@echo "Cleaning up..."
-	@deactivate || true
-	rm -rf $(VENV)
 
 ## generate changelog (only run after git tag)
 changelog:

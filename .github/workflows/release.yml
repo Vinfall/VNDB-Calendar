@@ -32,9 +32,6 @@ jobs:
         if: steps.setup-uv.outputs.cache-hit == 'true'
         run: echo "Hit cache"
 
-      - name: install dependencies
-        run: uv pip install .
-
       - name: build VNDB calendar with en & ja releases
         run: make en
 
@@ -50,7 +47,7 @@ jobs:
           artifacts: output/vndb-*
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: build VNDB calendar with zh (zh-Hans/zh-Hant) & ja releases
+      - name: build VNDB calendar with zh-Hans/zh-Hant & ja releases
         run: make zh
 
       - name: upload artifact to release
