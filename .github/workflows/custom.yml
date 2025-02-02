@@ -1,4 +1,4 @@
-name: Build custom calendar
+name: Custom
 
 on:
   schedule:

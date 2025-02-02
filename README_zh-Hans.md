@@ -1,6 +1,6 @@
 # VNDB Calendar
 
-[![Build](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/gen-calendar.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/gen-calendar.yml) [![Release](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release-calendar.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release-calendar.yml) [![Test](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml)
+[![Build](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/custom.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/custom.yml) [![Release](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release.yml) [![Test](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml)
 
 ## 介绍
 
