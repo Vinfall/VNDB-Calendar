@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.3.0] - 2025-02-02
+
+### 🚀 Features
+
+- Uv run
+
+### 🛠️ Chores
+
+- Uv.lock
+- Make install
+- Use cached uv in release
+- Rename workflow
+- Use cached uv
+
 ## [4.2.0] - 2025-02-01
 
 ### 📦 Dependencies
