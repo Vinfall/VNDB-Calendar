@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v54744",
-    "id": "r131886",
-    "released": "2025-02-05",
-    "title": "Cultural Exchange"
-  },
-  {
     "vid": "v54405",
     "id": "r131145",
     "released": "2025-02-06",
@@ -94,6 +88,12 @@
     "id": "r128219",
     "released": "2025-02-19",
     "title": "穿越黃遊開後宮"
+  },
+  {
+    "vid": "v54901",
+    "id": "r132326",
+    "released": "2025-02-19",
+    "title": "捱光：金瓶梅"
   },
   {
     "vid": "v41878",
@@ -550,6 +550,54 @@
     "id": "r131904",
     "released": "2025-04-24",
     "title": "豪華特典付き 限定パッケージ【あなただけセット】「夢現しろっぷ - Dreamy Syrup -」"
+  },
+  {
+    "vid": "v54897",
+    "id": "r132308",
+    "released": "2025-04-24",
+    "title": "HUNDRED LINE -最終防衛学園-"
+  },
+  {
+    "vid": "v54897",
+    "id": "r132309",
+    "released": "2025-04-24",
+    "title": "HUNDRED LINE -最終防衛学園-"
+  },
+  {
+    "vid": "v54897",
+    "id": "r132310",
+    "released": "2025-04-24",
+    "title": "The Hundred Line -Last Defense Academy"
+  },
+  {
+    "vid": "v54897",
+    "id": "r132311",
+    "released": "2025-04-24",
+    "title": "HUNDRED LINE -最終防衛学園-"
+  },
+  {
+    "vid": "v54897",
+    "id": "r132319",
+    "released": "2025-04-24",
+    "title": "百日戰記 -最終防衛學園-"
+  },
+  {
+    "vid": "v54897",
+    "id": "r132321",
+    "released": "2025-04-24",
+    "title": "The Hundred Line -Last Defense Academy"
+  },
+  {
+    "vid": "v54897",
+    "id": "r132322",
+    "released": "2025-04-24",
+    "title": "HUNDRED LINE -最終防衛学園- デジタルデラックスエディション"
+  },
+  {
+    "vid": "v54897",
+    "id": "r132323",
+    "released": "2025-04-24",
+    "title": "HUNDRED LINE -最終防衛学園- デジタルデラックスエディション"
   },
   {
     "vid": "v53590",
@@ -1150,53 +1198,5 @@
     "id": "r131614",
     "released": "2025",
     "title": "おにいちゃんコンティニュー!"
-  },
-  {
-    "vid": "v54686",
-    "id": "r131771",
-    "released": "2025",
-    "title": "EXS3~EthnologySister3：Culture and Personality"
-  },
-  {
-    "vid": "v54769",
-    "id": "r131936",
-    "released": "2025",
-    "title": "ホロウドライヴ"
-  },
-  {
-    "vid": "v54834",
-    "id": "r132153",
-    "released": "2025",
-    "title": "のーぶる バトラー"
-  },
-  {
-    "vid": "v54886",
-    "id": "r132281",
-    "released": "2025",
-    "title": "翎之歌"
-  },
-  {
-    "vid": "v51828",
-    "id": "r125344",
-    "released": "2026",
-    "title": "藏物"
-  },
-  {
-    "vid": "v52780",
-    "id": "r127442",
-    "released": "2026",
-    "title": "COCORO"
-  },
-  {
-    "vid": "v53646",
-    "id": "r129536",
-    "released": "2026",
-    "title": "Die For Me"
-  },
-  {
-    "vid": "v53726",
-    "id": "r129689",
-    "released": "2026",
-    "title": "世紀末之詩"
   }
 ]
