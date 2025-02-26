@@ -5,17 +5,21 @@ on:
     - cron: 0 4 * * * # 4:00 UTC everyday
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
+
 
 jobs:
   build:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.13"]
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: setup Python with uv
         id: setup-uv
