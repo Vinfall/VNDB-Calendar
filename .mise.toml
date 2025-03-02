@@ -1,0 +1,37 @@
+[tools]
+uv = "latest"
+
+# [settings]
+# experimental = true
+# python.uv_venv_auto = true
+
+[tasks."build:custom"]
+description = "build my custom calendar"
+run = "uv run vndb_calendar.py"
+alias = ["run", "custom", "default"]
+
+[tasks."build:en"]
+description = "build VNDB calendar with en & ja releases"
+env.FILTERS = "0572171_4YsVe122gen2gjaN48721gwcomplete-"
+run = "uv run vndb_calendar.py -f $FILTERS -t 0 -d 1"
+alias = "en"
+
+[tasks."build:zh"]
+description = "build VNDB calendar with zh & ja releases"
+env.FILTERS = "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-"
+run = "uv run vndb_calendar.py -f $FILTERS -t 0 -d 1"
+alias = "zh"
+
+# [tasks.build]
+# description = "build all variants at once"
+# depends = ["build:*"]
+
+[tasks.changelog]
+description = "generate changelog (only run after git tag)"
+run = """
+#!/usr/bin/env bash
+git cliff -o CHANGELOG.md
+git add CHANGELOG.md
+git commit -m 'chore: update changelog'
+"""
+alias = "bump"

@@ -20,23 +20,17 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: setup Python with uv
-        id: setup-uv
-        uses: astral-sh/setup-uv@v5
+      - name: setup project with mise
+        id: setup-mise
+        uses: jdx/mise-action@v2
         with:
-          version: latest
-          python-version: ${{ matrix.python-version }}
-          enable-cache: true
-          prune-cache: false # do not remove pre-built wheels
-          ignore-nothing-to-cache: true
-          cache-dependency-glob: "**/pyproject.toml"
-
-      - name: hint on cache hit
-        if: steps.setup-uv.outputs.cache-hit == 'true'
-        run: echo "Hit cache"
+          install: true
+          cache: true
+          tool_versions: |
+            python ${{ matrix.python-version }}
 
       - name: build VNDB calendar with en & ja releases
-        run: make en
+        run: mise run "build:en"
 
       - name: upload artifact to release
         uses: ncipollo/release-action@v1
@@ -50,8 +44,8 @@ jobs:
           artifacts: output/vndb-*
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: build VNDB calendar with zh-Hans/zh-Hant & ja releases
-        run: make zh
+      - name: build VNDB calendar with zh & ja releases
+        run: mise run "build:zh"
 
       - name: upload artifact to release
         uses: ncipollo/release-action@v1

@@ -10,9 +10,6 @@ en: ## build VNDB calendar with en & ja releases
 zh: ## build VNDB calendar with zh-Hans/zh-Hant & ja releases
 	uv run ${GENERATOR} -f "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-" -t 0 -d 1
 
-clean: ## clean up outputs
-	-rm output/*
-
 ## generate changelog (only run after git tag)
 changelog:
 	git cliff -o CHANGELOG.md
