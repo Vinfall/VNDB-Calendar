@@ -12,7 +12,7 @@ This tiny tool allows you to create a calendar of [VNDB](https://vndb.org) [upco
 
 For now VNDB only offers RSS for *Recent Changes*, but not *Upcoming Releases* or *Just Released*. There are multiple previous discussions about that but I don't think Yorhel is going to do that any time soon.
 
-This is created as a workaround (just in ICS rather than RSS) for personal use and serves as an extended practice of my blog post [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) (written in Chinese).
+This is created as a workaround for personal use and serves as an extension of my blog post [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) (written in Chinese).
 
 ## Usage
 
@@ -55,8 +55,6 @@ Nothing to customize actually, simply run [`wishlist.py`](wishlist.py):
 - [ ] Fix event parsing bug caused by `rid` & `event_dict`
 - [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
 - [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, quite long already with VN description)
-- ~~Parse [VNDB formatting codes](https://vndb.org/d9#4)~~
-- ~~Switch to [query](https://query.vndb.org)~~
 
 ## Contribution
 

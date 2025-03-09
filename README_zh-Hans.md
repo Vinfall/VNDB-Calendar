@@ -13,7 +13,7 @@
 
 VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Released* 则没有提供。论坛之前讨论过好几次但 Yorhel 短期内应该不会做这个功能。
 
-这是个人使用的替代方案（虽然协议从 RSS 修改为 ICS），同时当作博客文章 [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) 的拓展。
+这是个人使用的替代方案，同时当作博客文章 [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) 的拓展。
 
 ## 使用
 
@@ -29,13 +29,13 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 ### 愿望单发行日历
 
-这是新游戏发行日历的下级替代，关注于用户愿望单。
+新游戏发行日历的下级替代，关注于用户愿望单。
 
 运行 [`wishlist.py`](wishlist.py):
 - `python wishlist.py -u "{uid}" -p {最大页数}`
 - Example of Yorhel's wishlist: `python wishlist.py -u "u2"`
 - `-u` 或 `--user`：**包含 'u'** 的用户 id，比如 `u2`
-- `-p` 或 `--max-page`：搜索结果的最大页数，默认为 `1`。由于愿望单采用倒序获取，新游戏在前。每页 100 项结果，所以如果你只希望在日历看到未发售游戏，通常 1 页就足够
+- `-p` 或 `--max-page`：搜索结果的最大页数，默认为 `1`。由于愿望单采用倒序获取，新游戏在前，每页 100 项结果，如果你只希望在日历看到未发售游戏，通常 1 页就足够
 
 > [!NOTE]
 > `wishlist.py` 默认你使用 `wishlist` 标签并且没有将其隐藏。
