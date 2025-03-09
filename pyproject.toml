@@ -1,6 +1,6 @@
 [project]
 name = "VNDB-Calendar"
-version = "4.2.0"
+version = "5.0.0"
 description = "VNDB New Release as subscribable ICS/iCalendar."
 keywords = ["calendar", "ics", "icalendar", "vndb", "vndb-api", "galgame", "game", "visualnovel"]
 requires-python = ">=3.10"

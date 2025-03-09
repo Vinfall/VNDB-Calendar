@@ -2,14 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
-## [4.3.0] - 2025-02-02
+## [5.0.0] - 2025-03-09
 
 ### 🚀 Features
 
 - Uv run
 
+### 🎨 Styling
+
+- Lint via zizmor
+
 ### 🛠️ Chores
 
+- Rm makefile
+- Migrate make/uv to mise
 - Uv.lock
 - Make install
 - Use cached uv in release
