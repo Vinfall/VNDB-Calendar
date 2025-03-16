@@ -1,9 +1,14 @@
 [tools]
+"pipx:mypy" = "latest"
+ruff = "latest"
 uv = "latest"
 
 # [settings]
 # experimental = true
 # python.uv_venv_auto = true
+
+[settings.pipx]
+uvx = true
 
 [tasks."build:custom"]
 description = "build my custom calendar"
@@ -25,6 +30,14 @@ alias = "zh"
 # [tasks.build]
 # description = "build all variants at once"
 # depends = ["build:*"]
+
+[tasks.lint]
+description = "lint codes"
+run = """
+#!/usr/bin/env bash
+ruff check --fix *.py
+mypy *.py
+"""
 
 [tasks.changelog]
 description = "generate changelog (only run after git tag)"
