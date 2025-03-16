@@ -2,6 +2,9 @@
 "pipx:mypy" = "latest"
 ruff = "latest"
 uv = "latest"
+"pipx:zizmor" = "latest"
+actionlint = "latest"
+yamllint = "latest"
 
 # [settings]
 # experimental = true
@@ -31,13 +34,28 @@ alias = "zh"
 # description = "build all variants at once"
 # depends = ["build:*"]
 
-[tasks.lint]
-description = "lint codes"
+[tasks."lint:py"]
+description = "lint python"
 run = """
 #!/usr/bin/env bash
 ruff check --fix *.py
 mypy *.py
 """
+
+[tasks."lint:ci"]
+description = "lint GitHub Actions"
+run = """
+#!/usr/bin/env bash
+yamllint --strict .github
+actionlint
+zizmor .github/workflows
+# zizmor --pedantic .github/workflows # offline audit using pedantic persona
+# zizmor --gh-token=$(gh auth token) .github/workflows # online audit
+"""
+
+[tasks.lint]
+description = "run linters and apply fixes"
+depends = ["lint:*"]
 
 [tasks.changelog]
 description = "generate changelog (only run after git tag)"
