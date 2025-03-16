@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 # Documentation
 # VNDB API: https://api.vndb.org/kana#post-ulist
@@ -17,6 +16,7 @@ import os
 import re
 import sys
 from datetime import datetime, timedelta
+from typing import Any
 
 import dateparser
 import requests
@@ -34,7 +34,7 @@ _ICS_FILE = "wishlist.ics"
 
 # Date format
 # _SHIFT_TIME = "today"
-_SHIFT_TIME = (datetime.now() - timedelta(days=14)).strftime("%Y-%m-%d")
+_SHIFT_TIME = (datetime.now() - timedelta(days=14)).strftime("%Y-%m-%d")  # noqa: DTZ005
 # Mid year
 _MID_YEAR = "-09-15"
 _YEAR_ONLY_REGEX = "^(\\d{4})$"
@@ -84,7 +84,7 @@ wishlist_parser.add_argument(
 args = wishlist_parser.parse_args()
 
 
-def get_page(max_page, data):
+def get_page(max_page: int, data: dict[str, Any]) -> list[dict[str, Any]]:
     api_url = "https://api.vndb.org/kana/ulist"
     headers = {"Content-Type": "application/json"}
     all_results = []
@@ -117,7 +117,7 @@ def get_page(max_page, data):
 
 
 # Process & Write results to JSON & CSV
-def process_json(results):
+def process_json(results: list[dict[str, Any]]) -> list[dict[str, Any]]:
     processed_results = []
     for result in results:
         # Build new json
@@ -156,17 +156,17 @@ def process_json(results):
 
 # Function borrowed from SteamWishlistCalendar
 # https://github.com/icue/SteamWishlistCalendar/blob/166cc44fec28b01771ac39def0a340940d2a5bf3/swc.py#L34-L52
-def last_day_of_next_month(dt):
+def last_day_of_next_month(dt: datetime) -> datetime:
     """
-    Returns the datetime of the last day of the next month.
+    Return the datetime of the last day of the next month.
 
     Args:
     dt: A datetime.datetime object.
 
     Returns:
     A datetime.datetime object.
-    """
 
+    """
     year = dt.year
     next_next_month = dt.month + 2
     if next_next_month > 12:
@@ -174,13 +174,13 @@ def last_day_of_next_month(dt):
         year = dt.year + 1
 
     # Subtracte 1 day from the first day of the next next month, to get the last day of next month.
-    return datetime(year, next_next_month, 1) - timedelta(days=1)
+    return datetime(year, next_next_month, 1) - timedelta(days=1)  # noqa: DTZ001
 
 
 # Make calendar
-def make_calendar(processed_results):
+def make_calendar(processed_results: list[dict[str, Any]]) -> None:
     cal = Calendar(creator="VNDBWishlistCalendar")
-    now = datetime.now()
+    now = datetime.now()  # noqa: DTZ005
     event_dict = {}
 
     for result in processed_results:
@@ -197,7 +197,9 @@ def make_calendar(processed_results):
         if year_only_match:
             year = year_only_match.group(1)
             # If Sep 15 of this year passed, use the end of year
-            mid_release_date = datetime.strptime(year + _MID_YEAR, "%Y-%m-%d").date()
+            mid_release_date = datetime.strptime(  # noqa: DTZ007
+                year + _MID_YEAR, "%Y-%m-%d"
+            ).date()
             release_date = year + (
                 _MID_YEAR if mid_release_date > now.date() else "-12-31"
             )
@@ -221,7 +223,7 @@ def make_calendar(processed_results):
 
         # Ensure release_date is a datetime object
         if isinstance(release_date, str):
-            release_date = datetime.strptime(release_date, "%Y-%m-%d")
+            release_date = datetime.strptime(release_date, "%Y-%m-%d")  # noqa: DTZ007
 
         description = url + description_suffix
         event = Event(
