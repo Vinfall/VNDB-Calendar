@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [pypy3.11, "3.11", "3.12", "3.13"]
+        python-version: ["3.12", "3.13"]
     steps:
       - uses: actions/checkout@v4
         with:
@@ -33,5 +33,6 @@ jobs:
           cache: true
           tool_versions: |
             python ${{ matrix.python-version }}
+            uv latest
 
       - run: mise run default

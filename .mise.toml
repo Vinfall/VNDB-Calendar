@@ -1,14 +1,15 @@
 [tools]
-"pipx:mypy" = "latest"
-ruff = "latest"
 uv = "latest"
+ruff = "latest"
+"pipx:mypy" = "latest"
 "pipx:zizmor" = "latest"
 actionlint = "latest"
 yamllint = "latest"
 
-# [settings]
+[settings]
 # experimental = true
 # python.uv_venv_auto = true
+python.compile = false
 
 [settings.pipx]
 uvx = true

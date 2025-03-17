@@ -28,6 +28,7 @@ jobs:
           cache: true
           tool_versions: |
             python ${{ matrix.python-version }}
+            uv latest
 
       - name: build VNDB calendar with en & ja releases
         run: mise run "build:en"
