@@ -138,12 +138,6 @@
     "title": "メモリーズオフ 双想 ~Not always true~"
   },
   {
-    "vid": "v51024",
-    "id": "r123532",
-    "released": "2025-04-09",
-    "title": "オールインアビス：イカサマサバキ"
-  },
-  {
     "vid": "v47203",
     "id": "r122806",
     "released": "2025-04-10",
@@ -208,18 +202,6 @@
     "id": "r129916",
     "released": "2025-04-10",
     "title": "メモリーズオフ 双想 ~Not always true~"
-  },
-  {
-    "vid": "v51024",
-    "id": "r130032",
-    "released": "2025-04-10",
-    "title": "オールインアビス：イカサマサバキ"
-  },
-  {
-    "vid": "v51024",
-    "id": "r130033",
-    "released": "2025-04-10",
-    "title": "オールインアビス：イカサマサバキ"
   },
   {
     "vid": "v47203",
@@ -480,6 +462,18 @@
     "title": "猫猫旅行社 ももいろ町おこしプロジェクト!"
   },
   {
+    "vid": "v32946",
+    "id": "r85100",
+    "released": "2025-05-23",
+    "title": "ネコぱら After ラ・ヴレ・ファミーユ"
+  },
+  {
+    "vid": "v32946",
+    "id": "r93146",
+    "released": "2025-05-23",
+    "title": "ネコぱら After ラ・ヴレ・ファミーユ"
+  },
+  {
     "vid": "v47552",
     "id": "r114263",
     "released": "2025-05-30",
@@ -574,6 +568,12 @@
     "id": "r120958",
     "released": "2025-06-20",
     "title": "顔のない月-待宵の双椿-"
+  },
+  {
+    "vid": "v55725",
+    "id": "r134169",
+    "released": "2025-06-20",
+    "title": "やがて散りゆく鏡の花へ"
   },
   {
     "vid": "v53486",
@@ -830,6 +830,60 @@
   {
     "vid": "v55357",
     "id": "r134049",
+    "released": "2025-07-25",
+    "title": "No Sleep For Kaname Date – From AI: THE SOMNIUM FILES"
+  },
+  {
+    "vid": "v55357",
+    "id": "r134051",
+    "released": "2025-07-25",
+    "title": "No Sleep For Kaname Date – From AI: THE SOMNIUM FILES"
+  },
+  {
+    "vid": "v55357",
+    "id": "r134052",
+    "released": "2025-07-25",
+    "title": "No Sleep For Kaname Date – From AI: THE SOMNIUM FILES"
+  },
+  {
+    "vid": "v55357",
+    "id": "r134053",
+    "released": "2025-07-25",
+    "title": "No Sleep For Kaname Date – From AI: THE SOMNIUM FILES"
+  },
+  {
+    "vid": "v55357",
+    "id": "r134055",
+    "released": "2025-07-25",
+    "title": "伊達鍵は眠らない – From AI：ソムニウムファイル"
+  },
+  {
+    "vid": "v55357",
+    "id": "r134056",
+    "released": "2025-07-25",
+    "title": "伊達鍵は眠らない – From AI：ソムニウムファイル"
+  },
+  {
+    "vid": "v55357",
+    "id": "r134058",
+    "released": "2025-07-25",
+    "title": "No Sleep For Kaname Date – From AI: THE SOMNIUM FILES"
+  },
+  {
+    "vid": "v55357",
+    "id": "r134060",
+    "released": "2025-07-25",
+    "title": "No Sleep For Kaname Date – From AI: THE SOMNIUM FILES"
+  },
+  {
+    "vid": "v55357",
+    "id": "r134061",
+    "released": "2025-07-25",
+    "title": "No Sleep For Kaname Date – From AI: THE SOMNIUM FILES"
+  },
+  {
+    "vid": "v55357",
+    "id": "r134063",
     "released": "2025-07-25",
     "title": "No Sleep For Kaname Date – From AI: THE SOMNIUM FILES"
   },
@@ -1144,59 +1198,5 @@
     "id": "r125369",
     "released": "2025",
     "title": "构想彼方"
-  },
-  {
-    "vid": "v52175",
-    "id": "r126125",
-    "released": "2025",
-    "title": "透明的她与真实的我"
-  },
-  {
-    "vid": "v52237",
-    "id": "r126261",
-    "released": "2025",
-    "title": "False Spider"
-  },
-  {
-    "vid": "v52251",
-    "id": "r126286",
-    "released": "2025",
-    "title": "赝作 次元契约 Others"
-  },
-  {
-    "vid": "v52288",
-    "id": "r126386",
-    "released": "2025",
-    "title": "我与她们的大学画相"
-  },
-  {
-    "vid": "v52402",
-    "id": "r126672",
-    "released": "2025",
-    "title": "Coffee Talk Tokyo"
-  },
-  {
-    "vid": "v52407",
-    "id": "r126682",
-    "released": "2025",
-    "title": "9-nine- スピンオフ"
-  },
-  {
-    "vid": "v52513",
-    "id": "r126954",
-    "released": "2025",
-    "title": "MagicSweets-给予幸福的魔法糖果-"
-  },
-  {
-    "vid": "v52547",
-    "id": "r127014",
-    "released": "2025",
-    "title": "OPUS：心相吾山"
-  },
-  {
-    "vid": "v52557",
-    "id": "r127029",
-    "released": "2025",
-    "title": "爱之巢"
   }
 ]
