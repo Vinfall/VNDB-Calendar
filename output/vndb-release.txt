@@ -1,8 +1,4 @@
 vid;id;title;released
-v55265;r133191;流木缘;2025-04-03
-v55536;r133758;偿;2025-04-03
-v55537;r133759;An alien girl fell on my head, and now I must save our world by demonstrating great and beautiful love;2025-04-03
-v55538;r133760;Reboot My Heart;2025-04-03
 v47203;r113517;メモリーズオフ 双想 ~Not always true~;2025-04-09
 v47203;r122806;メモリーズオフ 双想 ~Not always true~ JP通常版;2025-04-10
 v47203;r122807;メモリーズオフ 双想 ~Not always true~;2025-04-10
@@ -130,6 +126,8 @@ v55357;r134058;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-2
 v55357;r134060;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134061;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134063;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
+v55797;r134365;ギャルズフィクション;2025-07-25
+v55797;r134366;ギャルズフィクション;2025-07-25
 v55197;r133016;風雨来記5;2025-07-31
 v55197;r133017;風雨来記5;2025-07-31
 v54846;r132173;이클립스 : Special Forces;2025-08-07
@@ -199,3 +197,5 @@ v53130;r128198;アイリス・オデッセイ;2025
 v53143;r128221;我的AI女友;2025
 v53197;r128381;おやおや?大家さん!;2025
 v53614;r129414;井底;2025
+v53618;r129421;禁忌少女的輪迴之夜;2025
+v53623;r129435;B1NARY;2025
