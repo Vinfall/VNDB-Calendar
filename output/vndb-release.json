@@ -48,22 +48,22 @@
     "title": "異世界ハーレムクエスト ~最強の力と恋の冒険~"
   },
   {
-    "vid": "v54685",
-    "id": "r131767",
+    "vid": "v55078",
+    "id": "r132704",
     "released": "2025-05-19",
-    "title": "我亲爱的妹妹"
+    "title": "Without a Dawn"
+  },
+  {
+    "vid": "v55836",
+    "id": "r134469",
+    "released": "2025-05-19",
+    "title": "Christa & Tonyo"
   },
   {
     "vid": "v55020",
     "id": "r132580",
     "released": "2025-05-20",
     "title": "猫猫旅行社 ももいろ町おこしプロジェクト!"
-  },
-  {
-    "vid": "v55078",
-    "id": "r132704",
-    "released": "2025-05-20",
-    "title": "Without a Dawn"
   },
   {
     "vid": "v32946",
@@ -184,12 +184,6 @@
     "id": "r131207",
     "released": "2025-06-12",
     "title": "VIRTUAL GIRL @ WORLD'S END"
-  },
-  {
-    "vid": "v55836",
-    "id": "r134469",
-    "released": "2025-06-14",
-    "title": "Christa & Tonyo"
   },
   {
     "vid": "v50076",
@@ -1198,5 +1192,11 @@
     "id": "r135211",
     "released": "2025",
     "title": "此间相"
+  },
+  {
+    "vid": "v56205",
+    "id": "r135213",
+    "released": "2025",
+    "title": "Trauma Record"
   }
 ]
