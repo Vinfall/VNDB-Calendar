@@ -25,6 +25,7 @@ To customize the query, run [`vndb_calendar.py`](vndb_calendar.py) with optional
 - `-p` or `--max-page`: maximum pages of query results, by default it will be `2`
 - `-t` or `--shift-time`: show *new* releases X days ago, it's really upcoming release if set to `0`, by default it will be `14`
 - `-d`, `--description` or `--intro`: add VN description to calendar event, bool type (only `0`/`1` is supported), by default `0`/`False`
+- `-b`, `--beta` or `--partial`: show partial releases in query results, e.g. multiple chapters
 
 ### Wishlist Calendar
 
@@ -52,6 +53,7 @@ Nothing to customize actually, simply run [`wishlist.py`](wishlist.py):
 - [x] Make calendar with generic en & ja releases (in a tagged automated release)
 - [x] Add VN description in calendar events and make it a parameter
 - [x] Add user wishlist, just like SteamWishlistCalendar
+- [x] Support partial releases
 - [ ] Fix event parsing bug caused by `rid` & `event_dict`
 - [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
 - [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, quite long already with VN description)

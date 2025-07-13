@@ -26,6 +26,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - `-p` 或 `--max-page`：搜索结果的最大页数，默认为 `2`
 - `-t` 或 `--shift-time`：显示 X 天前发售到尚未发售的视觉小说，设置为 `0` 才是真正的「即将发售作品」，默认为 `14`
 - `-d`，`--description` 或 `--intro`：添加视觉小说介绍，布尔类型（只接受 `0` 或 `1`），默认为 `0`/`False`
+- `-b`, `--beta` 或 `--partial`：在搜索结果中显示不完整的发行版本，常见于分割商法
 
 ### 愿望单发行日历
 
@@ -52,6 +53,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 - [x] （自动化发布）通用的中日视觉小说发售日历
 - [x] 在日历事件中添加视觉小说介绍，并设置为可选参数
 - [x] 添加类似 SteamWishlistCalendar 的愿望单日历
+- [x] 支持不完整的发行版本（分割商法）
 - [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
 - [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, quite long already with VN description)
 

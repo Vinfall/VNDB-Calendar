@@ -96,6 +96,9 @@ FIELDS = "id, title, alttitle, released, vns.id"
 # Side effect: no time shift
 # filters = "0672171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-N480281UJ81Xkx"
 
+_RTYPE_COMPLETE_FILTER = ["rtype", "=", "complete"]
+_RTYPE_PARTIAL_FILTER = ["or", ["rtype", "=", "partial"], ["rtype", "=", "complete"]]
+
 # fmt: off
 _TAG_ID_FILTER = [
     7, 83, 117, 153, 161, 358, 897, 937, 988,
@@ -124,7 +127,7 @@ default_filters = [
     ["released", "!=", "TBA"],
     ["released", ">=", _SHIFT_TIME],
     ["vn", "=", ["and", ["released", ">=", _SHIFT_TIME]]],
-    ["rtype", "=", "complete"],
+    _RTYPE_COMPLETE_FILTER,  # 分割商法
     # Comment filters below to unhide BLG/Otome games
     [
         "vn",
@@ -208,6 +211,15 @@ parser.add_argument(
     default=False,
     help="add VN description to calendar event",
 )
+parser.add_argument(
+    "-b",
+    "--partial",
+    "--beta",
+    type=bool,
+    required=False,
+    default=False,
+    help="show partial releases in query results",
+)
 args = parser.parse_args()
 
 
@@ -226,6 +238,11 @@ def get_page(max_page: int, data: dict[str, Any]) -> list[dict[str, Any]]:
             datetime.now() - timedelta(days=args.shift_time)  # noqa: DTZ005
         ).strftime("%Y-%m-%d")
         data["filters"] = args.filter.replace(_SHIFT_TIME, shift_time_new)
+    # Add partial release on demand
+    elif args.partial:
+        data["filters"] = args.filter.replace(
+            _RTYPE_COMPLETE_FILTER, _RTYPE_PARTIAL_FILTER
+        )
     # Or use the default value
     else:
         data["filters"] = args.filter
