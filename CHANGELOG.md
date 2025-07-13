@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.3.1] - 2025-07-13
+
+### 🚀 Features
+
+- Add `--partial` param for partial releases
+
+### 🐛 Fixes
+
+- Args.filter treated as string
+- Fix mise freeze by dropping pypy
+- Ruff exe001
+
+### 📚 Docs
+
+- Update readme
+
+### 📦 Dependencies
+
+- Use aqua zizmor
+- Bump uv.lock
+- Bump dependencies
+
+### 🎨 Styling
+
+- Lint
+- Add zizmor, actionlint, yamllint as ci linter
+- Ignore ruff d203
+- Lint via ruff + mypy
+- Extend ruff rules, rm pylint, add mypy
+
+### 🛠️ Chores
+
+- Update regex filters
+- Update prod filters
+- Update regex & prod filter
+
 ## [5.0.0] - 2025-03-09
 
 ### 🚀 Features
