@@ -240,9 +240,10 @@ def get_page(max_page: int, data: dict[str, Any]) -> list[dict[str, Any]]:
         data["filters"] = args.filter.replace(_SHIFT_TIME, shift_time_new)
     # Add partial release on demand
     elif args.partial:
-        data["filters"] = args.filter.replace(
-            _RTYPE_COMPLETE_FILTER, _RTYPE_PARTIAL_FILTER
-        )
+        data["filters"] = [
+            _RTYPE_PARTIAL_FILTER if item == _RTYPE_COMPLETE_FILTER else item
+            for item in args.filter
+        ]
     # Or use the default value
     else:
         data["filters"] = args.filter
