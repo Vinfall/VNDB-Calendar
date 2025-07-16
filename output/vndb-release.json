@@ -1,17 +1,5 @@
 [
   {
-    "vid": "v56201",
-    "id": "r135198",
-    "released": "2025-07-01",
-    "title": "男娘恋爱物语"
-  },
-  {
-    "vid": "v57443",
-    "id": "r137954",
-    "released": "2025-07-01",
-    "title": "牛头镇的快乐故事"
-  },
-  {
     "vid": "v57391",
     "id": "r137881",
     "released": "2025-07-02",
@@ -540,6 +528,12 @@
     "title": "Seed My Wife"
   },
   {
+    "vid": "v51021",
+    "id": "r123529",
+    "released": "2025-09-17",
+    "title": "雑音系少年少女"
+  },
+  {
     "vid": "v54131",
     "id": "r130586",
     "released": "2025-09-25",
@@ -894,12 +888,6 @@
     "title": "幻想乡：有罪推定~夜明前的三色堇"
   },
   {
-    "vid": "v51021",
-    "id": "r123529",
-    "released": "2025",
-    "title": "雑音系少年少女"
-  },
-  {
     "vid": "v51142",
     "id": "r123798",
     "released": "2025",
@@ -1198,5 +1186,17 @@
     "id": "r138568",
     "released": "2025",
     "title": "Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges"
+  },
+  {
+    "vid": "v54933",
+    "id": "r132398",
+    "released": "2026-03",
+    "title": "心象天儀本線 ~Per aspera ad astra~"
+  },
+  {
+    "vid": "v55975",
+    "id": "r134819",
+    "released": "2026-03",
+    "title": "仅你一人"
   }
 ]
