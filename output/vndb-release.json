@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v57391",
-    "id": "r137881",
-    "released": "2025-07-02",
-    "title": "ソフィアは嘘と引き換えに"
-  },
-  {
     "vid": "v57518",
     "id": "r138105",
     "released": "2025-07-04",
@@ -46,6 +40,12 @@
     "id": "r102684",
     "released": "2025-07-15",
     "title": "Truer than You"
+  },
+  {
+    "vid": "v55397",
+    "id": "r133517",
+    "released": "2025-07-19",
+    "title": "Life of a Dispatch English Teacher in Japan"
   },
   {
     "vid": "v55877",
@@ -376,12 +376,6 @@
     "id": "r133017",
     "released": "2025-07-31",
     "title": "風雨来記5"
-  },
-  {
-    "vid": "v55397",
-    "id": "r133517",
-    "released": "2025-07",
-    "title": "Life of a Dispatch English Teacher in Japan"
   },
   {
     "vid": "v56879",
@@ -1198,5 +1192,11 @@
     "id": "r134819",
     "released": "2026-03",
     "title": "仅你一人"
+  },
+  {
+    "vid": "v51151",
+    "id": "r123822",
+    "released": "2026",
+    "title": "旅人的紫阳"
   }
 ]
