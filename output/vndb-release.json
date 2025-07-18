@@ -36,10 +36,22 @@
     "title": "シノビザムライ"
   },
   {
+    "vid": "v57444",
+    "id": "r138810",
+    "released": "2025-07-14",
+    "title": "シノビザムライ"
+  },
+  {
     "vid": "v42099",
     "id": "r102684",
     "released": "2025-07-15",
     "title": "Truer than You"
+  },
+  {
+    "vid": "v46520",
+    "id": "r111577",
+    "released": "2025-07-17",
+    "title": "New Perspective"
   },
   {
     "vid": "v55397",
@@ -390,6 +402,12 @@
     "title": "이클립스 : Special Forces"
   },
   {
+    "vid": "v54091",
+    "id": "r130516",
+    "released": "2025-08-15",
+    "title": "ステラーコード"
+  },
+  {
     "vid": "v54607",
     "id": "r131614",
     "released": "2025-08-17",
@@ -502,12 +520,6 @@
     "id": "r138569",
     "released": "2025-08-29",
     "title": "ウィッチハンター ~ちょろいぜ魔法少女~"
-  },
-  {
-    "vid": "v54091",
-    "id": "r130516",
-    "released": "2025-08",
-    "title": "ステラーコード"
   },
   {
     "vid": "v55726",
@@ -684,6 +696,12 @@
     "title": "햄릿: 동방의 왕자"
   },
   {
+    "vid": "v58009",
+    "id": "r138855",
+    "released": "2025-11-28",
+    "title": "猫忍えくすはーとSPIN! 2"
+  },
+  {
     "vid": "v49362",
     "id": "r118979",
     "released": "2025-11",
@@ -778,6 +796,12 @@
     "id": "r107771",
     "released": "2025",
     "title": "Nowhere Manor"
+  },
+  {
+    "vid": "v44938",
+    "id": "r107945",
+    "released": "2025",
+    "title": "林中女巫"
   },
   {
     "vid": "v45382",
@@ -1164,12 +1188,6 @@
     "title": "梵天世界の壊し方"
   },
   {
-    "vid": "v53036",
-    "id": "r138070",
-    "released": "2025",
-    "title": "술도, 사랑도 어려운 아가씨"
-  },
-  {
     "vid": "v57740",
     "id": "r138451",
     "released": "2025",
@@ -1180,23 +1198,5 @@
     "id": "r138568",
     "released": "2025",
     "title": "Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges"
-  },
-  {
-    "vid": "v54933",
-    "id": "r132398",
-    "released": "2026-03",
-    "title": "心象天儀本線 ~Per aspera ad astra~"
-  },
-  {
-    "vid": "v55975",
-    "id": "r134819",
-    "released": "2026-03",
-    "title": "仅你一人"
-  },
-  {
-    "vid": "v51151",
-    "id": "r123822",
-    "released": "2026",
-    "title": "旅人的紫阳"
   }
 ]
