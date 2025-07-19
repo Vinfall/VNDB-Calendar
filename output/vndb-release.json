@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v57518",
-    "id": "r138105",
-    "released": "2025-07-04",
-    "title": "Presidential Psychologist"
-  },
-  {
     "vid": "v55119",
     "id": "r132785",
     "released": "2025-07-10",
@@ -56,7 +50,19 @@
   {
     "vid": "v55397",
     "id": "r133517",
-    "released": "2025-07-19",
+    "released": "2025-07-18",
+    "title": "Life of a Dispatch English Teacher in Japan"
+  },
+  {
+    "vid": "v57484",
+    "id": "r138049",
+    "released": "2025-07-18",
+    "title": "可堪回首"
+  },
+  {
+    "vid": "v55397",
+    "id": "r139081",
+    "released": "2025-07-18",
     "title": "Life of a Dispatch English Teacher in Japan"
   },
   {
@@ -522,6 +528,24 @@
     "title": "ウィッチハンター ~ちょろいぜ魔法少女~"
   },
   {
+    "vid": "v58010",
+    "id": "r138864",
+    "released": "2025-08-29",
+    "title": "孤島の魔女と放蕩王子"
+  },
+  {
+    "vid": "v58010",
+    "id": "r138867",
+    "released": "2025-08-29",
+    "title": "孤島の魔女と放蕩王子"
+  },
+  {
+    "vid": "v58010",
+    "id": "r138868",
+    "released": "2025-08-29",
+    "title": "孤島の魔女と放蕩王子 限定セット"
+  },
+  {
     "vid": "v55726",
     "id": "r134171",
     "released": "2025-08",
@@ -684,6 +708,18 @@
     "title": "花鐘カナデ＊グラム Chapter:4 綾世奏"
   },
   {
+    "vid": "v57736",
+    "id": "r138445",
+    "released": "2025-10-31",
+    "title": "キミと恋するハッピーサマー"
+  },
+  {
+    "vid": "v57740",
+    "id": "r138451",
+    "released": "2025-10-31",
+    "title": "CRACK≡TRICK!"
+  },
+  {
     "vid": "v57252",
     "id": "r138165",
     "released": "2025-10",
@@ -696,10 +732,28 @@
     "title": "햄릿: 동방의 왕자"
   },
   {
+    "vid": "v48532",
+    "id": "r116697",
+    "released": "2025-11-28",
+    "title": "虹彩都市"
+  },
+  {
     "vid": "v58009",
     "id": "r138855",
     "released": "2025-11-28",
     "title": "猫忍えくすはーとSPIN! 2"
+  },
+  {
+    "vid": "v58014",
+    "id": "r138874",
+    "released": "2025-11-28",
+    "title": "True Colors -memories of the abyss-"
+  },
+  {
+    "vid": "v58020",
+    "id": "r138887",
+    "released": "2025-11-28",
+    "title": "ドラ・コンカフェ2"
   },
   {
     "vid": "v49362",
@@ -868,12 +922,6 @@
     "id": "r115788",
     "released": "2025",
     "title": "Lilac -side Wizard-"
-  },
-  {
-    "vid": "v48532",
-    "id": "r116697",
-    "released": "2025",
-    "title": "虹彩都市"
   },
   {
     "vid": "v48683",
@@ -1150,53 +1198,5 @@
     "id": "r135047",
     "released": "2025",
     "title": "Love Mansion"
-  },
-  {
-    "vid": "v56147",
-    "id": "r135077",
-    "released": "2025",
-    "title": "メモリーズオフ 双想 NS Break out of my shell"
-  },
-  {
-    "vid": "v56204",
-    "id": "r135211",
-    "released": "2025",
-    "title": "此间相"
-  },
-  {
-    "vid": "v56205",
-    "id": "r135213",
-    "released": "2025",
-    "title": "Trauma Record"
-  },
-  {
-    "vid": "v56624",
-    "id": "r136231",
-    "released": "2025",
-    "title": "我的高冷女友"
-  },
-  {
-    "vid": "v56705",
-    "id": "r136416",
-    "released": "2025",
-    "title": "Yoram - Question Arc"
-  },
-  {
-    "vid": "v56886",
-    "id": "r136887",
-    "released": "2025",
-    "title": "梵天世界の壊し方"
-  },
-  {
-    "vid": "v57740",
-    "id": "r138451",
-    "released": "2025",
-    "title": "CRACK≡TRICK!"
-  },
-  {
-    "vid": "v57821",
-    "id": "r138568",
-    "released": "2025",
-    "title": "Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges"
   }
 ]
