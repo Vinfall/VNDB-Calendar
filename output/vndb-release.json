@@ -48,22 +48,10 @@
     "title": "New Perspective"
   },
   {
-    "vid": "v55397",
-    "id": "r133517",
-    "released": "2025-07-18",
-    "title": "Life of a Dispatch English Teacher in Japan"
-  },
-  {
     "vid": "v57484",
     "id": "r138049",
     "released": "2025-07-18",
     "title": "可堪回首"
-  },
-  {
-    "vid": "v55397",
-    "id": "r139081",
-    "released": "2025-07-18",
-    "title": "Life of a Dispatch English Teacher in Japan"
   },
   {
     "vid": "v55877",
@@ -552,6 +540,12 @@
     "title": "纸鸢"
   },
   {
+    "vid": "v57977",
+    "id": "r138790",
+    "released": "2025-08",
+    "title": "Lavender Quartz 境界秤動"
+  },
+  {
     "vid": "v55837",
     "id": "r134470",
     "released": "2025-09-12",
@@ -774,6 +768,12 @@
     "title": "스테퍼 레트로: 초능력 추리 퀘스트"
   },
   {
+    "vid": "v50758",
+    "id": "r122872",
+    "released": "2025-12",
+    "title": "ゆめうつつクインテット"
+  },
+  {
     "vid": "v22625",
     "id": "r55819",
     "released": "2025",
@@ -940,12 +940,6 @@
     "id": "r122038",
     "released": "2025",
     "title": "夏日遠洋假期"
-  },
-  {
-    "vid": "v50758",
-    "id": "r122872",
-    "released": "2025",
-    "title": "ゆめうつつクインテット"
   },
   {
     "vid": "v50905",
@@ -1198,5 +1192,11 @@
     "id": "r135047",
     "released": "2025",
     "title": "Love Mansion"
+  },
+  {
+    "vid": "v56147",
+    "id": "r135077",
+    "released": "2025",
+    "title": "メモリーズオフ 双想 NS Break out of my shell"
   }
 ]
