@@ -1,6 +1,4 @@
 vid;id;title;released
-v57762;r138486;楽園樹海;2025-07-11
-v57763;r138488;Witch’s Lewd Curse;2025-07-11
 v42099;r102684;Truer than You;2025-07-15
 v58109;r139217;人気番組全裸温泉レポートでアイドル◯役の裸見放題;2025-07-16
 v46520;r111577;New Perspective;2025-07-17
@@ -27,7 +25,6 @@ v55357;r134033;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-2
 v55357;r134036;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134037;伊達鍵は眠らない – From AI：ソムニウムファイル;2025-07-25
 v55357;r134038;伊達鍵は眠らない – From AI：ソムニウムファイル;2025-07-25
-v55357;r134040;伊達鍵は眠らない – From AI：ソムニウムファイル;2025-07-25
 v55357;r134042;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134043;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134045;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
@@ -35,13 +32,8 @@ v55357;r134048;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-2
 v55357;r134049;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134051;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134052;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
-v55357;r134053;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
-v55357;r134055;伊達鍵は眠らない – From AI：ソムニウムファイル;2025-07-25
-v55357;r134056;伊達鍵は眠らない – From AI：ソムニウムファイル;2025-07-25
 v55357;r134058;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
-v55357;r134060;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134061;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
-v55357;r134063;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55877;r134579;もっと!最高に都合のいいパイズリ上手のソフィーさん;2025-07-25
 v55877;r134580;もっと!最高に都合のいいパイズリ上手のソフィーさん;2025-07-25
 v55877;r134581;もっと!最高に都合のいいパイズリ上手のソフィーさん;2025-07-25
@@ -60,7 +52,7 @@ v27368;r137693;「もっと!最高に都合のいいパイズリ上手のソフ�
 v57458;r137986;神楽漫遊記 ~紫とちはや~;2025-07-25
 v57458;r137987;神楽漫遊記 ~紫とちはや~;2025-07-25
 v56756;r138203;あくめる∞ギャルズドミトリー 今日から始まる白黒ギャルのいいなり搾られ生活!;2025-07-25
-v58233;r139441;ロサンゼルス1985;2025-07-25
+v58237;r139449;暮雨流花+;2025-07-25
 v57894;r138661;お風呂のママは超エロい;2025-07-27
 v55197;r133016;風雨来記5;2025-07-31
 v55197;r133017;風雨来記5;2025-07-31
@@ -121,6 +113,7 @@ v55564;r136822;ハッピールートを終わらせて -;2025-10-02
 v32922;r79955;花鐘カナデ＊グラム Chapter:4 綾世奏;2025-10-31
 v57736;r138445;キミと恋するハッピーサマー;2025-10-31
 v57740;r138451;CRACK≡TRICK!;2025-10-31
+v58249;r139473;イケナイ子作りDX ~交際相手の母親とイケナイ子作り~;2025-10-31
 v57252;r138165;何度目かのはじめまして;2025-10
 v57704;r138392;햄릿: 동방의 왕자;2025-10
 v48532;r116697;虹彩都市;2025-11-28
@@ -198,4 +191,11 @@ v55179;r132965;柔蒂亚克：永眠之城;2025
 v55267;r133193;终曲。;2025
 v55286;r133238;纸房子;2025
 v55620;r133932;橘香仲夏;2025
-v55823;r134442;His Bet, Her Loss;2025
+v56044;r134914;彼德海姆之影;2025
+v56074;r134965;处处吻;2025
+v56130;r135047;Love Mansion;2025
+v56147;r135077;メモリーズオフ 双想 NS Break out of my shell;2025
+v56204;r135211;此间相;2025
+v56205;r135213;Trauma Record;2025
+v56624;r136231;我的高冷女友;2025
+v56705;r136416;Yoram - Question Arc;2025
