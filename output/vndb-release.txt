@@ -28,12 +28,9 @@ v55357;r134038;伊達鍵は眠らない – From AI：ソムニウムファイ�
 v55357;r134042;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134043;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134045;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
-v55357;r134048;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
-v55357;r134049;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134051;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134052;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55357;r134058;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
-v55357;r134061;No Sleep For Kaname Date – From AI: THE SOMNIUM FILES;2025-07-25
 v55877;r134579;もっと!最高に都合のいいパイズリ上手のソフィーさん;2025-07-25
 v55877;r134580;もっと!最高に都合のいいパイズリ上手のソフィーさん;2025-07-25
 v55877;r134581;もっと!最高に都合のいいパイズリ上手のソフィーさん;2025-07-25
@@ -53,6 +50,8 @@ v57458;r137986;神楽漫遊記 ~紫とちはや~;2025-07-25
 v57458;r137987;神楽漫遊記 ~紫とちはや~;2025-07-25
 v56756;r138203;あくめる∞ギャルズドミトリー 今日から始まる白黒ギャルのいいなり搾られ生活!;2025-07-25
 v58237;r139449;暮雨流花+;2025-07-25
+v58266;r139492;My Sweet Summer;2025-07-25
+v58275;r139509;年上ですが!?;2025-07-26
 v57894;r138661;お風呂のママは超エロい;2025-07-27
 v55197;r133016;風雨来記5;2025-07-31
 v55197;r133017;風雨来記5;2025-07-31
@@ -124,6 +123,8 @@ v49362;r118979;クローバー・メモリーズ;2025-11
 v49362;r122426;クローバー・メモリーズ 特殊演出パッチ;2025-11
 v57061;r137247;스테퍼 레트로: 초능력 추리 퀘스트;2025-11
 v50758;r122872;ゆめうつつクインテット;2025-12
+v55892;r134644;カタネガイ;2025-12
+v58268;r139495;おわりのまえに;2025-12
 v22625;r55819;コトネイロ;2025
 v24371;r59792;KARAKARA 3;2025
 v33120;r85556;"EDEN.schemata();";2025
@@ -198,4 +199,3 @@ v56147;r135077;メモリーズオフ 双想 NS Break out of my shell;2025
 v56204;r135211;此间相;2025
 v56205;r135213;Trauma Record;2025
 v56624;r136231;我的高冷女友;2025
-v56705;r136416;Yoram - Question Arc;2025
