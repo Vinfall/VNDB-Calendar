@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v42099",
-    "id": "r102684",
-    "released": "2025-07-15",
-    "title": "Truer than You"
-  },
-  {
     "vid": "v58109",
     "id": "r139217",
     "released": "2025-07-16",
@@ -816,12 +810,6 @@
     "title": "駭獣少女"
   },
   {
-    "vid": "v42851",
-    "id": "r103996",
-    "released": "2025",
-    "title": "The Girl Who Wasn't There"
-  },
-  {
     "vid": "v43113",
     "id": "r104484",
     "released": "2025",
@@ -1198,5 +1186,17 @@
     "id": "r136231",
     "released": "2025",
     "title": "我的高冷女友"
+  },
+  {
+    "vid": "v56705",
+    "id": "r136416",
+    "released": "2025",
+    "title": "Yoram - Question Arc"
+  },
+  {
+    "vid": "v56886",
+    "id": "r136887",
+    "released": "2025",
+    "title": "梵天世界の壊し方"
   }
 ]
