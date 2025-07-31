@@ -1,5 +1,4 @@
 vid;id;title;released
-v58109;r139217;人気番組全裸温泉レポートでアイドル◯役の裸見放題;2025-07-16
 v46520;r111577;New Perspective;2025-07-17
 v57484;r138049;可堪回首;2025-07-18
 v58102;r139196;浊令;2025-07-19
@@ -199,3 +198,4 @@ v56205;r135213;Trauma Record;2025
 v56624;r136231;我的高冷女友;2025
 v56705;r136416;Yoram - Question Arc;2025
 v56886;r136887;梵天世界の壊し方;2025
+v57821;r138568;Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges;2025
