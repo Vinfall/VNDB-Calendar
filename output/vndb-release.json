@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v57484",
-    "id": "r138049",
-    "released": "2025-07-18",
-    "title": "可堪回首"
-  },
-  {
     "vid": "v58102",
     "id": "r139196",
     "released": "2025-07-19",
@@ -244,18 +238,6 @@
     "id": "r137693",
     "released": "2025-07-25",
     "title": "「もっと!最高に都合のいいパイズリ上手のソフィーさん」＆「最高に都合のいいパイズリ上手のマリーさん MOTION EDETION」セット"
-  },
-  {
-    "vid": "v57458",
-    "id": "r137986",
-    "released": "2025-07-25",
-    "title": "神楽漫遊記 ~紫とちはや~"
-  },
-  {
-    "vid": "v57458",
-    "id": "r137987",
-    "released": "2025-07-25",
-    "title": "神楽漫遊記 ~紫とちはや~"
   },
   {
     "vid": "v56756",
@@ -1198,5 +1180,23 @@
     "id": "r138568",
     "released": "2025",
     "title": "Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges"
+  },
+  {
+    "vid": "v58087",
+    "id": "r139179",
+    "released": "2025",
+    "title": "おかしな物語"
+  },
+  {
+    "vid": "v58347",
+    "id": "r139666",
+    "released": "2025",
+    "title": "猫愿日记"
+  },
+  {
+    "vid": "v54933",
+    "id": "r132398",
+    "released": "2026-03",
+    "title": "心象天儀本線 ~Per aspera ad astra~"
   }
 ]
