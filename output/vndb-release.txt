@@ -1,5 +1,4 @@
 vid;id;title;released
-v58114;r139223;把竹马装进冰箱吧!;2025-07-20
 v55877;r137692;もっと!最高に都合のいいパイズリ上手のソフィーさん;2025-07-24
 v58305;r139555;大悪逆令嬢 ストラテジーオブリリィ;2025-07-24
 v32797;r84631;DeepOne-領界侵犯-;2025-07-25
@@ -198,4 +197,5 @@ v56886;r136887;梵天世界の壊し方;2025
 v57821;r138568;Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges;2025
 v58087;r139179;おかしな物語;2025
 v58347;r139666;猫愿日记;2025
+v58419;r139847;EmyLiveShow: Beach Days of Sun and Moon;2025
 v54933;r132398;心象天儀本線 ~Per aspera ad astra~;2026-03
