@@ -284,7 +284,7 @@
   {
     "vid": "v54846",
     "id": "r132173",
-    "released": "2025-08-07",
+    "released": "2025-08-08",
     "title": "이클립스 : Special Forces"
   },
   {
@@ -586,6 +586,18 @@
     "id": "r139756",
     "released": "2025-09-26",
     "title": "ボクをほっとけない後輩ギャル"
+  },
+  {
+    "vid": "v58310",
+    "id": "r140002",
+    "released": "2025-09-26",
+    "title": "天翔炎華エンブレイズ"
+  },
+  {
+    "vid": "v58310",
+    "id": "r140003",
+    "released": "2025-09-26",
+    "title": "天翔炎華エンブレイズ"
   },
   {
     "vid": "v55134",
@@ -1186,17 +1198,5 @@
     "id": "r138568",
     "released": "2025",
     "title": "Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges"
-  },
-  {
-    "vid": "v58087",
-    "id": "r139179",
-    "released": "2025",
-    "title": "おかしな物語"
-  },
-  {
-    "vid": "v58347",
-    "id": "r139666",
-    "released": "2025",
-    "title": "猫愿日记"
   }
 ]
