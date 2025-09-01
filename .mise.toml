@@ -31,6 +31,12 @@ env.FILTERS = "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-"
 run = "uv run vndb_calendar.py -f $FILTERS -t 0 -d 1 -b 0"
 alias = "zh"
 
+[tasks."build:zhpatch"]
+description = "build VNDB calendar with unofficial zh patch released in 2025"
+env.FILTERS = "04122wzh_dHans-2wzh_dHant-Ng1174172_0ceJ4"
+run = "uv run vndb_calendar.py -f $FILTERS -t 12775 -d 0 -b 1" # 30y ago - now
+alias = "zhpatch"
+
 # [tasks.build]
 # description = "build all variants at once"
 # depends = ["build:*"]

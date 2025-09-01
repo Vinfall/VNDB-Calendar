@@ -59,3 +59,18 @@ jobs:
           omitNameDuringUpdate: true
           artifacts: output/vndb-*
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: build VNDB calendar with unofficial zh patch released in 2025
+        run: mise run "build:zhpatch"
+
+      - name: upload artifact to release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          prerelease: false
+          tag: zhpatch
+          omitBody: true
+          omitBodyDuringUpdate: true
+          omitNameDuringUpdate: true
+          artifacts: output/vndb-*
+          token: ${{ secrets.GITHUB_TOKEN }}
