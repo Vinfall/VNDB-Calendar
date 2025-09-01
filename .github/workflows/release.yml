@@ -45,6 +45,21 @@ jobs:
           artifacts: output/vndb-*
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: build VNDB calendar with unofficial en patch released in 2025
+        run: mise run "build:enpatch"
+
+      - name: upload artifact to release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          prerelease: false
+          tag: enpatch
+          omitBody: true
+          omitBodyDuringUpdate: true
+          omitNameDuringUpdate: true
+          artifacts: output/vndb-*
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: build VNDB calendar with zh & ja releases
         run: mise run "build:zh"
 

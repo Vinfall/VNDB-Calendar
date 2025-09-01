@@ -25,6 +25,12 @@ env.FILTERS = "0572171_4YsVe122gen2gjaN48721gwcomplete-"
 run = "uv run vndb_calendar.py -f $FILTERS -t 0 -d 1 -b 0"
 alias = "en"
 
+[tasks."build:enpatch"]
+description = "build VNDB calendar with unofficial en patch released in 2025"
+env.FILTERS = "052genNg1174172_0ceJ4N483hen"
+run = "uv run vndb_calendar.py -f $FILTERS -t 12775 -d 0 -b 1" # since 1990
+alias = "enpatch"
+
 [tasks."build:zh"]
 description = "build VNDB calendar with zh & ja releases"
 env.FILTERS = "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-"
@@ -34,7 +40,7 @@ alias = "zh"
 [tasks."build:zhpatch"]
 description = "build VNDB calendar with unofficial zh patch released in 2025"
 env.FILTERS = "04122wzh_dHans-2wzh_dHant-Ng1174172_0ceJ4"
-run = "uv run vndb_calendar.py -f $FILTERS -t 12775 -d 0 -b 1" # 30y ago - now
+run = "uv run vndb_calendar.py -f $FILTERS -t 12775 -d 0 -b 1" # since 1990
 alias = "zhpatch"
 
 # [tasks.build]
