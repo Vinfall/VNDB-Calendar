@@ -6,16 +6,14 @@
 
 ## Intro
 
-This tiny tool allows you to create a calendar of [VNDB](https://vndb.org) [upcoming releases](https://vndb.org/r?f=01731;o=a;s=released). Everything is supposed to be automated via GitHub Actions after initial setup. If you choose to publish the `ICS` file, you can just subscribe it in any calendar app that supports iCalendar.
+This tiny tool allows you to create a calendar of [VNDB](https://vndb.org) [releases](https://vndb.org/r?f=01731;o=a;s=released). Everything is supposed to be automated via GitHub Actions after initial setup. If you choose to publish the `ICS` file, you can just subscribe it in any calendar app that supports iCalendar.
 
-[en](https://github.com/Vinfall/VNDB-Calendar/releases/download/en/vndb-calendar.ics) contains recent en & ja releases.
+[en](https://github.com/Vinfall/VNDB-Calendar/releases/download/en/vndb-calendar.ics) contains upcoming en & ja releases.
 Similarly, [enpatch](https://github.com/Vinfall/VNDB-Calendar/releases/download/enpatch/vndb-calendar.ics) for unofficial en localization/content restoration patches.
 
 ## Why
 
-For now VNDB only offers RSS for *Recent Changes*, but not *Upcoming Releases* or *Just Released*. There are multiple previous discussions about that but I don't think Yorhel is going to do that any time soon.
-
-This is created as a workaround for personal use and serves as an extension of my blog post [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) (written in Chinese).
+For now VNDB only offers RSS for *Recent Changes*, but not *Upcoming Releases* or *Just Released*. This is created as a workaround for personal use and serves as an extension of my blog post [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) (written in Chinese).
 
 ## Usage
 
@@ -32,7 +30,7 @@ To customize the query, run [`vndb_calendar.py`](vndb_calendar.py) with optional
 
 ### Wishlist Calendar
 
-This is basically an inferior version of release calendar, focused on a user's wishlist.
+This is basically an inferior version of release calendar with the focus on user wishlist.
 
 Nothing to customize actually, simply run [`wishlist.py`](wishlist.py):
 - `python wishlist.py -u "{uid}" -p {max_page}`
@@ -41,9 +39,9 @@ Nothing to customize actually, simply run [`wishlist.py`](wishlist.py):
 - `-p` or `--max-page`: maximum pages of query results, by default it will be `1`. As wishlist is fetched reversely, newest items come first. Each page has 100 items, so 1 page is usually suffecient if you use calendar only for upcoming releases.
 
 > [!NOTE]
-> `wishlist.py` assumes you use the default `wishlist` label and have not set it as private.
+> `wishlist.py` assumes you use the default `wishlist` label and have not set it to private.
 > If you prefer to use another default label or your custom labels to generate calendar,
-> use attached one-liner to determine the label id and change `default_filters` in the script.
+> use attached one-liner in the script to determine the label id and change `default_filters`.
 
 ## TODO
 

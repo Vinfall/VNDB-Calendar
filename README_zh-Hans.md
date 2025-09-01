@@ -4,7 +4,7 @@
 
 ## 介绍
 
-这是一个创建 [VNDB](https://vndb.org) [upcoming releases](https://vndb.org/r?f=01731;o=a;s=released) 日历的小工具。
+这是一个创建 [VNDB](https://vndb.org) [releases](https://vndb.org/r?f=01731;o=a;s=released) 日历的小工具。
 初始化后即可由 GitHub Actions 自动更新。
 如果公开 `ICS` 文件，那么可以在任意支持 iCalendar 的日历应用中订阅。
 
@@ -13,8 +13,7 @@
 
 ## 目的
 
-VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Released* 则没有提供。论坛之前讨论过好几次但 Yorhel 短期内应该不会做这个功能。
-
+VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Released* 则没有提供。
 这是个人使用的替代方案，同时当作博客文章 [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) 的拓展。
 
 ## 使用
