@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.5.0] - 2025-09-01
+
+### 🚀 Features
+
+- Add enpatch release calendar
+- Add zhpatch release calendar
+
+### 📚 Docs
+
+- Update usage command
+
+### 📦 Dependencies
+
+- Bump dependencies
+- Bump jdx/mise-action from 2 to 3
+- Bump actions/checkout from 4 to 5
+
 ## [5.3.1] - 2025-07-13
 
 ### 🚀 Features
