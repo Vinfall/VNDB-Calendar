@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v59870",
-    "id": "r143121",
-    "released": "2025-10-08",
-    "title": "Don’t Make Her Open Her Eyes!"
-  },
-  {
     "vid": "v58538",
     "id": "r140060",
     "released": "2025-10-09",
@@ -246,6 +240,12 @@
     "title": "虹彩都市"
   },
   {
+    "vid": "v44938",
+    "id": "r107945",
+    "released": "2025-11",
+    "title": "林中女巫"
+  },
+  {
     "vid": "v49362",
     "id": "r118979",
     "released": "2025-11",
@@ -442,12 +442,6 @@
     "id": "r107771",
     "released": "2025",
     "title": "Nowhere Manor"
-  },
-  {
-    "vid": "v44938",
-    "id": "r107945",
-    "released": "2025",
-    "title": "林中女巫"
   },
   {
     "vid": "v45382",
@@ -846,6 +840,12 @@
     "title": "PRIDE BLUE ~俺の愛した誇り高き令嬢は、父の支配の中で堕ちていく~"
   },
   {
+    "vid": "v59416",
+    "id": "r142117",
+    "released": "2026-02-26",
+    "title": "千銃士:Rhodoknight for Nintendo Switch(仮)"
+  },
+  {
     "vid": "v59406",
     "id": "r142097",
     "released": "2026-02-27",
@@ -1152,12 +1152,6 @@
     "title": "こぼした涙が芽吹く時。"
   },
   {
-    "vid": "v59416",
-    "id": "r142117",
-    "released": "2026",
-    "title": "千銃士:Rhodoknight for Nintendo Switch(仮)"
-  },
-  {
     "vid": "v59601",
     "id": "r142568",
     "released": "2026",
@@ -1198,5 +1192,11 @@
     "id": "r143220",
     "released": "2026",
     "title": "贤者：灵辉之焰"
+  },
+  {
+    "vid": "v59928",
+    "id": "r143244",
+    "released": "2026",
+    "title": "retrospect"
   }
 ]
