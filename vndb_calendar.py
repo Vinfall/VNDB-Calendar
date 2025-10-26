@@ -100,7 +100,7 @@ _RTYPE_PARTIAL_FILTER = ["or", ["rtype", "=", "partial"], ["rtype", "=", "comple
 # fmt: off
 _TAG_ID_FILTER = [
     7, 83, 117, 153, 161, 358, 897, 937, 988,
-    1300, 1462, 2051, 2548, 3084, 3105, 3391, 3684
+    1300, 1462, 2051, 2548, 3084, 3105, 3391, 3440, 3684
 ]
 _PROD_ID_FILTER = [
     # Bad scenario / nukige
