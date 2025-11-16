@@ -288,6 +288,12 @@
     "title": "True Colors -memories of the abyss-"
   },
   {
+    "vid": "v562",
+    "id": "r139142",
+    "released": "2025-12-26",
+    "title": "サクラノ詩－櫻の森の上を舞う－10th Anniversary edition"
+  },
+  {
     "vid": "v38037",
     "id": "r142100",
     "released": "2025-12-26",
@@ -592,12 +598,6 @@
     "id": "r130580",
     "released": "2025",
     "title": "ファントムゾーン・ラビュリントス"
-  },
-  {
-    "vid": "v54167",
-    "id": "r130657",
-    "released": "2025",
-    "title": "パーガトリー・ブルー"
   },
   {
     "vid": "v54391",
@@ -942,6 +942,12 @@
     "title": "セヴンデイズ 幽刻のミラーボール"
   },
   {
+    "vid": "v54167",
+    "id": "r130657",
+    "released": "2026-08",
+    "title": "パーガトリー・ブルー"
+  },
+  {
     "vid": "v59728",
     "id": "r142812",
     "released": "2026-10-03",
@@ -1192,11 +1198,5 @@
     "id": "r141088",
     "released": "2026",
     "title": "独鸢恋章-Love letter to Hibiscus"
-  },
-  {
-    "vid": "v59036",
-    "id": "r141097",
-    "released": "2026",
-    "title": "失败作 Wrecked"
   }
 ]
