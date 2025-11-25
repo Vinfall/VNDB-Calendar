@@ -21,7 +21,7 @@ alias = ["run", "custom", "default"]
 
 [tasks."build:en"]
 description = "build VNDB calendar with en & ja releases"
-env.FILTERS = "0572171_4YsVe122gen2gjaN48721gwcomplete-"
+env.FILTERS = "0472171_4YsVe122gja2gengwcomplete-"
 run = "uv run vndb_calendar.py -f $FILTERS -t 0 -d 1 -b 0"
 alias = "en"
 
@@ -33,7 +33,7 @@ alias = "enpatch"
 
 [tasks."build:zh"]
 description = "build VNDB calendar with zh & ja releases"
-env.FILTERS = "0572171_4YsVe132gja2wzh_dHans-2wzh_dHant-N48721gwcomplete-"
+env.FILTERS = "0472171_4YsVe132gja2wzh_dHans-2wzh_dHant-gwcomplete-"
 run = "uv run vndb_calendar.py -f $FILTERS -t 0 -d 1 -b 0"
 alias = "zh"
 

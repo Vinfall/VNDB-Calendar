@@ -124,7 +124,8 @@ default_filters = [
     # ["olang", "=", "ja"],
     ["released", "!=", "TBA"],
     ["released", ">=", _SHIFT_TIME],
-    ["vn", "=", ["and", ["released", ">=", _SHIFT_TIME]]],
+    # this would exclude hi-res Steam re-release
+    # ["vn", "=", ["and", ["released", ">=", _SHIFT_TIME]]],
     _RTYPE_COMPLETE_FILTER,  # 分割商法
     # Comment filters below to unhide BLG/Otome games
     [
