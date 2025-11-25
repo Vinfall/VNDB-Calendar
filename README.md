@@ -1,70 +1,74 @@
 # VNDB Calendar
 
-[![Build](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/custom.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/custom.yml) [![Release](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release.yml) [![Test](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml/badge.svg)](https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml)
+[![Build][build]][build-ci] [![Release][release]][release-ci] [![Test][test]][test-ci]
 
 中文介绍请看 [README_zh-Hans](README_zh-Hans.md)
 
 ## Intro
 
-This tiny tool allows you to create a calendar of [VNDB](https://vndb.org) [releases](https://vndb.org/r?f=01731;o=a;s=released). Everything is supposed to be automated via GitHub Actions after initial setup. If you choose to publish the `ICS` file, you can just subscribe it in any calendar app that supports iCalendar.
+For now VNDB only offers RSS for *Recent Changes*, but not *Upcoming Releases* or *Just Released*.
+This tool allows you to create a calendar of [VNDB](https://vndb.org) [upcoming releases][released],
+    and serves as an extension of my blog post [iCalendar (ICS) 的养成方式][ics] (written in Chinese).
 
-[en](https://github.com/Vinfall/VNDB-Calendar/releases/download/en/vndb-calendar.ics) contains upcoming en & ja releases.
-Similarly, [enpatch](https://github.com/Vinfall/VNDB-Calendar/releases/download/enpatch/vndb-calendar.ics) for unofficial en localization/content restoration patches.
+After initial setup, everything would be automatically updated.
+If you choose to publish the `ICS` file, you can subscribe it in any calendar app that supports iCalendar.
 
-## Why
+These example calendars are provided for quick test, if they already satisfy you, no need to read further:
+- [en][en]: upcoming en & ja releases
+- [enpatch][enpatch]: unofficial en localization/content restoration patches released in 2025
 
-For now VNDB only offers RSS for *Recent Changes*, but not *Upcoming Releases* or *Just Released*. This is created as a workaround for personal use and serves as an extension of my blog post [iCalendar (ICS) 的养成方式](https://blog.vinfall.com/posts/2023/12/ics/) (written in Chinese).
+## Setup
 
-## Usage
+If you want a more personalized calendar, you may want to fork the repo and customize your query.
+More details about parameter are available in [USAGE](USAGE.md).
 
-### Release Calendar
+Minimal setup workflow:
+1. Head to [Browse releases][vndb] page on VNDB, customize your filters here and copy the *filters*
+   - For example, the URL for [enpatch][enpatch] query would be something like this:
+     - `https://vndb.org/r?q=&o=a&s=title&f=052genNg1174172_0ceJ4N483hen`
+     - `https://vndb.org/r?f=052genNg1174172_0ceJ4N483hen&o=a&s=released`
+   - The *filters* here are `052genNg1174172_0ceJ4N483hen`, which is needed later
+2. Fork the repo
+3. Replace `default_filters` in [vndb_calendar.py](vndb_calendar.py) with your filters here
 
-To customize the query, run [`vndb_calendar.py`](vndb_calendar.py) with optional parameters:
-- `python vndb_calendar.py -f {customized_compact_filter} -p {max_page} -t {shift_time} -d {1 or 0} -b {0 or 1}`
-- Example of generic filters for en & ja upcoming releases with description: `python vndb-calendar.py -f "0572171_4YsVe122gen2gjaN48721gwcomplete-" -t 0 -d 1 -b 0`
-- `-f` or `--filter`: your custom [compact filters](https://api.vndb.org/kana#filters), by default it would use my personalized one
-- `-p` or `--max-page`: maximum pages of query results, by default it will be `2`
-- `-t` or `--shift-time`: show *new* releases X days ago, it's really upcoming release if set to `0`, by default it will be `14`
-- `-d`, `--description` or `--intro`: add VN description to calendar event, bool type (only `0`/`1` is supported), by default `0`/`False`
-- `-b`, `--beta` or `--partial`: show partial releases in query results, e.g. multiple chapters
+    ```python
+    # fmt: on
 
-### Wishlist Calendar
+    # ↓↓↓ change this line ↓↓↓
+    default_filters = "052genNg1174172_0ceJ4N483hen"
+    # ↑↑↑ change this line ↑↑↑
 
-This is basically an inferior version of release calendar with the focus on user wishlist.
+    default_data = {
+        ...
+    }
+    ```
 
-Nothing to customize actually, simply run [`wishlist.py`](wishlist.py):
-- `python wishlist.py -u "{uid}" -p {max_page}`
-- Example of Yorhel's wishlist: `python wishlist.py -u "u2"`
-- `-u` or `--user`: user id **with** 'u', e.g. `u2`
-- `-p` or `--max-page`: maximum pages of query results, by default it will be `1`. As wishlist is fetched reversely, newest items come first. Each page has 100 items, so 1 page is usually suffecient if you use calendar only for upcoming releases.
+4. Get your personalized calendar at [output/vndb-calendar.ics][custom] (change your username in URL)
 
-> [!NOTE]
-> `wishlist.py` assumes you use the default `wishlist` label and have not set it to private.
-> If you prefer to use another default label or your custom labels to generate calendar,
-> use attached one-liner in the script to determine the label id and change `default_filters`.
+## Contrib
 
-## TODO
+Any contribution is appreciated!
 
-- [x] Remove redundant releases of the same VN
-- [x] Declutter common release variate titles like `ダウンロード版` and `DLカード版`
-- [x] Better handling of incomplete date like `2026` and `2024-02`
-- [x] Find out why many filters would make responses 400 (misplaced filter params)
-- [x] Filter out BLG/Otome game & other tags I wish to avoid
-- [x] Add filters arguments (you can use [compact filters](https://api.vndb.org/kana#filters) to quickly customize the results)
-- [x] Make calendar with generic en & ja releases (in a tagged automated release)
-- [x] Add VN description in calendar events and make it a parameter
-- [x] Add user wishlist, just like SteamWishlistCalendar
-- [x] Support partial releases
-- [ ] Fix event parsing bug caused by `rid` & `event_dict`
-- [ ] Do not use alternative title in en tagged release (low priority, I assume people would prefer literal title instead of confusing Romaji)
-- [ ] Add external links (Getchu/DMM/DLsite/Steam/Official website etc.) to event description (low priority, quite long already with VN description)
-
-## Contribution
-
-If you happen to know Perl, I suggest you to contribute to VNDB directly (reference: [vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb](https://code.blicky.net/yorhel/vndb/src/branch/master/lib/VNWeb/Misc/Feeds.pm)) so no third party tool is needed. That being said, any contribution is appreciated, either to VNDB or this repository.
+If you happen to know Perl, you'd better contribute to VNDB directly (reference: [vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb][Feeds.pm]) to get rid of third party tool.
 
 ## Acknowledgement
 
-- Inspired by [SteamWishlistCalendar](https://github.com/icue/SteamWishlistCalendar), which I highly recommend in favor of email notifications
-- [VNDB Steam Enhancer](https://greasyfork.org/en/scripts/456166-vndb-steam-enhancer/code) is another learning source for interacting with VNDB API
+- Inspired by [SteamWishlistCalendar][swc], which I highly recommend in favor of email notifications
+- [VNDB Steam Enhancer][vndb-steam-enhancer] is another learning source for interacting with VNDB API
 - Thanks to all VNDB contributors & editors for making such a great site available
+
+[build]: https://github.com/Vinfall/VNDB-Calendar/actions/workflows/custom.yml/badge.svg
+[build-ci]: https://github.com/Vinfall/VNDB-Calendar/actions/workflows/custom.yml
+[release]: https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release.yml/badge.svg
+[release-ci]: https://github.com/Vinfall/VNDB-Calendar/actions/workflows/release.yml
+[test]: https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml/badge.svg
+[test-ci]: https://github.com/Vinfall/VNDB-Calendar/actions/workflows/test.yml
+[released]: https://vndb.org/r?f=01731&o=a&s=released
+[en]: https://github.com/Vinfall/VNDB-Calendar/releases/download/en/vndb-calendar.ics
+[enpatch]: https://github.com/Vinfall/VNDB-Calendar/releases/download/enpatch/vndb-calendar.ics
+[ics]: https://blog.vinfall.com/posts/2023/12/ics/
+[Feeds.pm]: https://code.blicky.net/yorhel/vndb/src/branch/master/lib/VNWeb/Misc/Feeds.pm
+[swc]: https://github.com/icue/SteamWishlistCalendar
+[vndb-steam-enhancer]: https://greasyfork.org/en/scripts/456166-vndb-steam-enhancer/code
+[custom]: https://github.com/yourusername/VNDB-Calendar/raw/refs/heads/main/output/vndb-calendar.ics
+[vndb]: https://vndb.org/r
