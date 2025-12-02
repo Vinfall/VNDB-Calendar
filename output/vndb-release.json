@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v60592",
-    "id": "r145034",
-    "released": "2025-11-17",
-    "title": "茧房"
-  },
-  {
     "vid": "v24935",
     "id": "r136812",
     "released": "2025-11-18",
@@ -352,6 +346,12 @@
     "id": "r145047",
     "released": "2025-12-18",
     "title": "赠予神家与谎言"
+  },
+  {
+    "vid": "v60720",
+    "id": "r145356",
+    "released": "2025-12-18",
+    "title": "Ahhnalog 112"
   },
   {
     "vid": "v14",
@@ -780,30 +780,6 @@
     "title": "プログレスオルター"
   },
   {
-    "vid": "v40588",
-    "id": "r121590",
-    "released": "2025",
-    "title": "The Wreck"
-  },
-  {
-    "vid": "v40588",
-    "id": "r122163",
-    "released": "2025",
-    "title": "The Wreck"
-  },
-  {
-    "vid": "v40588",
-    "id": "r122164",
-    "released": "2025",
-    "title": "The Wreck"
-  },
-  {
-    "vid": "v40588",
-    "id": "r122166",
-    "released": "2025",
-    "title": "The Wreck"
-  },
-  {
     "vid": "v50905",
     "id": "r123292",
     "released": "2025",
@@ -1198,5 +1174,29 @@
     "id": "r144835",
     "released": "2026-02-26",
     "title": "伊達鍵は眠らない – From AI：ソムニウムファイル"
+  },
+  {
+    "vid": "v55357",
+    "id": "r144839",
+    "released": "2026-02-26",
+    "title": "伊達鍵は眠らない – From AI：ソムニウムファイル"
+  },
+  {
+    "vid": "v55357",
+    "id": "r144867",
+    "released": "2026-02-26",
+    "title": "伊達鍵は眠らない – From AI：ソムニウムファイル - PS5 Tote Bag Bundle"
+  },
+  {
+    "vid": "v59406",
+    "id": "r142097",
+    "released": "2026-02-27",
+    "title": "タユタマ零"
+  },
+  {
+    "vid": "v60196",
+    "id": "r143898",
+    "released": "2026-02-27",
+    "title": "流星ワールドアクター Gaslight Bullet"
   }
 ]
