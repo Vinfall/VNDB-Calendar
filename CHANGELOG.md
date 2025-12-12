@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.7.2] - 2025-12-12
+
+### 🐛 Fixes
+
+- Exclude dvdpg
+- Include re-release
+
+### 📦 Dependencies
+
+- Bump uv.lock
+- Bump python to 3.14 per PEP 745
+- Bump actions/checkout from 5 to 6
+- Bump Python Matrix to 3.13~3.14 per PEP 745
+- Revert zizmor to ubi backend
+
+### 🛠️ Chores
+
+- Update regex filters
+- Add dependency cooldown
+- Pin ad-m/github-push-action to v1
+- Use native `gh release upload`
+- Update tag filters
+
 ## [5.5.0] - 2025-09-01
 
 ### 🚀 Features
