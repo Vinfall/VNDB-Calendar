@@ -6,13 +6,13 @@
 # ICS: https://icspy.readthedocs.io/en/stable/api.html#event
 # Argparse: https://docs.python.org/3/library/argparse.html
 # Dateparser: https://dateparser.readthedocs.io/en/latest/settings.html#handling-incomplete-dates
-
 import argparse
 import csv
 import json
 import os
 import re
 import sys
+from argparse import Namespace
 from datetime import datetime, timedelta
 from typing import Any
 
@@ -35,7 +35,7 @@ _YEAR_ONLY_REGEX = "^(\\d{4})$"
 _YYYYMM_ONLY_REGEX = "^(\\d{4}-\\d{2})$"
 
 # Block word list full of hacky regex
-_TO_REPLACE = [
+_TO_REPLACE: list[str] = [
     "(Windows)?( )?パッケージ(特装)?(初回)?版",
     "( )?ダウンロード(通常)?(特装)?(豪華)?(カード)?版",
     " オナホール同梱版",
@@ -98,11 +98,11 @@ _RTYPE_COMPLETE_FILTER = ["rtype", "=", "complete"]
 _RTYPE_PARTIAL_FILTER = ["or", ["rtype", "=", "partial"], ["rtype", "=", "complete"]]
 
 # fmt: off
-_TAG_ID_FILTER = [
+_TAG_ID_FILTER: list[int] = [
     7, 83, 117, 153, 161, 358, 897, 937, 988,
     1300, 1462, 2051, 2548, 3084, 3105, 3391, 3440, 3684
 ]
-_PROD_ID_FILTER = [
+_PROD_ID_FILTER: list[int] = [
     # Bad scenario / nukige
     215, 918, 1873, 1976, 2107, 2320, 2667, 3337, 4019, 4488, 5321, 5402, 7234,
     11502, 11860, 11862, 12518, 13110, 13155,
@@ -220,7 +220,7 @@ parser.add_argument(
     default=False,
     help="show partial releases in query results",
 )
-args = parser.parse_args()
+args: Namespace = parser.parse_args()
 
 
 def get_page(max_page: int, data: dict[str, Any]) -> list[dict[str, Any]]:
@@ -363,7 +363,7 @@ def last_day_of_next_month(dt: datetime) -> datetime:
 # Make calendar
 def make_calendar(processed_results: list[dict[str, Any]]) -> None:
     cal = Calendar(creator="VNDBCalendar")
-    now = datetime.now()  # noqa: DTZ005
+    now: datetime = datetime.now()  # noqa: DTZ005
     event_dict = {}
 
     for result in processed_results:
