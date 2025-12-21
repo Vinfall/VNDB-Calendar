@@ -65,13 +65,15 @@ _TO_REPLACE: list[str] = [
     " 数量限定(.*)?版",
     # Special cases
     # " Episode:[0-9].*?$",  # VenusBlood series
-    " ボイスドラマ付き限定版",  # v51288
-    " のぞみ初恋BOX",  # v55885
-    " タペストリー付属版",  # v51309
-    " スペシャルボックス",  # v50614
     " DLsite限定版",  # v53297
     " 特典付き限定版",  # v54776
     " 特典付限定版",  # v55358
+    " - 初回生産版",  # v94
+    " - 初回生産 .*?Ver.",
+    " アクリルアート付属版",  # v59411
+    " アクリルジオラマつき限定版",  # v943
+    " 特製DVDドライブ付き限定版",
+    "舞佳抱き枕カバー付き",  # v61221
 ]
 # Normalize character (full -> half width)
 _TO_REPLACE_WIDTH = (
