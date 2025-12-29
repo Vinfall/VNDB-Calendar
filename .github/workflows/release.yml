@@ -32,16 +32,14 @@ jobs:
 
       - name: build VNDB calendar with en & ja releases
         run: mise run "build:en"
-
       - name: upload to release
         run: gh release upload "${TAG}" --clobber output/vndb-*
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: en
 
-      - name: build VNDB calendar with unofficial en patch released in 2025
+      - name: build VNDB calendar with unofficial en patch released since 2025-07
         run: mise run "build:enpatch"
-
       - name: upload to release
         run: gh release upload "${TAG}" --clobber output/vndb-*
         env:
@@ -50,16 +48,14 @@ jobs:
 
       - name: build VNDB calendar with zh & ja releases
         run: mise run "build:zh"
-
       - name: upload to release
         run: gh release upload "${TAG}" --clobber output/vndb-*
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: zh
 
-      - name: build VNDB calendar with unofficial zh patch released in 2025
+      - name: build VNDB calendar with unofficial zh patch released since 2025-07
         run: mise run "build:zhpatch"
-
       - name: upload to release
         run: gh release upload "${TAG}" --clobber output/vndb-*
         env:

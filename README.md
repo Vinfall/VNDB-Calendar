@@ -15,7 +15,7 @@ If you choose to publish the `ICS` file, you can subscribe it in any calendar ap
 
 These example calendars are provided for quick test, if they already satisfy you, no need to read further:
 - [en][en]: upcoming en & ja releases
-- [enpatch][enpatch]: unofficial en localization/content restoration patches released in 2025
+- [enpatch][enpatch]: unofficial en localization/content restoration patches released since mid-2025
 
 ## Setup
 
@@ -25,9 +25,9 @@ More details about parameter are available in [USAGE](USAGE.md).
 Minimal setup workflow:
 1. Head to [Browse releases][vndb] page on VNDB, customize your filters here and copy the *filters*
    - For example, the URL for [enpatch][enpatch] query would be something like this:
-     - `https://vndb.org/r?q=&o=a&s=title&f=052genNg1174172_0ceJ4N483hen`
-     - `https://vndb.org/r?f=052genNg1174172_0ceJ4N483hen&o=a&s=released`
-   - The *filters* here are `052genNg1174172_0ceJ4N483hen`, which is needed later
+     - `https://vndb.org/r?q=&o=a&s=title&f=052genNg1174172_0ceSsN483hen`
+     - `https://vndb.org/r?f=052genNg1174172_0ceSsN483hen&o=a&s=released`
+   - The *filters* here are `052genNg1174172_0ceSsN483hen`, which is needed later
 2. Fork the repo
 3. Replace `default_filters` in [vndb_calendar.py](vndb_calendar.py) with your filters here
 
@@ -35,7 +35,7 @@ Minimal setup workflow:
     # fmt: on
 
     # ↓↓↓ change this line ↓↓↓
-    default_filters = "052genNg1174172_0ceJ4N483hen"
+    default_filters = "052genNg1174172_0ceSsN483hen"
     # ↑↑↑ change this line ↑↑↑
 
     default_data = {
