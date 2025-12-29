@@ -20,14 +20,37 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 对日历的进一步定制需要 fork repo 并修改查询条件。
 [USAGE](USAGE_zh-Hans.md) 文件包含运行参数的更多细节。
 
-精简的配置流程：
+配置流程分为愿望单和进阶配置两种，轻度用户更推荐使用愿望单。
+
+<details name="workflow" open>
+<summary>愿望单</summary>
+
+1. 找到你的 VNDB ID，比如 Yorhel 的 ID 就是 `u2`
+2. Fork 本仓库，删除 [release.yml](.github/workflows/release.yml)
+3. 替换 [.mise.toml](.mise.toml) `build:custom` 任务的命令，提交修改
+
+    ```diff
+    [tasks."build:custom"]
+    description = "build my custom calendar"
+    -run = "uv run vndb_calendar.py"
+    +run = "uv run wishlist.py -u 'u2'" # 替换 'u2' 为你的 VNDB ID
+    alias = ["run", "custom", "default"]
+    ```
+
+4. 在 [output/vndb-calendar.ics][custom] 获取个性化日历（记得修改 URL 中的用户名）
+
+</details>
+
+<details name="workflow">
+<summary>进阶配置</summary>
+
 1. 打开 VNDB [Browser releases][vndb] 页面，修改查询条件，并复制 *filters*
    - 举例说明，[zhpatch][zhpatch] 对应的 URL 可能是这样的：
      - `https://vndb.org/r?q=&o=a&s=title&f=04122wzh_dHans-2wzh_dHant-Ng1174172_0ceSs`
      - `https://vndb.org/r?f=04122wzh_dHans-2wzh_dHant-Ng1174172_0ceSs&o=a&s=released`
    - 这里的 *filters* 就是 `04122wzh_dHans-2wzh_dHant-Ng1174172_0ceSs`，之后会用到它
-2. Fork 本仓库
-3. 用前面复制的 filters 替换 [vndb_calendar.py](vndb_calendar.py) 中的 `default_filters`
+2. Fork 本仓库，删除 [release.yml](.github/workflows/release.yml)
+3. 用前面复制的 filters 替换 [vndb_calendar.py](vndb_calendar.py) 中的 `default_filters`，提交修改
 
     ```python
     # fmt: on
@@ -43,9 +66,11 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 4. 在 [output/vndb-calendar.ics][custom] 获取个性化日历（记得修改 URL 中的用户名）
 
+</details>
+
 ## 贡献
 
-如果你恰好知道 Perl，我建议直接向 VNDB 提交代码（相关文件：[vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb][Feeds.pm]），摆脱第三方工具，一劳永逸。
+如果你恰好知道 Perl，我建议直接向 VNDB 提交代码（相关文件：[vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb][Feeds.pm]）。
 当然，我也欢迎任何对本仓库的贡献。
 
 ## 致谢

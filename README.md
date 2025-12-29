@@ -22,14 +22,38 @@ These example calendars are provided for quick test, if they already satisfy you
 If you want a more personalized calendar, you may want to fork the repo and customize your query.
 More details about parameter are available in [USAGE](USAGE.md).
 
-Minimal setup workflow:
+You can choose between wishlist/advanced setup.
+Wishlist is recommended for most users.
+
+<details name="workflow" open>
+<summary>Wishlist</summary>
+
+1. Find your VNDB ID, e.g. Yorhel's ID is `u2`
+2. Fork the repo, delete [release.yml](.github/workflows/release.yml)
+3. Replace commands in [.mise.toml](.mise.toml) `build:custom` task, commit the change
+
+    ```diff
+    [tasks."build:custom"]
+    description = "build my custom calendar"
+    -run = "uv run vndb_calendar.py"
+    +run = "uv run wishlist.py -u 'u2'" # Replace 'u2' with your VNDB ID
+    alias = ["run", "custom", "default"]
+    ```
+
+4. Get your personalized calendar at [output/vndb-calendar.ics][custom] (change your username in URL)
+
+</details>
+
+<details name="workflow">
+<summary>Advanced</summary>
+
 1. Head to [Browse releases][vndb] page on VNDB, customize your filters here and copy the *filters*
    - For example, the URL for [enpatch][enpatch] query would be something like this:
      - `https://vndb.org/r?q=&o=a&s=title&f=052genNg1174172_0ceSsN483hen`
      - `https://vndb.org/r?f=052genNg1174172_0ceSsN483hen&o=a&s=released`
    - The *filters* here are `052genNg1174172_0ceSsN483hen`, which is needed later
-2. Fork the repo
-3. Replace `default_filters` in [vndb_calendar.py](vndb_calendar.py) with your filters here
+2. Fork the repo, delete [release.yml](.github/workflows/release.yml)
+3. Replace `default_filters` in [vndb_calendar.py](vndb_calendar.py) with your filters here, commit the change
 
     ```python
     # fmt: on
@@ -45,11 +69,13 @@ Minimal setup workflow:
 
 4. Get your personalized calendar at [output/vndb-calendar.ics][custom] (change your username in URL)
 
+</details>
+
 ## Contrib
 
 Any contribution is appreciated!
 
-If you happen to know Perl, you'd better contribute to VNDB directly (reference: [vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb][Feeds.pm]) to get rid of third party tool.
+If you happen to know Perl, you'd better contribute to VNDB directly (reference: [vndb/lib/VNWeb/Misc/Feeds.pm - yorhel/vndb][Feeds.pm]).
 
 ## Acknowledgement
 
