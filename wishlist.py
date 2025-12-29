@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+from argparse import Namespace
 from datetime import datetime, timedelta
 from typing import Any
 
@@ -64,7 +65,7 @@ default_data = {
 
 # Arguments for easy customization
 wishlist_parser = argparse.ArgumentParser()
-# 2 is sufficient enough in most cases
+# 1 is enough for wishlist
 wishlist_parser.add_argument(
     "-p",
     "--max-page",
@@ -81,7 +82,7 @@ wishlist_parser.add_argument(
     default="u2",
     help="user id with 'u', e.g. 'u2'",
 )
-args = wishlist_parser.parse_args()
+args: Namespace = wishlist_parser.parse_args()
 
 
 def get_page(max_page: int, data: dict[str, Any]) -> list[dict[str, Any]]:
@@ -180,7 +181,7 @@ def last_day_of_next_month(dt: datetime) -> datetime:
 # Make calendar
 def make_calendar(processed_results: list[dict[str, Any]]) -> None:
     cal = Calendar(creator="VNDBWishlistCalendar")
-    now = datetime.now()  # noqa: DTZ005
+    now: datetime = datetime.now()  # noqa: DTZ005
     event_dict = {}
 
     for result in processed_results:

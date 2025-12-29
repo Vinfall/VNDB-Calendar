@@ -43,9 +43,10 @@ env.FILTERS = "04122wzh_dHans-2wzh_dHant-Ng1174172_0ceSs"
 run = "uv run vndb_calendar.py -f $FILTERS -t 12775 -d 0 -b 1" # since 1990
 alias = "zhpatch"
 
-# [tasks.build]
-# description = "build all variants at once"
-# depends = ["build:*"]
+[tasks."test:wishlist"]
+description = "test VNDB wishlist calendar"
+run = "uv run wishlist.py -u 'u2'"
+alias = "wishlist"
 
 [tasks."lint:py"]
 description = "lint python"
