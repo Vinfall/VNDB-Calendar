@@ -12,7 +12,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 如果选择公开 `ICS` 文件，那么可以在支持 iCalendar 的日历应用中订阅。
 
 为方便测试，项目默认提供了下列发售日历。如果这些已经满足你的需求，没有必要阅读配置部分。
-- [zh][zh]: 2025 年已发售的中/日视觉小说
+- [zh][zh]: 尚未发售的中/日视觉小说
 - [zhpatch][zhpatch]: 2025 下半年至今发布的民间汉化补丁
 
 ## 配置
