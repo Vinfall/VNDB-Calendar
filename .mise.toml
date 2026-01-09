@@ -1,7 +1,7 @@
 [tools]
 uv = "latest"
 ruff = "latest"
-"pipx:ty" = "latest"
+ty = "latest"
 "pipx:zizmor" = "latest"
 actionlint = "latest"
 yamllint = "latest"
