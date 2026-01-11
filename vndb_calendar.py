@@ -28,7 +28,7 @@ _ICS_FILE = "vndb-calendar.ics"
 
 # Date format
 # _SHIFT_TIME = "today"
-_SHIFT_TIME = (datetime.now() - timedelta(days=14)).strftime("%Y-%m-%d")  # noqa: DTZ005
+_SHIFT_TIME: str = (datetime.now() - timedelta(days=14)).strftime("%Y-%m-%d")  # noqa: DTZ005
 # Mid year
 _MID_YEAR = "-09-15"
 _YEAR_ONLY_REGEX = "^(\\d{4})$"
@@ -68,12 +68,16 @@ _TO_REPLACE: list[str] = [
     " DLsite限定版",  # v53297
     " 特典付き限定版",  # v54776
     " 特典付限定版",  # v55358
+    " DL特装版",  # v61334
     " - 初回生産版",  # v94
     " - 初回生産 .*?Ver.",
     " アクリルアート付属版",  # v59411
     " アクリルジオラマつき限定版",  # v943
     " 特製DVDドライブ付き限定版",
     "舞佳抱き枕カバー付き",  # v61221
+    " - PS5 Tote Bag Bundle",  # v55357
+    " 第七共和国出国パック",  # v60196
+    " 復刻 フォルトSA",  # v943
 ]
 # Normalize character (full -> half width)
 _TO_REPLACE_WIDTH = (
