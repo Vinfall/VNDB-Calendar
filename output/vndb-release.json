@@ -1,65 +1,5 @@
 [
   {
-    "vid": "v53128",
-    "id": "r128194",
-    "released": "2025-12-31",
-    "title": "生命の栞"
-  },
-  {
-    "vid": "v55892",
-    "id": "r134644",
-    "released": "2025-12-31",
-    "title": "カタネガイ 超自己満オシャレ"
-  },
-  {
-    "vid": "v56204",
-    "id": "r135211",
-    "released": "2025-12-31",
-    "title": "此间相"
-  },
-  {
-    "vid": "v57154",
-    "id": "r137443",
-    "released": "2025-12-31",
-    "title": "Smile Remaster ~スマイルリマスター~"
-  },
-  {
-    "vid": "v53486",
-    "id": "r145181",
-    "released": "2025-12-31",
-    "title": "废村少女［贰］ ~幽秘蛊惑的姬之匣~"
-  },
-  {
-    "vid": "v61037",
-    "id": "r145896",
-    "released": "2025-12-31",
-    "title": "おにいちゃんコンティニュー! ゆうりとぷらすめいくらぶ"
-  },
-  {
-    "vid": "v61129",
-    "id": "r146104",
-    "released": "2025-12-31",
-    "title": "죽이는 마법소녀"
-  },
-  {
-    "vid": "v61283",
-    "id": "r146409",
-    "released": "2025-12-31",
-    "title": "ナカ〇シクリエイティ部"
-  },
-  {
-    "vid": "v58596",
-    "id": "r146676",
-    "released": "2025-12-31",
-    "title": "DONARE 【DLC付き】"
-  },
-  {
-    "vid": "v61405",
-    "id": "r146710",
-    "released": "2025-12-31",
-    "title": "别看后视镜"
-  },
-  {
     "vid": "v48650",
     "id": "r123033",
     "released": "2026-01-01",
@@ -186,16 +126,34 @@
     "title": "DONARE 【追加コンテンツ】"
   },
   {
+    "vid": "v59268",
+    "id": "r147232",
+    "released": "2026-01-11",
+    "title": "MAHOUTEQ!"
+  },
+  {
     "vid": "v55892",
     "id": "r147214",
     "released": "2026-01-12",
     "title": "片方的祈愿"
   },
   {
-    "vid": "v59455",
-    "id": "r142243",
-    "released": "2026-01-21",
-    "title": "广式双马尾的报恩"
+    "vid": "v61350",
+    "id": "r147279",
+    "released": "2026-01-15",
+    "title": "The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to 0.0001%?!"
+  },
+  {
+    "vid": "v61350",
+    "id": "r147280",
+    "released": "2026-01-15",
+    "title": "The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to 0.0001%?!"
+  },
+  {
+    "vid": "v55267",
+    "id": "r133193",
+    "released": "2026-01-16",
+    "title": "终曲。"
   },
   {
     "vid": "v61420",
@@ -1198,5 +1156,47 @@
     "id": "r117440",
     "released": "2026",
     "title": "FORTUNE×WORLD~僕らがゲームを作る理由~"
+  },
+  {
+    "vid": "v49362",
+    "id": "r118979",
+    "released": "2026",
+    "title": "Clover Memory's"
+  },
+  {
+    "vid": "v50351",
+    "id": "r121732",
+    "released": "2026",
+    "title": "同居人 - under one roof -"
+  },
+  {
+    "vid": "v50480",
+    "id": "r122038",
+    "released": "2026",
+    "title": "夏日遠洋假期"
+  },
+  {
+    "vid": "v49362",
+    "id": "r122426",
+    "released": "2026",
+    "title": "クローバー・メモリーズ 特殊演出パッチ"
+  },
+  {
+    "vid": "v51151",
+    "id": "r123822",
+    "released": "2026",
+    "title": "旅人的紫阳"
+  },
+  {
+    "vid": "v51160",
+    "id": "r123871",
+    "released": "2026",
+    "title": "吸血鬼の花嫁 The Novel Game"
+  },
+  {
+    "vid": "v51620",
+    "id": "r124988",
+    "released": "2026",
+    "title": "어서오세요! 셰어하우스에!"
   }
 ]
