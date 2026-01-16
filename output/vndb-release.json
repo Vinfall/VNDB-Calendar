@@ -1,47 +1,5 @@
 [
   {
-    "vid": "v48650",
-    "id": "r123033",
-    "released": "2026-01-01",
-    "title": "天之和弦"
-  },
-  {
-    "vid": "v60862",
-    "id": "r145621",
-    "released": "2026-01-01",
-    "title": "某天成为妹妹"
-  },
-  {
-    "vid": "v55892",
-    "id": "r145878",
-    "released": "2026-01-01",
-    "title": "カタネガイ"
-  },
-  {
-    "vid": "v61037",
-    "id": "r145897",
-    "released": "2026-01-01",
-    "title": "おにいちゃんコンティニュー! ゆうりとぷらすめいくらぶ"
-  },
-  {
-    "vid": "v55892",
-    "id": "r146683",
-    "released": "2026-01-01",
-    "title": "只愿"
-  },
-  {
-    "vid": "v18027",
-    "id": "r146762",
-    "released": "2026-01-01",
-    "title": "To Love-Ru Darkness  ~真正的公主~"
-  },
-  {
-    "vid": "v61426",
-    "id": "r146769",
-    "released": "2026-01-01",
-    "title": "逐冬"
-  },
-  {
     "vid": "v59919",
     "id": "r143214",
     "released": "2026-01-02",
@@ -141,13 +99,13 @@
     "vid": "v61350",
     "id": "r147279",
     "released": "2026-01-15",
-    "title": "The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to 0.0001%?!"
+    "title": "The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to 0.0001%?! - v1.1"
   },
   {
     "vid": "v61350",
     "id": "r147280",
     "released": "2026-01-15",
-    "title": "The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to 0.0001%?!"
+    "title": "The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to 0.0001%?! - v1.1"
   },
   {
     "vid": "v55267",
@@ -160,6 +118,18 @@
     "id": "r146755",
     "released": "2026-01-21",
     "title": "树海迷宫"
+  },
+  {
+    "vid": "v43223",
+    "id": "r147293",
+    "released": "2026-01-21",
+    "title": "Orwell: Ignorance is Strength"
+  },
+  {
+    "vid": "v28587",
+    "id": "r147294",
+    "released": "2026-01-21",
+    "title": "Orwell: Keeping an Eye On You"
   },
   {
     "vid": "v60168",
@@ -594,12 +564,6 @@
     "title": "バロックを抱く揺籠"
   },
   {
-    "vid": "v52402",
-    "id": "r126672",
-    "released": "2026-03-05",
-    "title": "Coffee Talk Tokyo"
-  },
-  {
     "vid": "v60395",
     "id": "r144507",
     "released": "2026-03-19",
@@ -960,10 +924,40 @@
     "title": "人妻上司の分からせ方"
   },
   {
+    "vid": "v52402",
+    "id": "r126672",
+    "released": "2026-05-21",
+    "title": "Coffee Talk Tokyo"
+  },
+  {
     "vid": "v61214",
     "id": "r146256",
     "released": "2026-05",
     "title": "双子の恋は見抜けない"
+  },
+  {
+    "vid": "v48420",
+    "id": "r147288",
+    "released": "2026-06-25",
+    "title": "ラブピカルポッピー!"
+  },
+  {
+    "vid": "v48420",
+    "id": "r147289",
+    "released": "2026-06-25",
+    "title": "ラブピカルポッピー!"
+  },
+  {
+    "vid": "v48420",
+    "id": "r147290",
+    "released": "2026-06-25",
+    "title": "ラブピカルポッピー!通常版"
+  },
+  {
+    "vid": "v48420",
+    "id": "r147291",
+    "released": "2026-06-25",
+    "title": "ラブピカルポッピー!"
   },
   {
     "vid": "v61224",
@@ -1198,5 +1192,11 @@
     "id": "r124988",
     "released": "2026",
     "title": "어서오세요! 셰어하우스에!"
+  },
+  {
+    "vid": "v51828",
+    "id": "r125344",
+    "released": "2026",
+    "title": "藏物"
   }
 ]
