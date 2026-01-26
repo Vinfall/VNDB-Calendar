@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v59268",
-    "id": "r147232",
-    "released": "2026-01-11",
-    "title": "MAHOUTEQ!"
-  },
-  {
     "vid": "v55892",
     "id": "r147214",
     "released": "2026-01-12",
@@ -150,10 +144,28 @@
     "title": "南朝香华诡事录"
   },
   {
+    "vid": "v61878",
+    "id": "r147793",
+    "released": "2026-01-23",
+    "title": "優しくするのも程々に!"
+  },
+  {
+    "vid": "v61895",
+    "id": "r147832",
+    "released": "2026-01-23",
+    "title": "翻转人生"
+  },
+  {
     "vid": "v56180",
     "id": "r147777",
     "released": "2026-01-24",
     "title": "Transparent Girl"
+  },
+  {
+    "vid": "v32641",
+    "id": "r147785",
+    "released": "2026-01-24",
+    "title": "SkyScape"
   },
   {
     "vid": "v47037",
@@ -816,6 +828,12 @@
     "title": "Karigurashi Renai: Living on Borrowed Love"
   },
   {
+    "vid": "v22045",
+    "id": "r147808",
+    "released": "2026-03",
+    "title": "Karigurashi Renai: Living on Borrowed Love"
+  },
+  {
     "vid": "v15871",
     "id": "r137665",
     "released": "2026-04-03",
@@ -1020,6 +1038,24 @@
     "title": "トリプルペアリング -Triple Pairing-"
   },
   {
+    "vid": "v61832",
+    "id": "r147807",
+    "released": "2026-05-29",
+    "title": "Triple Pairing"
+  },
+  {
+    "vid": "v61214",
+    "id": "r147810",
+    "released": "2026-05-29",
+    "title": "双子の恋は見抜けない"
+  },
+  {
+    "vid": "v61214",
+    "id": "r147811",
+    "released": "2026-05-29",
+    "title": "双子の恋は見抜けない 特典付き"
+  },
+  {
     "vid": "v48420",
     "id": "r147288",
     "released": "2026-06-25",
@@ -1162,41 +1198,5 @@
     "id": "r85556",
     "released": "2026",
     "title": "EDEN.schemata();"
-  },
-  {
-    "vid": "v26012",
-    "id": "r87183",
-    "released": "2026",
-    "title": "蘭島物語2：奇滄的幻海"
-  },
-  {
-    "vid": "v36005",
-    "id": "r91486",
-    "released": "2026",
-    "title": "天狐札记"
-  },
-  {
-    "vid": "v41473",
-    "id": "r101548",
-    "released": "2026",
-    "title": "维罗瓦年代记：绯红之狼"
-  },
-  {
-    "vid": "v41484",
-    "id": "r101565",
-    "released": "2026",
-    "title": "駭獣少女"
-  },
-  {
-    "vid": "v3091",
-    "id": "r103321",
-    "released": "2026",
-    "title": "CHAOS;HEAD Love Chu☆Chu!"
-  },
-  {
-    "vid": "v19953",
-    "id": "r103323",
-    "released": "2026",
-    "title": "CHAOS;CHILD Love Chu☆Chu!!"
   }
 ]
