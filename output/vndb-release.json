@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v55892",
-    "id": "r147214",
-    "released": "2026-01-12",
-    "title": "片方的祈愿"
-  },
-  {
     "vid": "v61671",
     "id": "r147359",
     "released": "2026-01-13",
@@ -166,6 +160,12 @@
     "id": "r147785",
     "released": "2026-01-24",
     "title": "SkyScape"
+  },
+  {
+    "vid": "v61486",
+    "id": "r147858",
+    "released": "2026-01-25",
+    "title": "それいけ!!杉城園芸部"
   },
   {
     "vid": "v47037",
@@ -370,6 +370,12 @@
     "id": "r145886",
     "released": "2026-02-06",
     "title": "その許嫁(よめ)は初恋を知らない もっと許嫁パック"
+  },
+  {
+    "vid": "v30185",
+    "id": "r135586",
+    "released": "2026-02-10",
+    "title": "My Wife’s Voice Through the Wall"
   },
   {
     "vid": "v30220",
@@ -1192,11 +1198,5 @@
     "id": "r73268",
     "released": "2026",
     "title": "Fate/Extra Record"
-  },
-  {
-    "vid": "v33120",
-    "id": "r85556",
-    "released": "2026",
-    "title": "EDEN.schemata();"
   }
 ]
