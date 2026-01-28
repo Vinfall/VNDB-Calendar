@@ -1,5 +1,4 @@
 vid;id;title;released
-v61671;r147359;お前のノベルゲームが完成しない理由2;2026-01-13
 v61350;r147279;The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to 0.0001%?! - v1.1;2026-01-15
 v61350;r147280;The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to 0.0001%?! - v1.1;2026-01-15
 v54651;r147310;This Winter of Ours;2026-01-15
@@ -21,7 +20,6 @@ v60168;r143806;ちなみほりっく -Chinami Holic-;2026-01-22
 v60168;r147656;ちなみほりっく -Chinami Holic-;2026-01-22
 v61846;r147740;Lament/邸宅の幽鬼;2026-01-22
 v59409;r142294;廃村少女 番外 ~籠愛拾遺~;2026-01-23
-v61847;r147741;南朝香华诡事录;2026-01-23
 v61878;r147793;優しくするのも程々に!;2026-01-23
 v61895;r147832;翻转人生;2026-01-23
 v56180;r147777;Transparent Girl;2026-01-24
@@ -199,3 +197,5 @@ v21440;r52385;マシンチャイルド;2026
 v24207;r59413;頭に爆弾 ~24時間以内にSEXしないと死んじゃう!~;2026
 v22313;r62798;樱花，萌放。-as the Night's, Reincarnation-;2026
 v7602;r73268;Fate/Extra Record;2026
+v33120;r85556;"EDEN.schemata();";2026
+v26012;r87183;蘭島物語2：奇滄的幻海;2026
