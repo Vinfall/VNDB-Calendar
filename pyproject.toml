@@ -2,26 +2,26 @@
 name = "VNDB-Calendar"
 version = "5.7.2"
 description = "VNDB New Release as subscribable ICS/iCalendar."
-keywords = ["calendar", "ics", "icalendar", "vndb", "vndb-api", "galgame", "game", "visualnovel"]
-requires-python = ">=3.10"
-authors = [{ name = "Vinfall" }]
 readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.10"
 license = { file = "LICENSE" }
+authors = [{ name = "Vinfall" }]
+keywords = ["calendar", "galgame", "game", "icalendar", "ics", "visualnovel", "vndb", "vndb-api"]
 classifiers = [
-  "Programming Language :: Python :: 3",
   "License :: OSI Approved :: BSD License",
   "Operating System :: OS Independent",
-  "Topic :: Games/Entertainment",
-  "Topic :: File Formats",
   "Private :: Do Not Upload",
+  "Programming Language :: Python :: 3",
+  "Topic :: File Formats",
+  "Topic :: Games/Entertainment",
 ]
-dependencies = ["dateparser>=1.2.2", "requests>=2.32.5", "ics==0.8.0.dev0"]
+dependencies = ["dateparser>=1.2.2", "ics==0.8.0.dev0", "requests>=2.32.5"]
 
 [project.urls]
-homepage = "https://github.com/Vinfall/VNDB-Calendar"
-source = "https://github.com/Vinfall/VNDB-Calendar"
-issues = "https://github.com/Vinfall/VNDB-Calendar/issues"
 changelog = "https://github.com/Vinfall/VNDB-Calendar/blob/main/CHANGELOG.md"
+homepage = "https://github.com/Vinfall/VNDB-Calendar"
+issues = "https://github.com/Vinfall/VNDB-Calendar/issues"
+source = "https://github.com/Vinfall/VNDB-Calendar"
 
 [tool.ruff]
 # force-exclude = true
@@ -44,7 +44,6 @@ ignore = [
   "PTH", # flake8-use-pathlib: slower than os
   "RET505", # superfluous-else-return
   "T20", # print
-
   # repo specific
   # intendend Unicode
   "RUF001",
