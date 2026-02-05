@@ -8,7 +8,7 @@ yamllint = "latest"
 
 [settings]
 # experimental = true
-# python.uv_venv_auto = true
+python.uv_venv_auto = "source"
 python.compile = false
 
 [settings.pipx]
