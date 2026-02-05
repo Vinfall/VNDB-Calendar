@@ -2,7 +2,7 @@
 uv = "latest"
 ruff = "latest"
 ty = "latest"
-"pipx:zizmor" = "latest"
+zizmor = "latest"
 actionlint = "latest"
 yamllint = "latest"
 
