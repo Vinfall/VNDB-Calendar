@@ -1,41 +1,5 @@
 [
   {
-    "vid": "v46891",
-    "id": "r128234",
-    "released": "2026-01-22",
-    "title": "でこれいと・でこれいしょん"
-  },
-  {
-    "vid": "v60168",
-    "id": "r143806",
-    "released": "2026-01-22",
-    "title": "ちなみほりっく -Chinami Holic- キッズ版"
-  },
-  {
-    "vid": "v60168",
-    "id": "r147656",
-    "released": "2026-01-22",
-    "title": "ちなみほりっく -Chinami Holic- キッズ版"
-  },
-  {
-    "vid": "v61846",
-    "id": "r147740",
-    "released": "2026-01-22",
-    "title": "Lament/邸宅の幽鬼"
-  },
-  {
-    "vid": "v60168",
-    "id": "r148091",
-    "released": "2026-01-22",
-    "title": "ちなみほりっく -Chinami Holic- ご褒美版"
-  },
-  {
-    "vid": "v60168",
-    "id": "r148092",
-    "released": "2026-01-22",
-    "title": "ちなみほりっく -Chinami Holic- ご褒美版"
-  },
-  {
     "vid": "v59409",
     "id": "r142294",
     "released": "2026-01-23",
@@ -318,6 +282,12 @@
     "title": "猫忍えくすはーと"
   },
   {
+    "vid": "v61274",
+    "id": "r146388",
+    "released": "2026-02-05",
+    "title": "バロックを抱く揺籠"
+  },
+  {
     "vid": "v32514",
     "id": "r147990",
     "released": "2026-02-05",
@@ -328,12 +298,6 @@
     "id": "r123871",
     "released": "2026-02-06",
     "title": "吸血鬼の花嫁 The Novel Game"
-  },
-  {
-    "vid": "v51160",
-    "id": "r125853",
-    "released": "2026-02-06",
-    "title": "吸血鬼的新娘"
   },
   {
     "vid": "v58598",
@@ -492,25 +456,25 @@
     "title": "みんなの育乳アカデミー 〜桃色おっぱい研修録〜"
   },
   {
-    "vid": "v943",
+    "vid": "v1648",
     "id": "r145265",
     "released": "2026-02-27",
     "title": "Tony Illustration Games compatible with WIN11"
   },
   {
-    "vid": "v943",
+    "vid": "v1648",
     "id": "r145266",
     "released": "2026-02-27",
     "title": "Tony Illustration Games compatible with WIN11"
   },
   {
-    "vid": "v943",
+    "vid": "v1648",
     "id": "r145267",
     "released": "2026-02-27",
     "title": "Tony Illustration Games compatible with WIN11"
   },
   {
-    "vid": "v943",
+    "vid": "v1648",
     "id": "r145268",
     "released": "2026-02-27",
     "title": "Tony Illustration Games compatible with WIN11"
@@ -604,12 +568,6 @@
     "id": "r134514",
     "released": "2026-02",
     "title": "Kimi ga Nozomu Eien ~Enhanced Edition~ - EER Patch"
-  },
-  {
-    "vid": "v61274",
-    "id": "r146388",
-    "released": "2026-02",
-    "title": "バロックを抱く揺籠"
   },
   {
     "vid": "v60395",
@@ -1038,6 +996,12 @@
     "title": "哀鸿：城破十日记"
   },
   {
+    "vid": "v59262",
+    "id": "r141616",
+    "released": "2026-04",
+    "title": "颈椎病"
+  },
+  {
     "vid": "v52402",
     "id": "r126672",
     "released": "2026-05-21",
@@ -1198,5 +1162,41 @@
     "id": "r142812",
     "released": "2026-10-03",
     "title": "偽りのアリス -Retold Tale-"
+  },
+  {
+    "vid": "v61280",
+    "id": "r146406",
+    "released": "2026-10",
+    "title": "Occult Hand of the Blood Lily"
+  },
+  {
+    "vid": "v27892",
+    "id": "r71930",
+    "released": "2026-12-30",
+    "title": "コルヌ・コピア －不思議の住む街－"
+  },
+  {
+    "vid": "v8213",
+    "id": "r26216",
+    "released": "2026",
+    "title": "DRACU-RIOT!"
+  },
+  {
+    "vid": "v8213",
+    "id": "r52376",
+    "released": "2026",
+    "title": "DRACU-RIOT!"
+  },
+  {
+    "vid": "v21440",
+    "id": "r52385",
+    "released": "2026",
+    "title": "マシンチャイルド"
+  },
+  {
+    "vid": "v24207",
+    "id": "r59413",
+    "released": "2026",
+    "title": "頭に爆弾 ~24時間以内にSEXしないと死んじゃう!~"
   }
 ]
