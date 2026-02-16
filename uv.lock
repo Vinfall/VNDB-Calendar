@@ -366,7 +366,7 @@ wheels = [
 
 [[package]]
 name = "vndb-calendar"
-version = "5.7.2"
+version = "5.9.6"
 source = { virtual = "." }
 dependencies = [
     { name = "dateparser" },

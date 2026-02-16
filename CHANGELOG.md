@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.9.6] - 2026-02-16
+
+### 📚 Docs
+
+- Add missing wishlist workflow
+- Zh is broken
+
+### 📦 Dependencies
+
+- Bump uv.lock, properly
+- Use aqua zizmor
+- Use aqua ty
+
+### 🎨 Styling
+
+- Lint via tombi
+- Mypy -> ty
+
+### 🧪 Testing
+
+- Wishlist
+
+### 🛠️ Chores
+
+- Update prod filters
+- Set python.uv_venv_auto to source
+- Ubuntu-latest -> ubuntu-slim
+- Update regex filters
+- Bump {en,zh}patch start date to 2025-07
+
 ## [5.7.2] - 2025-12-12
 
 ### 🐛 Fixes
