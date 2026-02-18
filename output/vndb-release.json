@@ -1,17 +1,5 @@
 [
   {
-    "vid": "v60168",
-    "id": "r148262",
-    "released": "2026-02-03",
-    "title": "ちなみほりっく -Chinami Holic-"
-  },
-  {
-    "vid": "v62116",
-    "id": "r148264",
-    "released": "2026-02-03",
-    "title": "Kittengumi Short: Chapter 0"
-  },
-  {
     "vid": "v53897",
     "id": "r130040",
     "released": "2026-02-04",
@@ -222,10 +210,28 @@
     "title": "赤ノ反照"
   },
   {
+    "vid": "v62373",
+    "id": "r149037",
+    "released": "2026-02-15",
+    "title": "Цветок"
+  },
+  {
     "vid": "v10244",
     "id": "r137839",
     "released": "2026-02-16",
     "title": "龙翼的咏叹调 -与圣龙之翼共舞的歌姬-"
+  },
+  {
+    "vid": "v54293",
+    "id": "r149053",
+    "released": "2026-02-18",
+    "title": "于你消逝的那一瞬之前"
+  },
+  {
+    "vid": "v55309",
+    "id": "r133278",
+    "released": "2026-02-19",
+    "title": "幻觉病理"
   },
   {
     "vid": "v49567",
@@ -490,6 +496,18 @@
     "id": "r134514",
     "released": "2026-02",
     "title": "Kimi ga Nozomu Eien ~Enhanced Edition~ - EER Patch"
+  },
+  {
+    "vid": "v38496",
+    "id": "r135587",
+    "released": "2026-03-05",
+    "title": "Double Date Dilemma"
+  },
+  {
+    "vid": "v38496",
+    "id": "r141982",
+    "released": "2026-03-05",
+    "title": "Double Date Dilemma"
   },
   {
     "vid": "v30461",
@@ -1180,23 +1198,5 @@
     "id": "r71930",
     "released": "2026-12-30",
     "title": "コルヌ・コピア －不思議の住む街－"
-  },
-  {
-    "vid": "v8213",
-    "id": "r52376",
-    "released": "2026",
-    "title": "DRACU-RIOT!"
-  },
-  {
-    "vid": "v21440",
-    "id": "r52385",
-    "released": "2026",
-    "title": "マシンチャイルド"
-  },
-  {
-    "vid": "v24207",
-    "id": "r59413",
-    "released": "2026",
-    "title": "頭に爆弾 ~24時間以内にSEXしないと死んじゃう!~"
   }
 ]
