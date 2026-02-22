@@ -1,4 +1,7 @@
+# config
+.vscode
+.zed
+# build/cache
 .venv
 *.egg-info
 __pycache__/*
-output/wishlist.*
