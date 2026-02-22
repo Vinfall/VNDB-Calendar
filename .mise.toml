@@ -1,13 +1,11 @@
+#:tombi schema.strict = false
+
 [tools]
 uv = "latest"
 ruff = "latest"
 ty = "latest"
-zizmor = "latest"
-actionlint = "latest"
-yamllint = "latest"
 
 [settings]
-# experimental = true
 python.uv_venv_auto = "source"
 python.compile = false
 
@@ -56,23 +54,13 @@ ruff check --fix *.py
 ty check
 """
 
-[tasks."lint:ci"]
-description = "lint GitHub Actions"
-run = """
-#!/usr/bin/env bash
-yamllint --strict .github
-actionlint
-zizmor .github/workflows
-# zizmor --pedantic .github/workflows # offline audit using pedantic persona
-# zizmor --gh-token=$(gh auth token) .github/workflows # online audit
-"""
-
 [tasks.lint]
 description = "run linters and apply fixes"
 depends = ["lint:*"]
 
 [tasks.changelog]
-description = "generate changelog (only run after git tag)"
+confirm = "git tag?"
+description = "generate changelog"
 run = """
 #!/usr/bin/env bash
 git cliff -o CHANGELOG.md
