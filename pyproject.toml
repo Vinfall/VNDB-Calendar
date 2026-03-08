@@ -1,3 +1,5 @@
+#:tombi schema.strict = false
+
 [project]
 name = "VNDB-Calendar"
 version = "5.9.6"
@@ -54,4 +56,4 @@ ignore = [
 # unfixable = ["F401"]
 
 [tool.ty.rules]
-unresolved-import = "ignore" # .venv excluded from vsc workspace
+unresolved-import = "ignore" # .venv excluded from vsc/zed
