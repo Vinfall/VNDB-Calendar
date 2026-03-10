@@ -1,17 +1,5 @@
 [
   {
-    "vid": "v62641",
-    "id": "r149585",
-    "released": "2026-02-23",
-    "title": "空虚な僕は何を見る。"
-  },
-  {
-    "vid": "v62645",
-    "id": "r149594",
-    "released": "2026-02-23",
-    "title": "Miya Might Break"
-  },
-  {
     "vid": "v56317",
     "id": "r135428",
     "released": "2026-02-25",
@@ -160,6 +148,12 @@
     "id": "r149822",
     "released": "2026-02-26",
     "title": "完堕ちX兄嫁"
+  },
+  {
+    "vid": "v29482",
+    "id": "r150607",
+    "released": "2026-02-26",
+    "title": "Fantasy Tavern Sextet Trilogy"
   },
   {
     "vid": "v8213",
@@ -474,6 +468,18 @@
     "title": "VelvetSkyline"
   },
   {
+    "vid": "v1194",
+    "id": "r150577",
+    "released": "2026-03-08",
+    "title": "ヨスガノソラ: Remastered Edition"
+  },
+  {
+    "vid": "v63032",
+    "id": "r150578",
+    "released": "2026-03-09",
+    "title": "雨は全てを流さない"
+  },
+  {
     "vid": "v30461",
     "id": "r142124",
     "released": "2026-03-10",
@@ -484,6 +490,12 @@
     "id": "r141973",
     "released": "2026-03-12",
     "title": "花園セレナのおとしもの ~sweet memory~"
+  },
+  {
+    "vid": "v61420",
+    "id": "r150583",
+    "released": "2026-03-12",
+    "title": "树海迷宫"
   },
   {
     "vid": "v22625",
@@ -616,6 +628,12 @@
     "id": "r147808",
     "released": "2026-03-26",
     "title": "Karigurashi Renai: Living on Borrowed Love"
+  },
+  {
+    "vid": "v54584",
+    "id": "r131566",
+    "released": "2026-03-27",
+    "title": "铜刀银剑"
   },
   {
     "vid": "v58336",
@@ -796,12 +814,6 @@
     "id": "r148748",
     "released": "2026-03-31",
     "title": "Lilac"
-  },
-  {
-    "vid": "v20567",
-    "id": "r129715",
-    "released": "2026-03",
-    "title": "冠を持つ神の手"
   },
   {
     "vid": "v60435",
@@ -988,6 +1000,12 @@
     "id": "r150203",
     "released": "2026-04-24",
     "title": "ディメンション凸ラバース!! DL予約限定"
+  },
+  {
+    "vid": "v20567",
+    "id": "r129715",
+    "released": "2026-04-30",
+    "title": "冠を持つ神の手"
   },
   {
     "vid": "v24515",
@@ -1180,23 +1198,5 @@
     "id": "r142117",
     "released": "2026-06-25",
     "title": "千銃士:Rhodoknight for Nintendo Switch(仮)"
-  },
-  {
-    "vid": "v48069",
-    "id": "r145196",
-    "released": "2026-06-25",
-    "title": "ゴーヘルゴー業 つきおとしてゴー"
-  },
-  {
-    "vid": "v28576",
-    "id": "r146443",
-    "released": "2026-06-25",
-    "title": "世界滅亡共有幻想マミヤ"
-  },
-  {
-    "vid": "v48420",
-    "id": "r147288",
-    "released": "2026-06-25",
-    "title": "ラブピカルポッピー!"
   }
 ]
