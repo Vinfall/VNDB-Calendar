@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v94",
-    "id": "r134514",
-    "released": "2026-02-28",
-    "title": "Kimi ga Nozomu Eien ~Enhanced Edition~ - EER Patch"
-  },
-  {
     "vid": "v4469",
     "id": "r150067",
     "released": "2026-03-03",
@@ -150,6 +144,12 @@
     "title": "迷える人形と迷探偵"
   },
   {
+    "vid": "v61531",
+    "id": "r150894",
+    "released": "2026-03-10",
+    "title": "Loot Line - Season 2"
+  },
+  {
     "vid": "v63127",
     "id": "r150817",
     "released": "2026-03-11",
@@ -184,6 +184,12 @@
     "id": "r150782",
     "released": "2026-03-13",
     "title": "小夜のバスにて。"
+  },
+  {
+    "vid": "v62588",
+    "id": "r150924",
+    "released": "2026-03-14",
+    "title": "トマトを買いに行くゲーム"
   },
   {
     "vid": "v62932",
@@ -456,6 +462,18 @@
     "title": "神楽新風記 ~紫の章~"
   },
   {
+    "vid": "v63184",
+    "id": "r150931",
+    "released": "2026-03-27",
+    "title": "變態女友：我與女友的心動動直播"
+  },
+  {
+    "vid": "v62785",
+    "id": "r149906",
+    "released": "2026-03-28",
+    "title": "標本箱で羽化を待つ"
+  },
+  {
     "vid": "v48262",
     "id": "r115787",
     "released": "2026-03-31",
@@ -538,6 +556,12 @@
     "id": "r142624",
     "released": "2026-04-09",
     "title": "メモリーズオフ 双想 Break out of my shell"
+  },
+  {
+    "vid": "v63155",
+    "id": "r150891",
+    "released": "2026-04-15",
+    "title": "バニーガーデン2"
   },
   {
     "vid": "v52635",
@@ -730,12 +754,6 @@
     "id": "r149820",
     "released": "2026-04",
     "title": "Template!! An Angel's Gift"
-  },
-  {
-    "vid": "v62785",
-    "id": "r149906",
-    "released": "2026-04",
-    "title": "標本箱で羽化を待つ"
   },
   {
     "vid": "v52402",
@@ -1180,23 +1198,5 @@
     "id": "r115186",
     "released": "2026",
     "title": "Teacher Seduction"
-  },
-  {
-    "vid": "v61011",
-    "id": "r115788",
-    "released": "2026",
-    "title": "Lilac -side Wizard-"
-  },
-  {
-    "vid": "v48838",
-    "id": "r117440",
-    "released": "2026",
-    "title": "FORTUNE×WORLD~僕らがゲームを作る理由~"
-  },
-  {
-    "vid": "v49362",
-    "id": "r118979",
-    "released": "2026",
-    "title": "Clover Memory's"
   }
 ]
