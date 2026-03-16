@@ -150,16 +150,16 @@
     "title": "Loot Line - Season 2"
   },
   {
+    "vid": "v59371",
+    "id": "r141973",
+    "released": "2026-03-11",
+    "title": "花園セレナのおとしもの ~sweet memory~"
+  },
+  {
     "vid": "v63127",
     "id": "r150817",
     "released": "2026-03-11",
     "title": "菫青乃駅、にて"
-  },
-  {
-    "vid": "v59371",
-    "id": "r141973",
-    "released": "2026-03-12",
-    "title": "花園セレナのおとしもの ~sweet memory~"
   },
   {
     "vid": "v61420",
@@ -186,10 +186,46 @@
     "title": "小夜のバスにて。"
   },
   {
+    "vid": "v63207",
+    "id": "r150972",
+    "released": "2026-03-13",
+    "title": "Monari Station"
+  },
+  {
+    "vid": "v63208",
+    "id": "r150973",
+    "released": "2026-03-13",
+    "title": "Clockwork Hearts"
+  },
+  {
+    "vid": "v63212",
+    "id": "r150977",
+    "released": "2026-03-13",
+    "title": "VenusBlood AfterDays Episode 12 黄金の聖母"
+  },
+  {
+    "vid": "v63213",
+    "id": "r150978",
+    "released": "2026-03-13",
+    "title": "VenusBlood DarkChronicle Episode 8 神竜王は家畜の夢を見るか"
+  },
+  {
     "vid": "v62588",
     "id": "r150924",
     "released": "2026-03-14",
     "title": "トマトを買いに行くゲーム"
+  },
+  {
+    "vid": "v63211",
+    "id": "r150976",
+    "released": "2026-03-14",
+    "title": "ドキドキ!公星学園のバレンタイン"
+  },
+  {
+    "vid": "v63204",
+    "id": "r150969",
+    "released": "2026-03-15",
+    "title": "水中のカルテ~みずちま海中診療所へようこそ~"
   },
   {
     "vid": "v62932",
@@ -465,13 +501,19 @@
     "vid": "v63184",
     "id": "r150931",
     "released": "2026-03-27",
-    "title": "變態女友：我與女友的心動動直播"
+    "title": "変態カノジョ 〜俺と彼女とドキドキ♡生配信〜"
   },
   {
     "vid": "v62785",
     "id": "r149906",
     "released": "2026-03-28",
     "title": "標本箱で羽化を待つ"
+  },
+  {
+    "vid": "v44523",
+    "id": "r150989",
+    "released": "2026-03-29",
+    "title": "Shiny Recollection ~first step~"
   },
   {
     "vid": "v48262",
@@ -1014,6 +1056,12 @@
     "title": "It Was That Summer"
   },
   {
+    "vid": "v61046",
+    "id": "r145914",
+    "released": "2026-06",
+    "title": "죽어도 좋아!"
+  },
+  {
     "vid": "v62784",
     "id": "r149905",
     "released": "2026-06",
@@ -1150,53 +1198,5 @@
     "id": "r91486",
     "released": "2026",
     "title": "天狐札记"
-  },
-  {
-    "vid": "v41473",
-    "id": "r101548",
-    "released": "2026",
-    "title": "维罗瓦年代记：绯红之狼"
-  },
-  {
-    "vid": "v41484",
-    "id": "r101565",
-    "released": "2026",
-    "title": "駭獣少女"
-  },
-  {
-    "vid": "v3091",
-    "id": "r103321",
-    "released": "2026",
-    "title": "CHAOS;HEAD Love Chu☆Chu!"
-  },
-  {
-    "vid": "v19953",
-    "id": "r103323",
-    "released": "2026",
-    "title": "CHAOS;CHILD Love Chu☆Chu!!"
-  },
-  {
-    "vid": "v44827",
-    "id": "r107771",
-    "released": "2026",
-    "title": "Nowhere Manor"
-  },
-  {
-    "vid": "v46569",
-    "id": "r111672",
-    "released": "2026",
-    "title": "メルト・アウェイ"
-  },
-  {
-    "vid": "v47849",
-    "id": "r114941",
-    "released": "2026",
-    "title": "梦之彼方-fate prologue"
-  },
-  {
-    "vid": "v47953",
-    "id": "r115186",
-    "released": "2026",
-    "title": "Teacher Seduction"
   }
 ]
