@@ -1,65 +1,5 @@
 [
   {
-    "vid": "v22625",
-    "id": "r55819",
-    "released": "2026-03-13",
-    "title": "コトネイロ"
-  },
-  {
-    "vid": "v50905",
-    "id": "r123292",
-    "released": "2026-03-13",
-    "title": "幻想乡：有罪推定~夜明前的三色堇"
-  },
-  {
-    "vid": "v63117",
-    "id": "r150782",
-    "released": "2026-03-13",
-    "title": "小夜のバスにて。"
-  },
-  {
-    "vid": "v63207",
-    "id": "r150972",
-    "released": "2026-03-13",
-    "title": "Monari Station"
-  },
-  {
-    "vid": "v63212",
-    "id": "r150977",
-    "released": "2026-03-13",
-    "title": "VenusBlood AfterDays Episode 12 黄金の聖母"
-  },
-  {
-    "vid": "v63213",
-    "id": "r150978",
-    "released": "2026-03-13",
-    "title": "VenusBlood DarkChronicle Episode 8 神竜王は家畜の夢を見るか"
-  },
-  {
-    "vid": "v62588",
-    "id": "r150924",
-    "released": "2026-03-14",
-    "title": "トマトを買いに行くゲーム"
-  },
-  {
-    "vid": "v63211",
-    "id": "r150976",
-    "released": "2026-03-14",
-    "title": "ドキドキ!公星学園のバレンタイン"
-  },
-  {
-    "vid": "v54690",
-    "id": "r151194",
-    "released": "2026-03-14",
-    "title": "비행? 청춘!"
-  },
-  {
-    "vid": "v63300",
-    "id": "r151206",
-    "released": "2026-03-14",
-    "title": "呪いの手紙"
-  },
-  {
     "vid": "v63204",
     "id": "r150969",
     "released": "2026-03-15",
@@ -186,6 +126,12 @@
     "title": "幽深之羽"
   },
   {
+    "vid": "v63488",
+    "id": "r151918",
+    "released": "2026-03-21",
+    "title": "名前のない記録"
+  },
+  {
     "vid": "v62785",
     "id": "r149906",
     "released": "2026-03-22",
@@ -216,10 +162,28 @@
     "title": "Flowering Across 樱下花期"
   },
   {
+    "vid": "v58656",
+    "id": "r140321",
+    "released": "2026-03-24",
+    "title": "源氏リーインカーネイション -白旗高校七不思議-"
+  },
+  {
     "vid": "v63461",
     "id": "r151771",
     "released": "2026-03-24",
     "title": "タンガンカノジョ-ひとつ目少女と学生生活-"
+  },
+  {
+    "vid": "v60646",
+    "id": "r145194",
+    "released": "2026-03-25",
+    "title": "Sweet Starlight Sisters"
+  },
+  {
+    "vid": "v60602",
+    "id": "r146551",
+    "released": "2026-03-25",
+    "title": "崩課後どっとライブ -黄昏ノ鏡-"
   },
   {
     "vid": "v48230",
@@ -253,33 +217,15 @@
   },
   {
     "vid": "v60646",
-    "id": "r145194",
-    "released": "2026-03-26",
-    "title": "Sweet Starlight Sisters"
-  },
-  {
-    "vid": "v60646",
     "id": "r145195",
     "released": "2026-03-26",
     "title": "Sweet Starlight Sisters"
-  },
-  {
-    "vid": "v60602",
-    "id": "r146551",
-    "released": "2026-03-26",
-    "title": "崩課後どっとライブ -黄昏ノ鏡-"
   },
   {
     "vid": "v51155",
     "id": "r147271",
     "released": "2026-03-26",
     "title": "Clover Reset -クローバーリセット-"
-  },
-  {
-    "vid": "v22045",
-    "id": "r147769",
-    "released": "2026-03-26",
-    "title": "Karigurashi Renai: Living on Borrowed Love"
   },
   {
     "vid": "v22045",
@@ -300,16 +246,28 @@
     "title": "Karigurashi Renai: Living on Borrowed Love - 18+ Patch"
   },
   {
-    "vid": "v22045",
-    "id": "r151745",
+    "vid": "v60646",
+    "id": "r151844",
     "released": "2026-03-26",
-    "title": "Karigurashi Renai: Living on Borrowed Love - 18+ Patch"
+    "title": "Sweet Starlight Sisters"
+  },
+  {
+    "vid": "v60646",
+    "id": "r151846",
+    "released": "2026-03-26",
+    "title": "Sweet Starlight Sisters"
+  },
+  {
+    "vid": "v63501",
+    "id": "r151950",
+    "released": "2026-03-26",
+    "title": "篝焔"
   },
   {
     "vid": "v51160",
     "id": "r125853",
     "released": "2026-03-27",
-    "title": "吸血鬼的新娘"
+    "title": "吸血鬼的新娘 A bride who gets married to vampdoll"
   },
   {
     "vid": "v58336",
@@ -486,10 +444,40 @@
     "title": "Salome's Kiss"
   },
   {
+    "vid": "v61178",
+    "id": "r151955",
+    "released": "2026-03-27",
+    "title": "誰ソ彼のシェイプシフター"
+  },
+  {
+    "vid": "v61178",
+    "id": "r151957",
+    "released": "2026-03-27",
+    "title": "誰ソ彼のシェイプシフター"
+  },
+  {
+    "vid": "v63474",
+    "id": "r151822",
+    "released": "2026-03-28",
+    "title": "メテオライトフォーリング"
+  },
+  {
+    "vid": "v40479",
+    "id": "r151938",
+    "released": "2026-03-28",
+    "title": "无星夜空下"
+  },
+  {
     "vid": "v44523",
     "id": "r150989",
     "released": "2026-03-29",
     "title": "Shiny Recollection ~first step~"
+  },
+  {
+    "vid": "v63507",
+    "id": "r152059",
+    "released": "2026-03-29",
+    "title": "邻家之钥"
   },
   {
     "vid": "v48262",
@@ -628,12 +616,6 @@
     "id": "r127136",
     "released": "2026-04-23",
     "title": "시크릿 썸"
-  },
-  {
-    "vid": "v63442",
-    "id": "r151713",
-    "released": "2026-04-23",
-    "title": "CHAOS∞VERSE ~インモラルシンギュラリティ~"
   },
   {
     "vid": "v43510",
@@ -984,16 +966,10 @@
     "title": "気になる彼女のママは現役魔法少女 搾られサンドウィッチ生活"
   },
   {
-    "vid": "v63442",
-    "id": "r151714",
+    "vid": "v61832",
+    "id": "r151878",
     "released": "2026-05-29",
-    "title": "CHAOS∞VERSE ~インモラルシンギュラリティ~"
-  },
-  {
-    "vid": "v22500",
-    "id": "r151715",
-    "released": "2026-05-29",
-    "title": "CHAOS∞VERSE ~インモラルシンギュラリティ~ INFINITY SET"
+    "title": "トリプルペアリング -Triple Pairing-"
   },
   {
     "vid": "v62021",
@@ -1128,6 +1104,18 @@
     "title": "My Merry May with be"
   },
   {
+    "vid": "v3696",
+    "id": "r151816",
+    "released": "2026-06-25",
+    "title": "My Merry May with be"
+  },
+  {
+    "vid": "v3696",
+    "id": "r151817",
+    "released": "2026-06-25",
+    "title": "My Merry May with be"
+  },
+  {
     "vid": "v52407",
     "id": "r126682",
     "released": "2026-06-26",
@@ -1188,15 +1176,27 @@
     "title": "ウィッチハンター ~世界のためなら何度でもイきます~"
   },
   {
-    "vid": "v58268",
-    "id": "r139495",
-    "released": "2026-06",
-    "title": "おわりのまえに"
+    "vid": "v63502",
+    "id": "r151974",
+    "released": "2026-06-26",
+    "title": "リビドー・アバンちゅ~る -Sランク冒険者だけど、ポンコツサキュバスだけのパーティで教官してます-"
   },
   {
-    "vid": "v60137",
-    "id": "r143698",
-    "released": "2026-06",
-    "title": "It Was That Summer"
+    "vid": "v57286",
+    "id": "r151994",
+    "released": "2026-06-26",
+    "title": "ママラブ!1＆2 も~っと楽しめちゃうグッズセット"
+  },
+  {
+    "vid": "v63304",
+    "id": "r151995",
+    "released": "2026-06-26",
+    "title": "ママラブ!2 ~俺の彼女は俺のママ☆世話焼き巨乳凛桜ママ~ B2タペストリー付き"
+  },
+  {
+    "vid": "v63304",
+    "id": "r151996",
+    "released": "2026-06-26",
+    "title": "ママラブ!2 ~俺の彼女は俺のママ☆世話焼き巨乳凛桜ママ~ B2タペストリー＋アクリルパネル付き"
   }
 ]
