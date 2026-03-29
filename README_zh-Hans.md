@@ -12,7 +12,8 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 如果选择公开 `ICS` 文件，那么可以在支持 iCalendar 的日历应用中订阅。
 
 为方便测试，项目默认提供了下列发售日历。如果这些已经满足你的需求，没有必要阅读配置部分。
-- [zhpatch][zhpatch]: 2025 下半年至今发布的民间汉化补丁
+
+- [zhpatch][zhpatch]: 2025-10 至今发布的民间汉化补丁
 - ~~[zh][zh]: 尚未发售的中/日视觉小说~~ 待修复
 
 ## 配置
@@ -46,9 +47,9 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 1. 打开 VNDB [Browser releases][vndb] 页面，修改查询条件，并复制 *filters*
    - 举例说明，[zhpatch][zhpatch] 对应的 URL 可能是这样的：
-     - `https://vndb.org/r?q=&o=a&s=title&f=04122wzh_dHans-2wzh_dHant-Ng1174172_0ceSs`
-     - `https://vndb.org/r?f=04122wzh_dHans-2wzh_dHant-Ng1174172_0ceSs&o=a&s=released`
-   - 这里的 *filters* 就是 `04122wzh_dHans-2wzh_dHant-Ng1174172_0ceSs`，之后会用到它
+     - `https://vndb.org/r?q=&o=a&s=title&f=04122wzh_dHans-2wzh_dHant-Ng1174172_0ceX8`
+     - `https://vndb.org/r?f=04122wzh_dHans-2wzh_dHant-Ng1174172_0ceX8&o=a&s=released`
+   - 这里的 *filters* 就是 `04122wzh_dHans-2wzh_dHant-Ng1174172_0ceX8`，之后会用到它
 2. Fork 本仓库，删除 [release.yml](.github/workflows/release.yml)
 3. 用前面复制的 filters 替换 [vndb_calendar.py](vndb_calendar.py) 中的 `default_filters`，提交修改
 
@@ -56,7 +57,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
     # fmt: on
 
     # ↓↓↓ 复制到这里 ↓↓↓
-    default_filters = "04122wzh_dHans-2wzh_dHant-Ng1174172_0ceSs"
+    default_filters = "04122wzh_dHans-2wzh_dHant-Ng1174172_0ceX8"
     # ↑↑↑ 复制到这里 ↑↑↑
 
     default_data = {

@@ -39,7 +39,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           TAG: en
 
-      - name: build VNDB calendar with unofficial en patch released since 2025-07
+      - name: build VNDB calendar with unofficial en patch released since 2025-10
         run: mise run "build:enpatch"
       - name: upload to release
         run: gh release upload "${TAG}" --clobber output/vndb-*
@@ -55,7 +55,7 @@ jobs:
       #     GH_TOKEN: ${{ github.token }}
       #     TAG: zh
 
-      - name: build VNDB calendar with unofficial zh patch released since 2025-07
+      - name: build VNDB calendar with unofficial zh patch released since 2025-10
         run: mise run "build:zhpatch"
       - name: upload to release
         run: gh release upload "${TAG}" --clobber output/vndb-*
