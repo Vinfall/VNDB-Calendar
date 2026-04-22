@@ -1,477 +1,111 @@
 [
   {
-    "vid": "v21440",
-    "id": "r52385",
-    "released": "2026-04-07",
-    "title": "マシンチャイルド"
-  },
-  {
-    "vid": "v21440",
-    "id": "r151734",
-    "released": "2026-04-07",
-    "title": "マシンチャイルド"
-  },
-  {
-    "vid": "v63746",
-    "id": "r152730",
-    "released": "2026-04-07",
-    "title": "冥雄鬼屋：玫瑰與詛咒的奏鳴曲"
-  },
-  {
-    "vid": "v7595",
-    "id": "r152767",
-    "released": "2026-04-07",
-    "title": "fortissimo EXS//Akkord:nächsten Phase"
-  },
-  {
-    "vid": "v21440",
-    "id": "r152785",
-    "released": "2026-04-07",
-    "title": "マシンチャイルド - Full Content DLC"
-  },
-  {
-    "vid": "v56147",
-    "id": "r135077",
-    "released": "2026-04-09",
-    "title": "メモリーズオフ 双想 Break out of my shell"
-  },
-  {
-    "vid": "v61569",
-    "id": "r147091",
-    "released": "2026-04-10",
-    "title": "想成为Galgame领域大神!!!"
-  },
-  {
-    "vid": "v63843",
-    "id": "r152921",
-    "released": "2026-04-10",
-    "title": "Mota Must Die"
-  },
-  {
-    "vid": "v63853",
-    "id": "r152958",
-    "released": "2026-04-10",
-    "title": "被妻子戴绿帽"
-  },
-  {
-    "vid": "v56147",
-    "id": "r142623",
-    "released": "2026-04-11",
-    "title": "メモリーズオフ 双想 Break out of my shell"
-  },
-  {
-    "vid": "v56147",
-    "id": "r142624",
-    "released": "2026-04-11",
-    "title": "メモリーズオフ 双想 Break out of my shell"
-  },
-  {
-    "vid": "v30456",
-    "id": "r149457",
-    "released": "2026-04-11",
-    "title": "ハジラブ -Making＊Lovers"
-  },
-  {
-    "vid": "v30456",
-    "id": "r153546",
-    "released": "2026-04-11",
-    "title": "Making * Lovers: First Blush - 18+ Patch"
-  },
-  {
-    "vid": "v60435",
-    "id": "r146641",
-    "released": "2026-04-13",
-    "title": "恋しかるべき ~迷い家からの手紙~ - ねこ冬コミ"
-  },
-  {
-    "vid": "v59409",
-    "id": "r153172",
-    "released": "2026-04-13",
-    "title": "废村少女 外传 ~笼爱拾遗~"
-  },
-  {
-    "vid": "v47551",
-    "id": "r143034",
-    "released": "2026-04-14",
-    "title": "AMANATSU+"
-  },
-  {
-    "vid": "v47551",
-    "id": "r143042",
-    "released": "2026-04-14",
-    "title": "AMANATSU+"
-  },
-  {
-    "vid": "v47551",
-    "id": "r153251",
-    "released": "2026-04-14",
-    "title": "AMANATSU+ - 18+ Patch"
-  },
-  {
-    "vid": "v61597",
-    "id": "r147196",
-    "released": "2026-04-15",
-    "title": "神明也没猜到结局"
-  },
-  {
-    "vid": "v63155",
-    "id": "r150891",
-    "released": "2026-04-15",
-    "title": "バニーガーデン2"
-  },
-  {
-    "vid": "v63155",
-    "id": "r151288",
-    "released": "2026-04-15",
-    "title": "バニーガーデン2"
-  },
-  {
-    "vid": "v24399",
-    "id": "r153345",
-    "released": "2026-04-15",
-    "title": "Hello Charlotte: Heaven's Gate"
-  },
-  {
-    "vid": "v59799",
-    "id": "r142981",
-    "released": "2026-04-16",
-    "title": "5分間のメイド"
-  },
-  {
-    "vid": "v60817",
-    "id": "r147069",
-    "released": "2026-04-16",
-    "title": "イツカノヨル"
-  },
-  {
-    "vid": "v62099",
-    "id": "r148234",
-    "released": "2026-04-16",
-    "title": "花城秘事"
-  },
-  {
-    "vid": "v46891",
-    "id": "r151221",
-    "released": "2026-04-16",
-    "title": "でこれいと・でこれいしょん"
-  },
-  {
-    "vid": "v61618",
-    "id": "r153362",
-    "released": "2026-04-16",
-    "title": "白い箱(有償版)"
-  },
-  {
-    "vid": "v21279",
-    "id": "r153423",
-    "released": "2026-04-16",
-    "title": "まおてん"
-  },
-  {
-    "vid": "v59601",
-    "id": "r142568",
-    "released": "2026-04-17",
-    "title": "淀み海の溺れ唄"
-  },
-  {
-    "vid": "v63623",
-    "id": "r152327",
-    "released": "2026-04-17",
-    "title": "某一年四季"
-  },
-  {
-    "vid": "v64041",
-    "id": "r153629",
-    "released": "2026-04-17",
-    "title": "ふたつ結びのあの子に恋して"
-  },
-  {
-    "vid": "v49815",
-    "id": "r148896",
-    "released": "2026-04-18",
-    "title": "金泉风土记"
-  },
-  {
-    "vid": "v63998",
-    "id": "r153516",
-    "released": "2026-04-18",
-    "title": "オピポピ"
-  },
-  {
-    "vid": "v64061",
-    "id": "r153660",
-    "released": "2026-04-18",
-    "title": "ブルーブラッドムーンの夜"
-  },
-  {
-    "vid": "v51010",
-    "id": "r123825",
-    "released": "2026-04-23",
-    "title": "Welcome to Cafe Lumière! - A Dragon Girl Concept Cafe"
-  },
-  {
-    "vid": "v52635",
-    "id": "r127136",
-    "released": "2026-04-23",
-    "title": "시크릿 썸"
-  },
-  {
-    "vid": "v32189",
-    "id": "r142783",
-    "released": "2026-04-23",
-    "title": "凪ノ恋"
-  },
-  {
-    "vid": "v32189",
-    "id": "r142784",
-    "released": "2026-04-23",
-    "title": "凪ノ恋"
-  },
-  {
-    "vid": "v61471",
-    "id": "r146899",
-    "released": "2026-04-23",
-    "title": "游戏宅与青春女"
-  },
-  {
-    "vid": "v51010",
-    "id": "r153023",
-    "released": "2026-04-23",
-    "title": "Welcome to Cafe Lumière! - A Dragon Girl Concept Cafe"
-  },
-  {
-    "vid": "v43510",
-    "id": "r105293",
-    "released": "2026-04-24",
-    "title": "にょにんじま２ ―島一つまるごとはめパコ孕ませ性活―"
-  },
-  {
-    "vid": "v47937",
-    "id": "r115136",
-    "released": "2026-04-24",
-    "title": "anemoi"
-  },
-  {
-    "vid": "v47937",
-    "id": "r140481",
-    "released": "2026-04-24",
-    "title": "anemoi"
-  },
-  {
-    "vid": "v60663",
-    "id": "r145227",
-    "released": "2026-04-24",
-    "title": "ディメンション凸ラバース!!"
-  },
-  {
-    "vid": "v61195",
-    "id": "r146224",
-    "released": "2026-04-24",
-    "title": "姫と艶欲のインペリウム"
-  },
-  {
-    "vid": "v61212",
-    "id": "r146248",
-    "released": "2026-04-24",
-    "title": "絡恋インヴィテーション"
-  },
-  {
-    "vid": "v61212",
-    "id": "r146491",
-    "released": "2026-04-24",
-    "title": "絡恋インヴィテーション"
-  },
-  {
-    "vid": "v61334",
-    "id": "r146531",
-    "released": "2026-04-24",
-    "title": "隷従の聖侍祭 ルフィア"
-  },
-  {
-    "vid": "v61334",
-    "id": "r146532",
-    "released": "2026-04-24",
-    "title": "隷従の聖侍祭 ルフィア"
-  },
-  {
-    "vid": "v61334",
-    "id": "r146533",
-    "released": "2026-04-24",
-    "title": "隷従の聖侍祭 ルフィア"
-  },
-  {
-    "vid": "v61195",
-    "id": "r146619",
-    "released": "2026-04-24",
-    "title": "姫と艶欲のインペリウム"
-  },
-  {
-    "vid": "v25838",
-    "id": "r146736",
-    "released": "2026-04-24",
-    "title": "姫様調教 （トリプル）パック"
-  },
-  {
-    "vid": "v61833",
-    "id": "r147699",
-    "released": "2026-04-24",
-    "title": "ご奉仕メイドはエッチなお姉さん ~俺だけの巨乳メイドにたっぷり甘やかされるめちゃエロご主人様ライフ~"
-  },
-  {
-    "vid": "v61833",
-    "id": "r149788",
-    "released": "2026-04-24",
-    "title": "ご奉仕メイドはエッチなお姉さん ~俺だけの巨乳メイドにたっぷり甘やかされるめちゃエロご主人様ライフ~"
-  },
-  {
-    "vid": "v60663",
-    "id": "r149833",
-    "released": "2026-04-24",
-    "title": "ディメンション凸ラバース!!"
-  },
-  {
-    "vid": "v60663",
-    "id": "r149834",
-    "released": "2026-04-24",
-    "title": "ディメンション凸ラバース!!"
-  },
-  {
-    "vid": "v60663",
-    "id": "r150202",
-    "released": "2026-04-24",
-    "title": "ディメンション凸ラバース!! DL"
-  },
-  {
-    "vid": "v60663",
-    "id": "r150203",
-    "released": "2026-04-24",
-    "title": "ディメンション凸ラバース!! DL予約限定"
-  },
-  {
-    "vid": "v55727",
-    "id": "r151622",
-    "released": "2026-04-24",
-    "title": "Certified Mother Fucker"
-  },
-  {
-    "vid": "v44",
-    "id": "r151681",
-    "released": "2026-04-24",
-    "title": "ヌキコレvol.100 ユメミルクスリ standard edition"
-  },
-  {
-    "vid": "v50912",
-    "id": "r123307",
-    "released": "2026-04-27",
-    "title": "无名者"
-  },
-  {
-    "vid": "v54048",
-    "id": "r151679",
-    "released": "2026-04-29",
-    "title": "花束を君に贈ろう-Kinsenka"
-  },
-  {
-    "vid": "v50480",
-    "id": "r122038",
-    "released": "2026-04-30",
-    "title": "夏日遠洋假期"
-  },
-  {
-    "vid": "v20567",
-    "id": "r129715",
-    "released": "2026-04-30",
-    "title": "冠を持つ神の手"
-  },
-  {
-    "vid": "v24515",
-    "id": "r142172",
-    "released": "2026-04-30",
-    "title": "LoveR Kiss（ラヴアール キス） Endless Memories"
-  },
-  {
-    "vid": "v55725",
-    "id": "r142424",
-    "released": "2026-04-30",
-    "title": "やがて散りゆく鏡の花へ"
-  },
-  {
-    "vid": "v47175",
-    "id": "r145223",
-    "released": "2026-04-30",
-    "title": "セレクトオブリージュ 通常版"
-  },
-  {
-    "vid": "v54048",
-    "id": "r145382",
-    "released": "2026-04-30",
-    "title": "花束を君に贈ろう-Kinsenka-"
-  },
-  {
-    "vid": "v54048",
-    "id": "r145383",
-    "released": "2026-04-30",
-    "title": "花束を君に贈ろう-Kinsenka-"
-  },
-  {
-    "vid": "v54048",
-    "id": "r145384",
-    "released": "2026-04-30",
-    "title": "花束を君に贈ろう-Kinsenka-"
-  },
-  {
-    "vid": "v54048",
-    "id": "r145385",
-    "released": "2026-04-30",
-    "title": "花束を君に贈ろう-Kinsenka-"
-  },
-  {
-    "vid": "v55725",
-    "id": "r146510",
-    "released": "2026-04-30",
-    "title": "やがて散りゆく鏡の花へ"
-  },
-  {
-    "vid": "v47175",
-    "id": "r146529",
-    "released": "2026-04-30",
-    "title": "セレクトオブリージュ"
-  },
-  {
-    "vid": "v47175",
-    "id": "r148384",
-    "released": "2026-04-30",
-    "title": "セレクトオブリージュ"
-  },
-  {
-    "vid": "v46891",
-    "id": "r151219",
-    "released": "2026-04",
-    "title": "でこれいと・でこれいしょん"
-  },
-  {
-    "vid": "v46891",
-    "id": "r151220",
-    "released": "2026-04",
-    "title": "でこれいと・でこれいしょん"
-  },
-  {
-    "vid": "v62758",
-    "id": "r149847",
-    "released": "2026-05-01",
-    "title": "飛べない蝶のバレンタイン"
-  },
-  {
-    "vid": "v62758",
-    "id": "r151774",
-    "released": "2026-05-01",
-    "title": "飛べない蝶のバレンタイン"
+    "vid": "v32269",
+    "id": "r88803",
+    "released": "2026-05-03",
+    "title": "RE:D Cherish!"
   },
   {
     "vid": "v31002",
     "id": "r148983",
     "released": "2026-05-04",
     "title": "我家恋天使太废柴鸟真~可怕。"
+  },
+  {
+    "vid": "v31002",
+    "id": "r154796",
+    "released": "2026-05-04",
+    "title": "我家恋天使太废柴鸟真~可怕。- 18+ Patch"
+  },
+  {
+    "vid": "v33283",
+    "id": "r155270",
+    "released": "2026-05-05",
+    "title": "大洪水：打ち寄せる波のセレナーデ"
+  },
+  {
+    "vid": "v43492",
+    "id": "r155351",
+    "released": "2026-05-05",
+    "title": "Charm Studies - Deluxe Edition v1.5.0"
+  },
+  {
+    "vid": "v60751",
+    "id": "r155189",
+    "released": "2026-05-06",
+    "title": "ぬくもりに沈む -The Warmth Meant Just for Me-"
+  },
+  {
+    "vid": "v33283",
+    "id": "r155269",
+    "released": "2026-05-06",
+    "title": "Deluge: Threnody of Crashing Waves"
+  },
+  {
+    "vid": "v33283",
+    "id": "r155748",
+    "released": "2026-05-06",
+    "title": "Deluge: Threnody of Crashing Waves"
+  },
+  {
+    "vid": "v59027",
+    "id": "r155240",
+    "released": "2026-05-09",
+    "title": "青春Encore"
+  },
+  {
+    "vid": "v52955",
+    "id": "r155634",
+    "released": "2026-05-11",
+    "title": "Pippa and Your Phantasmal Problem"
+  },
+  {
+    "vid": "v52955",
+    "id": "r155635",
+    "released": "2026-05-11",
+    "title": "Pippa and Your Phantasmal Problem"
+  },
+  {
+    "vid": "v64893",
+    "id": "r155708",
+    "released": "2026-05-12",
+    "title": "Full Rotation 540°"
+  },
+  {
+    "vid": "v22045",
+    "id": "r147769",
+    "released": "2026-05-13",
+    "title": "Karigurashi Renai: Living on Borrowed Love"
+  },
+  {
+    "vid": "v31002",
+    "id": "r155804",
+    "released": "2026-05-13",
+    "title": "我家恋天使太废柴鸟真~可怕。"
+  },
+  {
+    "vid": "v63114",
+    "id": "r150776",
+    "released": "2026-05-14",
+    "title": "One Day"
+  },
+  {
+    "vid": "v51342",
+    "id": "r155798",
+    "released": "2026-05-14",
+    "title": "Beyond the Sunset 斜阳下的彼岸"
+  },
+  {
+    "vid": "v57495",
+    "id": "r138069",
+    "released": "2026-05-15",
+    "title": "夏娃"
+  },
+  {
+    "vid": "v60377",
+    "id": "r144487",
+    "released": "2026-05-15",
+    "title": "女儿国的诅咒"
   },
   {
     "vid": "v63794",
@@ -486,10 +120,76 @@
     "title": "VenusBlood DarkChronicle Episode:9 闇染めの水晶竜姫"
   },
   {
+    "vid": "v56650",
+    "id": "r155945",
+    "released": "2026-05-15",
+    "title": "橘光柠水随想曲"
+  },
+  {
+    "vid": "v44106",
+    "id": "r137118",
+    "released": "2026-05-19",
+    "title": "Girls’ Dorm -Managing an All-Girls’ Dormitory"
+  },
+  {
+    "vid": "v47549",
+    "id": "r137119",
+    "released": "2026-05-19",
+    "title": "Girls’ Dorm -Managing an All-Girls’ Dormitory"
+  },
+  {
+    "vid": "v44106",
+    "id": "r137127",
+    "released": "2026-05-19",
+    "title": "Girls’ Dorm -Managing an All-Girls’ Dormitory-"
+  },
+  {
+    "vid": "v47549",
+    "id": "r137128",
+    "released": "2026-05-19",
+    "title": "Girls’ Dorm -Managing an All-Girls’ Dormitory- After -"
+  },
+  {
     "vid": "v52402",
     "id": "r126672",
     "released": "2026-05-21",
     "title": "Coffee Talk Tokyo"
+  },
+  {
+    "vid": "v57252",
+    "id": "r138165",
+    "released": "2026-05-21",
+    "title": "几度相逢若初见"
+  },
+  {
+    "vid": "v59255",
+    "id": "r155029",
+    "released": "2026-05-21",
+    "title": "커피여우 김삼월"
+  },
+  {
+    "vid": "v59038",
+    "id": "r141101",
+    "released": "2026-05-22",
+    "title": "halfmoon"
+  },
+  {
+    "vid": "v53307",
+    "id": "r148558",
+    "released": "2026-05-23",
+    "title": "昼下がりのボロアパートと人妻たち 〜閉鎖空間で狂い堕ちていく〜"
+  },
+  {
+    "vid": "v64124",
+    "id": "r153817",
+    "released": "2026-05-23",
+    "title": "フェアリーメイト ~手乗り妖精と過ごす日々~ ＋特典「オリジナル・サウンドトラック&デザイン資料付き」"
+  },
+  {
+    "vid": "v64480",
+    "id": "r154634",
+    "released": "2026-05-26",
+    "title": "它说山雨欲来"
   },
   {
     "vid": "v58103",
@@ -520,6 +220,12 @@
     "id": "r150109",
     "released": "2026-05-28",
     "title": "シュレディンガーズ・コール"
+  },
+  {
+    "vid": "v61951",
+    "id": "r154798",
+    "released": "2026-05-28",
+    "title": "りかも~ど♡"
   },
   {
     "vid": "v53130",
@@ -606,16 +312,16 @@
     "title": "神楽新風記 ~桂香の章~"
   },
   {
-    "vid": "v62021",
-    "id": "r148064",
-    "released": "2026-05",
-    "title": "沙糖蜜恋"
+    "vid": "v62734",
+    "id": "r153887",
+    "released": "2026-05-29",
+    "title": "気になる彼女のママは現役魔法少女 搾られサンドウィッチ生活"
   },
   {
-    "vid": "v55892",
-    "id": "r152925",
-    "released": "2026-05",
-    "title": "破碎的祈愿"
+    "vid": "v61832",
+    "id": "r153888",
+    "released": "2026-05-29",
+    "title": "トリプルペアリング -Triple Pairing-"
   },
   {
     "vid": "v34151",
@@ -756,6 +462,18 @@
     "title": "My Merry May with be"
   },
   {
+    "vid": "v51653",
+    "id": "r155105",
+    "released": "2026-06-25",
+    "title": "SAEKO: Giantess Dating Sim"
+  },
+  {
+    "vid": "v3696",
+    "id": "r155944",
+    "released": "2026-06-25",
+    "title": "My Merry May with be"
+  },
+  {
     "vid": "v52407",
     "id": "r126682",
     "released": "2026-06-26",
@@ -852,6 +570,30 @@
     "title": "ウィッチハンター ~世界のためなら何度でもイきます~ 特別版"
   },
   {
+    "vid": "v28283",
+    "id": "r153772",
+    "released": "2026-06-26",
+    "title": "放課後シンデレラ1＋2 Full HD Remaster"
+  },
+  {
+    "vid": "v63318",
+    "id": "r155838",
+    "released": "2026-06-26",
+    "title": "モザイクの天使"
+  },
+  {
+    "vid": "v51620",
+    "id": "r124988",
+    "released": "2026-06-29",
+    "title": "어서오세요! 셰어하우스에!"
+  },
+  {
+    "vid": "v36662",
+    "id": "r93117",
+    "released": "2026-06-30",
+    "title": "无垢之恋：绽放于春之花海"
+  },
+  {
     "vid": "v58268",
     "id": "r139495",
     "released": "2026-06",
@@ -880,6 +622,12 @@
     "id": "r153323",
     "released": "2026-06",
     "title": "愛か、寂しさに似た何か。"
+  },
+  {
+    "vid": "v64917",
+    "id": "r155740",
+    "released": "2026-07-01",
+    "title": "Dissolution of the Silent Union"
   },
   {
     "vid": "v49423",
@@ -918,6 +666,24 @@
     "title": "ヒプノシスマイク -Alternative Rap Battle- 2nd period"
   },
   {
+    "vid": "v52361",
+    "id": "r126595",
+    "released": "2026-07-23",
+    "title": "High Times"
+  },
+  {
+    "vid": "v57061",
+    "id": "r137247",
+    "released": "2026-07-23",
+    "title": "스테퍼 레트로: 초능력 추리 퀘스트"
+  },
+  {
+    "vid": "v57061",
+    "id": "r151124",
+    "released": "2026-07-23",
+    "title": "스테퍼 레트로: 초능력 추리 퀘스트"
+  },
+  {
     "vid": "v63384",
     "id": "r151503",
     "released": "2026-07-23",
@@ -936,16 +702,124 @@
     "title": "お隣の天使様にいつの間にか 駄目人間にされていた件Memorial Vacation"
   },
   {
-    "vid": "v61215",
-    "id": "r146257",
-    "released": "2026-07",
-    "title": "さくらぶトライアングル"
+    "vid": "v57061",
+    "id": "r153942",
+    "released": "2026-07-23",
+    "title": "스테퍼 레트로: 초능력 추리 퀘스트"
   },
   {
-    "vid": "v12402",
-    "id": "r152863",
+    "vid": "v52715",
+    "id": "r144075",
+    "released": "2026-07-30",
+    "title": "制服カノジョ2 無料DLC Act.4 許斐ゆい"
+  },
+  {
+    "vid": "v63827",
+    "id": "r152894",
+    "released": "2026-07-31",
+    "title": "ネモフィリア-We pass each other-"
+  },
+  {
+    "vid": "v63827",
+    "id": "r153892",
+    "released": "2026-07-31",
+    "title": "ネモフィリア-We pass each other-"
+  },
+  {
+    "vid": "v64431",
+    "id": "r154535",
+    "released": "2026-07-31",
+    "title": "もっと!孕ませ!炎のおっぱい異世界おっぱいスパイ学園!"
+  },
+  {
+    "vid": "v2002",
+    "id": "r128730",
     "released": "2026-08-20",
-    "title": "The House in Fata Morgana"
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155108",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155109",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155110",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155111",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155112",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155142",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155143",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155144",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155152",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155153",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155154",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155156",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155157",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
+  },
+  {
+    "vid": "v2002",
+    "id": "r155158",
+    "released": "2026-08-20",
+    "title": "STEINS;GATE RE:BOOT -"
   },
   {
     "vid": "v51653",
@@ -984,10 +858,58 @@
     "title": "Sovereign Tower"
   },
   {
+    "vid": "v59519",
+    "id": "r142397",
+    "released": "2026-09-10",
+    "title": "制服カノジョ３"
+  },
+  {
+    "vid": "v59519",
+    "id": "r153900",
+    "released": "2026-09-10",
+    "title": "制服カノジョ３"
+  },
+  {
     "vid": "v61200",
     "id": "r146229",
     "released": "2026-09-18",
-    "title": "アイベヤ３"
+    "title": "アイベヤ3"
+  },
+  {
+    "vid": "v61200",
+    "id": "r153886",
+    "released": "2026-09-18",
+    "title": "アイベヤ3"
+  },
+  {
+    "vid": "v24619",
+    "id": "r153953",
+    "released": "2026-09-18",
+    "title": "アイベヤ COMPLETE BOX"
+  },
+  {
+    "vid": "v64684",
+    "id": "r155210",
+    "released": "2026-09-18",
+    "title": "三毒繚乱 贄"
+  },
+  {
+    "vid": "v64684",
+    "id": "r155954",
+    "released": "2026-09-18",
+    "title": "三毒繚乱 贄"
+  },
+  {
+    "vid": "v64684",
+    "id": "r155955",
+    "released": "2026-09-18",
+    "title": "三毒繚乱 贄 タペストリーセット版"
+  },
+  {
+    "vid": "v51309",
+    "id": "r155956",
+    "released": "2026-09-18",
+    "title": "三毒繚乱 贄 三毒繚乱シリーズ豪華パック版"
   },
   {
     "vid": "v49362",
@@ -1018,12 +940,6 @@
     "id": "r144638",
     "released": "2026-10",
     "title": "だうなーギャルは夢をみる"
-  },
-  {
-    "vid": "v61280",
-    "id": "r146406",
-    "released": "2026-10",
-    "title": "Occult Hand of the Blood Lily"
   },
   {
     "vid": "v63082",
@@ -1107,7 +1023,7 @@
     "vid": "v41484",
     "id": "r101565",
     "released": "2026",
-    "title": "駭獣少女"
+    "title": "駭獸少女"
   },
   {
     "vid": "v3091",
@@ -1182,12 +1098,6 @@
     "title": "ヒバリでなくナイチンゲールでもなく"
   },
   {
-    "vid": "v51620",
-    "id": "r124988",
-    "released": "2026",
-    "title": "어서오세요! 셰어하우스에!"
-  },
-  {
     "vid": "v51828",
     "id": "r125344",
     "released": "2026",
@@ -1198,5 +1108,95 @@
     "id": "r125369",
     "released": "2026",
     "title": "构想彼方"
+  },
+  {
+    "vid": "v52146",
+    "id": "r126027",
+    "released": "2026",
+    "title": "私たちフェイクマリッジ?"
+  },
+  {
+    "vid": "v52237",
+    "id": "r126261",
+    "released": "2026",
+    "title": "False Spider"
+  },
+  {
+    "vid": "v52251",
+    "id": "r126286",
+    "released": "2026",
+    "title": "赝作 次元契约 Others"
+  },
+  {
+    "vid": "v25542",
+    "id": "r126341",
+    "released": "2026",
+    "title": "Prison of Lies"
+  },
+  {
+    "vid": "v52557",
+    "id": "r127029",
+    "released": "2026",
+    "title": "爱之巢"
+  },
+  {
+    "vid": "v52780",
+    "id": "r127442",
+    "released": "2026",
+    "title": "COCORO"
+  },
+  {
+    "vid": "v52836",
+    "id": "r127624",
+    "released": "2026",
+    "title": "Depth Loop"
+  },
+  {
+    "vid": "v32185",
+    "id": "r128192",
+    "released": "2026",
+    "title": "夢見た少女のニルヴァーナ Re:Route"
+  },
+  {
+    "vid": "v53143",
+    "id": "r128221",
+    "released": "2026",
+    "title": "我的AI女友"
+  },
+  {
+    "vid": "v53615",
+    "id": "r129415",
+    "released": "2026",
+    "title": "神明高中生"
+  },
+  {
+    "vid": "v53618",
+    "id": "r129421",
+    "released": "2026",
+    "title": "禁忌少女的輪迴之夜"
+  },
+  {
+    "vid": "v53726",
+    "id": "r129689",
+    "released": "2026",
+    "title": "世紀末之詩"
+  },
+  {
+    "vid": "v18486",
+    "id": "r129897",
+    "released": "2026",
+    "title": "妻みぐい3"
+  },
+  {
+    "vid": "v54032",
+    "id": "r130382",
+    "released": "2026",
+    "title": "Inside Utopia"
+  },
+  {
+    "vid": "v54126",
+    "id": "r130580",
+    "released": "2026",
+    "title": "ファントムゾーン・ラビュリントス"
   }
 ]
