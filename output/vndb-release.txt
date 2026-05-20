@@ -1,6 +1,4 @@
 vid;id;title;released
-v33283;r155270;大洪水：打ち寄せる波のセレナーデ;2026-05-05
-v43492;r155351;Charm Studies - Deluxe Edition v1.5.0;2026-05-05
 v60751;r155189;ぬくもりに沈む -The Warmth Meant Just for Me-;2026-05-06
 v33283;r155269;Deluge: Threnody of Crashing Waves;2026-05-06
 v33283;r155748;Deluge: Threnody of Crashing Waves;2026-05-06
@@ -20,11 +18,16 @@ v63795;r152814;VenusBlood DarkChronicle Episode:9 闇染めの水晶竜姫;2026-
 v56650;r155945;橘光柠水随想曲;2026-05-15
 v49147;r156260;幸せなニートの育て方;2026-05-15
 v49147;r156261;幸せなニートの育て方 - 18+ Patch;2026-05-15
+v62627;r149560;Claiming the Noble Elf Mother;2026-05-18
 v28057;r156254;君吻特典「川田老师的运势占卜教室」;2026-05-18
+v65238;r156396;Remake Lover;2026-05-18
 v44106;r137118;Girls’ Dorm -Managing an All-Girls’ Dormitory;2026-05-19
 v47549;r137119;Girls’ Dorm -Managing an All-Girls’ Dormitory;2026-05-19
 v44106;r137127;Girls’ Dorm -Managing an All-Girls’ Dormitory-;2026-05-19
 v47549;r137128;Girls’ Dorm -Managing an All-Girls’ Dormitory- After -;2026-05-19
+v44106;r156346;Girls’ Dorm -Managing an All-Girls’ Dormitory- 18+ patch;2026-05-19
+v47549;r156347;Girls’ Dorm -Managing an All-Girls’ Dormitory- After - 18+ patch;2026-05-19
+v65247;r156412;さよなら虚構~愛は演技でＡＴＭ~;2026-05-19
 v52402;r126672;Coffee Talk Tokyo;2026-05-21
 v57252;r138165;几度相逢若初见;2026-05-21
 v59255;r155029;커피여우 김삼월;2026-05-21
@@ -156,6 +159,7 @@ v64684;r155210;三毒繚乱 贄;2026-09-18
 v64684;r155954;三毒繚乱 贄;2026-09-18
 v64684;r155955;三毒繚乱 贄 タペストリーセット版;2026-09-18
 v51309;r155956;三毒繚乱 贄 三毒繚乱シリーズ豪華パック版;2026-09-18
+v63828;r152895;王様恋愛;2026-09-25
 v49362;r118979;Clover Memory's;2026-09
 v62884;r150148;浪 PIECE!;2026-10-01
 v59728;r142812;偽りのアリス -Retold Tale-;2026-10-03
@@ -195,7 +199,3 @@ v52251;r126286;赝作 次元契约 Others;2026
 v25542;r126341;Prison of Lies;2026
 v52557;r127029;爱之巢;2026
 v52780;r127442;COCORO;2026
-v52836;r127624;Depth Loop;2026
-v32185;r128192;夢見た少女のニルヴァーナ Re:Route;2026
-v53143;r128221;我的AI女友;2026
-v53615;r129415;神明高中生;2026

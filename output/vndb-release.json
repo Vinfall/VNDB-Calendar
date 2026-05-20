@@ -1,17 +1,5 @@
 [
   {
-    "vid": "v33283",
-    "id": "r155270",
-    "released": "2026-05-05",
-    "title": "大洪水：打ち寄せる波のセレナーデ"
-  },
-  {
-    "vid": "v43492",
-    "id": "r155351",
-    "released": "2026-05-05",
-    "title": "Charm Studies - Deluxe Edition v1.5.0"
-  },
-  {
     "vid": "v60751",
     "id": "r155189",
     "released": "2026-05-06",
@@ -126,10 +114,22 @@
     "title": "幸せなニートの育て方 - 18+ Patch"
   },
   {
+    "vid": "v62627",
+    "id": "r149560",
+    "released": "2026-05-18",
+    "title": "Claiming the Noble Elf Mother"
+  },
+  {
     "vid": "v28057",
     "id": "r156254",
     "released": "2026-05-18",
     "title": "君吻特典「川田老师的运势占卜教室」"
+  },
+  {
+    "vid": "v65238",
+    "id": "r156396",
+    "released": "2026-05-18",
+    "title": "Remake Lover"
   },
   {
     "vid": "v44106",
@@ -154,6 +154,24 @@
     "id": "r137128",
     "released": "2026-05-19",
     "title": "Girls’ Dorm -Managing an All-Girls’ Dormitory- After -"
+  },
+  {
+    "vid": "v44106",
+    "id": "r156346",
+    "released": "2026-05-19",
+    "title": "Girls’ Dorm -Managing an All-Girls’ Dormitory- 18+ patch"
+  },
+  {
+    "vid": "v47549",
+    "id": "r156347",
+    "released": "2026-05-19",
+    "title": "Girls’ Dorm -Managing an All-Girls’ Dormitory- After - 18+ patch"
+  },
+  {
+    "vid": "v65247",
+    "id": "r156412",
+    "released": "2026-05-19",
+    "title": "さよなら虚構~愛は演技でＡＴＭ~"
   },
   {
     "vid": "v52402",
@@ -942,6 +960,12 @@
     "title": "三毒繚乱 贄 三毒繚乱シリーズ豪華パック版"
   },
   {
+    "vid": "v63828",
+    "id": "r152895",
+    "released": "2026-09-25",
+    "title": "王様恋愛"
+  },
+  {
     "vid": "v49362",
     "id": "r118979",
     "released": "2026-09",
@@ -1174,29 +1198,5 @@
     "id": "r127442",
     "released": "2026",
     "title": "COCORO"
-  },
-  {
-    "vid": "v52836",
-    "id": "r127624",
-    "released": "2026",
-    "title": "Depth Loop"
-  },
-  {
-    "vid": "v32185",
-    "id": "r128192",
-    "released": "2026",
-    "title": "夢見た少女のニルヴァーナ Re:Route"
-  },
-  {
-    "vid": "v53143",
-    "id": "r128221",
-    "released": "2026",
-    "title": "我的AI女友"
-  },
-  {
-    "vid": "v53615",
-    "id": "r129415",
-    "released": "2026",
-    "title": "神明高中生"
   }
 ]
