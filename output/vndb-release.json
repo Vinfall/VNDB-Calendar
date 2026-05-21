@@ -1,27 +1,15 @@
 [
   {
-    "vid": "v60751",
-    "id": "r155189",
-    "released": "2026-05-06",
-    "title": "ぬくもりに沈む -The Warmth Meant Just for Me-"
-  },
-  {
-    "vid": "v33283",
-    "id": "r155269",
-    "released": "2026-05-06",
-    "title": "Deluge: Threnody of Crashing Waves"
-  },
-  {
-    "vid": "v33283",
-    "id": "r155748",
-    "released": "2026-05-06",
-    "title": "Deluge: Threnody of Crashing Waves"
-  },
-  {
     "vid": "v59027",
     "id": "r155240",
     "released": "2026-05-09",
     "title": "青春Encore"
+  },
+  {
+    "vid": "v64885",
+    "id": "r155698",
+    "released": "2026-05-09",
+    "title": "Survive Min"
   },
   {
     "vid": "v53178",
@@ -174,6 +162,18 @@
     "title": "さよなら虚構~愛は演技でＡＴＭ~"
   },
   {
+    "vid": "v64885",
+    "id": "r156487",
+    "released": "2026-05-19",
+    "title": "Survive Min"
+  },
+  {
+    "vid": "v57252",
+    "id": "r156488",
+    "released": "2026-05-20",
+    "title": "初见亦是重逢"
+  },
+  {
     "vid": "v52402",
     "id": "r126672",
     "released": "2026-05-21",
@@ -183,7 +183,7 @@
     "vid": "v57252",
     "id": "r138165",
     "released": "2026-05-21",
-    "title": "几度相逢若初见"
+    "title": "NICE TO MEET YOU, AGAIN"
   },
   {
     "vid": "v59255",
@@ -364,6 +364,18 @@
     "id": "r153888",
     "released": "2026-05-29",
     "title": "トリプルペアリング -Triple Pairing-"
+  },
+  {
+    "vid": "v63749",
+    "id": "r156504",
+    "released": "2026-05-29",
+    "title": "神楽新風記 ~桂香の章~"
+  },
+  {
+    "vid": "v47876",
+    "id": "r156526",
+    "released": "2026-06-04",
+    "title": "Она рисовала алых волков"
   },
   {
     "vid": "v34151",
@@ -990,6 +1002,60 @@
     "title": "Awakewood"
   },
   {
+    "vid": "v2002",
+    "id": "r156517",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r156518",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r156519",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r156520",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r156521",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r156522",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r156523",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r156524",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
+    "vid": "v2002",
+    "id": "r156525",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE RE:BOOT"
+  },
+  {
     "vid": "v60467",
     "id": "r144638",
     "released": "2026-10",
@@ -1132,71 +1198,5 @@
     "id": "r122426",
     "released": "2026",
     "title": "クローバー・メモリーズ 特殊演出パッチ"
-  },
-  {
-    "vid": "v50758",
-    "id": "r122872",
-    "released": "2026",
-    "title": "ゆめうつつクインテット"
-  },
-  {
-    "vid": "v51151",
-    "id": "r123822",
-    "released": "2026",
-    "title": "旅人的紫阳"
-  },
-  {
-    "vid": "v51193",
-    "id": "r123955",
-    "released": "2026",
-    "title": "ヒバリでなくナイチンゲールでもなく"
-  },
-  {
-    "vid": "v51828",
-    "id": "r125344",
-    "released": "2026",
-    "title": "藏物"
-  },
-  {
-    "vid": "v51840",
-    "id": "r125369",
-    "released": "2026",
-    "title": "构想彼方"
-  },
-  {
-    "vid": "v52146",
-    "id": "r126027",
-    "released": "2026",
-    "title": "私たちフェイクマリッジ?"
-  },
-  {
-    "vid": "v52237",
-    "id": "r126261",
-    "released": "2026",
-    "title": "False Spider"
-  },
-  {
-    "vid": "v52251",
-    "id": "r126286",
-    "released": "2026",
-    "title": "赝作 次元契约 Others"
-  },
-  {
-    "vid": "v25542",
-    "id": "r126341",
-    "released": "2026",
-    "title": "Prison of Lies"
-  },
-  {
-    "vid": "v52557",
-    "id": "r127029",
-    "released": "2026",
-    "title": "爱之巢"
-  },
-  {
-    "vid": "v52780",
-    "id": "r127442",
-    "released": "2026",
-    "title": "COCORO"
   }
 ]
