@@ -48,7 +48,7 @@ jobs:
 
       - name: push changes
         if: ${{ steps.check_changes.outputs.changes == 'true' }}
-        uses: ad-m/github-push-action@v1
+        uses: ad-m/github-push-action@v1.2.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
