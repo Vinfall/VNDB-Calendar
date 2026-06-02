@@ -1,7 +1,4 @@
 vid;id;title;released
-v62627;r149560;Claiming the Noble Elf Mother;2026-05-18
-v28057;r156254;君吻特典「川田老师的运势占卜教室」;2026-05-18
-v65238;r156396;Remake Lover;2026-05-18
 v44106;r137118;Girls’ Dorm -Managing an All-Girls’ Dormitory;2026-05-19
 v47549;r137119;Girls’ Dorm -Managing an All-Girls’ Dormitory;2026-05-19
 v44106;r137127;Girls’ Dorm -Managing an All-Girls’ Dormitory-;2026-05-19
@@ -58,7 +55,6 @@ v63749;r156504;神楽新風記 ~桂香の章~;2026-05-29
 v21647;r156821;ヌキコレvol.105 クロスコンチェルト One or two of us were not enough.It took everybody to reach our intersecting future. クリアカード付;2026-05-29
 v53130;r157102;アイリス・オデッセイ 完全版;2026-05-29
 v52635;r157149;시크릿 썸;2026-05-29
-v65621;r157150;愛音とふたりだけのスポットライト;2026-05-30
 v65626;r157165;真性終末症候群 World end, rehabilitation;2026-05-30
 v59038;r157209;halfmoon;2026-05-30
 v50215;r157237;甜蜜女友 3;2026-05-31
@@ -199,3 +195,7 @@ v2002;r156522;"STEINS;GATE RE:BOOT";2026-10-29
 v2002;r156523;"STEINS;GATE RE:BOOT";2026-10-29
 v2002;r156524;"STEINS;GATE RE:BOOT";2026-10-29
 v2002;r156525;"STEINS;GATE RE:BOOT";2026-10-29
+v60467;r144638;だうなーギャルは夢をみる;2026-10
+v63082;r150715;小金井荘と金色の揚羽蝶;2026-11-26
+v63082;r150721;小金井荘と金色の揚羽蝶;2026-11-26
+v46543;r152892;Everlasting Flowers - Where there is a will, there is a way;2026-11-26
