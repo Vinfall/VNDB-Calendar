@@ -1,17 +1,5 @@
 [
   {
-    "vid": "v57252",
-    "id": "r156488",
-    "released": "2026-05-20",
-    "title": "初见亦是重逢"
-  },
-  {
-    "vid": "v65484",
-    "id": "r156824",
-    "released": "2026-05-20",
-    "title": "局外人局内人"
-  },
-  {
     "vid": "v52402",
     "id": "r126672",
     "released": "2026-05-21",
@@ -364,6 +352,12 @@
     "id": "r151727",
     "released": "2026-06-18",
     "title": "嘘から始まる恋の夏 -"
+  },
+  {
+    "vid": "v59576",
+    "id": "r157411",
+    "released": "2026-06-18",
+    "title": "Jurnal Risa: Dark Destiny"
   },
   {
     "vid": "v59416",
@@ -1198,5 +1192,11 @@
     "id": "r62798",
     "released": "2026",
     "title": "樱花，萌放。-as the Night's, Reincarnation-"
+  },
+  {
+    "vid": "v33120",
+    "id": "r85556",
+    "released": "2026",
+    "title": "EDEN.schemata();"
   }
 ]
