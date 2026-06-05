@@ -1,35 +1,5 @@
 [
   {
-    "vid": "v52402",
-    "id": "r126672",
-    "released": "2026-05-21",
-    "title": "Coffee Talk Tokyo"
-  },
-  {
-    "vid": "v59255",
-    "id": "r155029",
-    "released": "2026-05-21",
-    "title": "커피여우 김삼월"
-  },
-  {
-    "vid": "v52402",
-    "id": "r156263",
-    "released": "2026-05-21",
-    "title": "Coffee Talk Tokyo"
-  },
-  {
-    "vid": "v52402",
-    "id": "r156264",
-    "released": "2026-05-21",
-    "title": "Coffee Talk Tokyo"
-  },
-  {
-    "vid": "v52402",
-    "id": "r156273",
-    "released": "2026-05-21",
-    "title": "Coffee Talk Tokyo"
-  },
-  {
     "vid": "v5562",
     "id": "r126788",
     "released": "2026-05-22",
@@ -312,6 +282,12 @@
     "title": "Она рисовала алых волков"
   },
   {
+    "vid": "v65702",
+    "id": "r157455",
+    "released": "2026-06-04",
+    "title": "ごきげんラブリーデイズ"
+  },
+  {
     "vid": "v65390",
     "id": "r156633",
     "released": "2026-06-05",
@@ -358,6 +334,12 @@
     "id": "r157411",
     "released": "2026-06-18",
     "title": "Jurnal Risa: Dark Destiny"
+  },
+  {
+    "vid": "v22313",
+    "id": "r62798",
+    "released": "2026-06-19",
+    "title": "樱花，萌放。-as the Night's, Reincarnation-"
   },
   {
     "vid": "v59416",
@@ -516,6 +498,12 @@
     "title": "年上彼女２"
   },
   {
+    "vid": "v62721",
+    "id": "r149759",
+    "released": "2026-06-26",
+    "title": "マガルミナ"
+  },
+  {
     "vid": "v61216",
     "id": "r149789",
     "released": "2026-06-26",
@@ -526,6 +514,12 @@
     "id": "r149820",
     "released": "2026-06-26",
     "title": "Template!! An Angel's Gift"
+  },
+  {
+    "vid": "v62721",
+    "id": "r150049",
+    "released": "2026-06-26",
+    "title": "マガルミナ"
   },
   {
     "vid": "v63304",
@@ -1188,15 +1182,21 @@
     "title": "頭に爆弾 ~24時間以内にSEXしないと死んじゃう!~"
   },
   {
-    "vid": "v22313",
-    "id": "r62798",
-    "released": "2026",
-    "title": "樱花，萌放。-as the Night's, Reincarnation-"
-  },
-  {
     "vid": "v33120",
     "id": "r85556",
     "released": "2026",
     "title": "EDEN.schemata();"
+  },
+  {
+    "vid": "v26012",
+    "id": "r87183",
+    "released": "2026",
+    "title": "蘭島物語2：奇滄的幻海"
+  },
+  {
+    "vid": "v36005",
+    "id": "r91486",
+    "released": "2026",
+    "title": "天狐札记"
   }
 ]
