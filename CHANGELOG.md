@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.10.1] - 2026-06-21
+
+### 📦 Dependencies
+
+- Bump uv.lock
+- Bump actions/checkout from 6 to 7
+- Bump ics from 0.8.0.dev0 to 0.8.0.dev1
+- Bump requests from 2.30.0 to 2.30.1
+- Bump dependencies
+- Bump jdx/mise-action from 3 to 4
+
+### 🎨 Styling
+
+- Tweak tombi schema.strict
+- Set indent_size to 2 for json/jsonc
+
+### 🛠️ Chores
+
+- Bump {en,zh}patch start date to 2026-01
+- Bump {en,zh}patch start date to 2025-10
+- Set cache_key_prefix to avoid cache pollution
+- Pip -> uv in dependabot
+- Update .gitignore
+- Sync mise config
+
 ## [5.9.6] - 2026-02-16
 
 ### 📚 Docs
