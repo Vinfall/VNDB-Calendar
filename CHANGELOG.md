@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.11.0] - 2026-07-17
+
+### 📦 Dependencies
+
+- Ics -> ical
+
 ## [5.10.2] - 2026-07-17
 
 ### 📦 Dependencies
