@@ -1,6 +1,6 @@
 [project]
 name = "VNDB-Calendar"
-version = "5.10.1"
+version = "5.10.2"
 description = "VNDB New Release as subscribable ICS/iCalendar."
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.10"
@@ -16,7 +16,7 @@ classifiers = [
   "Topic :: File Formats",
   "Topic :: Games/Entertainment",
 ]
-dependencies = ["dateparser>=1.4.0", "ics==0.8.0.dev1", "requests>=2.33.1"]
+dependencies = ["dateparser>=1.4.1", "ics==0.8.0.dev1", "requests>=2.34.2"]
 
 [project.urls]
 changelog = "https://github.com/Vinfall/VNDB-Calendar/blob/main/CHANGELOG.md"
