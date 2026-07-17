@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.10.2] - 2026-07-17
+
+### 📦 Dependencies
+
+- Bump dependencies
+
 ## [5.10.1] - 2026-06-21
 
 ### 📦 Dependencies
