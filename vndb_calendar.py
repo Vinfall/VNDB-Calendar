@@ -3,7 +3,7 @@
 # Documentation
 # VNDB API: https://api.vndb.org/kana#post-release
 # VNDB Formatting Codes: https://vndb.org/d9#4
-# ICS: https://icspy.readthedocs.io/en/stable/api.html#event
+# ical: https://allenporter.github.io/ical/ical.html#quickstart
 # Argparse: https://docs.python.org/3/library/argparse.html
 # Dateparser: https://dateparser.readthedocs.io/en/latest/settings.html#handling-incomplete-dates
 import argparse
@@ -18,7 +18,9 @@ from typing import Any
 
 import dateparser
 import requests
-from ics import Calendar, Event
+from ical.calendar import Calendar
+from ical.calendar_stream import IcsCalendarStream
+from ical.event import Event
 
 # Output files
 _OUTPUT_FOLDER = "output/"
@@ -368,7 +370,7 @@ def last_day_of_next_month(dt: datetime) -> datetime:
 
 # Make calendar
 def make_calendar(processed_results: list[dict[str, Any]]) -> None:
-    cal = Calendar(creator="VNDBCalendar")
+    cal = Calendar(prodid="VNDBCalendar")
     now: datetime = datetime.now()  # noqa: DTZ005
     event_dict = {}
 
@@ -425,12 +427,11 @@ def make_calendar(processed_results: list[dict[str, Any]]) -> None:
             uid=rid,  # release identifier is more unique, but would conflict with event_dict below
             summary=title,
             description=description,
-            begin=release_date,
+            start=release_date,
             last_modified=now,
             dtstamp=now,
-            categories=["vn_release"],
+            categories=["vndb"],
         )
-        event.make_all_day()
 
         # Only append events if it's a different VN
         # Do NOT use release_date as a VN can have multiple releases on different dates
@@ -441,7 +442,7 @@ def make_calendar(processed_results: list[dict[str, Any]]) -> None:
         cal.events.append(event)
 
     with open(_OUTPUT_FOLDER + _ICS_FILE, "w", encoding="utf-8") as f:
-        f.write(cal.serialize())
+        f.write(IcsCalendarStream.calendar_to_ics(cal))
 
 
 os.makedirs(_OUTPUT_FOLDER, exist_ok=True)

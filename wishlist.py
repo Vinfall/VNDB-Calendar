@@ -21,7 +21,9 @@ from typing import Any
 
 import dateparser
 import requests
-from ics import Calendar, Event
+from ical.calendar import Calendar
+from ical.calendar_stream import IcsCalendarStream
+from ical.event import Event
 
 # import importlib
 # Import functions from vndb_calendar
@@ -180,7 +182,7 @@ def last_day_of_next_month(dt: datetime) -> datetime:
 
 # Make calendar
 def make_calendar(processed_results: list[dict[str, Any]]) -> None:
-    cal = Calendar(creator="VNDBWishlistCalendar")
+    cal = Calendar(prodid="VNDBWishlistCalendar")
     now: datetime = datetime.now()  # noqa: DTZ005
     event_dict = {}
 
@@ -231,12 +233,11 @@ def make_calendar(processed_results: list[dict[str, Any]]) -> None:
             uid=vid,
             summary=title,
             description=description,
-            begin=release_date,
+            start=release_date,
             last_modified=now,
             dtstamp=now,
             categories=["vn_wishlist"],
         )
-        event.make_all_day()
 
         # Only append events if it's a different VN
         # Do NOT use release_date as a VN can have multiple releases on different dates
@@ -247,7 +248,7 @@ def make_calendar(processed_results: list[dict[str, Any]]) -> None:
         cal.events.append(event)
 
     with open(_OUTPUT_FOLDER + _ICS_FILE, "w", encoding="utf-8") as f:
-        f.write(cal.serialize())
+        f.write(IcsCalendarStream.calendar_to_ics(cal))
 
 
 os.makedirs(_OUTPUT_FOLDER, exist_ok=True)
