@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v67160",
-    "id": "r161146",
-    "released": "2026-07-09",
-    "title": "残月のレヴェリア"
-  },
-  {
     "vid": "v57996",
     "id": "r138838",
     "released": "2026-07-10",
@@ -246,12 +240,6 @@
     "title": "とりまざんげ"
   },
   {
-    "vid": "v67159",
-    "id": "r161147",
-    "released": "2026-07-20",
-    "title": "The Life and Suffering of Prince Jerian"
-  },
-  {
     "vid": "v67276",
     "id": "r161374",
     "released": "2026-07-20",
@@ -300,10 +288,10 @@
     "title": "스테퍼 레트로: 초능력 추리 퀘스트"
   },
   {
-    "vid": "v54584",
-    "id": "r131566",
-    "released": "2026-07-24",
-    "title": "铜刀银剑"
+    "vid": "v63384",
+    "id": "r161568",
+    "released": "2026-07-23",
+    "title": "お隣の天使様にいつの間にか 駄目人間にされていた件Memorial Vacation"
   },
   {
     "vid": "v60792",
@@ -418,6 +406,12 @@
     "id": "r153409",
     "released": "2026-08-06",
     "title": "Sovereign Tower"
+  },
+  {
+    "vid": "v54584",
+    "id": "r131566",
+    "released": "2026-08-07",
+    "title": "铜刀银剑"
   },
   {
     "vid": "v59520",
@@ -720,10 +714,34 @@
     "title": "HimaNatsu: Of Churches, Sunflowers, and Long Summers"
   },
   {
+    "vid": "v27153",
+    "id": "r119726",
+    "released": "2026-09-16",
+    "title": "Roman Sands RE:Build"
+  },
+  {
     "vid": "v24689",
     "id": "r148362",
     "released": "2026-09-16",
     "title": "スタディ§ステディ"
+  },
+  {
+    "vid": "v27153",
+    "id": "r161555",
+    "released": "2026-09-16",
+    "title": "Roman Sands RE:Build"
+  },
+  {
+    "vid": "v27153",
+    "id": "r161556",
+    "released": "2026-09-16",
+    "title": "Roman Sands RE:Build"
+  },
+  {
+    "vid": "v27153",
+    "id": "r161557",
+    "released": "2026-09-16",
+    "title": "Roman Sands RE:Build"
   },
   {
     "vid": "v61200",
@@ -990,6 +1008,12 @@
     "title": "ハッピーウィークエンド"
   },
   {
+    "vid": "v67143",
+    "id": "r161126",
+    "released": "2026-11-27",
+    "title": "ワンナイトアフター"
+  },
+  {
     "vid": "v61046",
     "id": "r145914",
     "released": "2026-11",
@@ -1174,29 +1198,5 @@
     "id": "r125344",
     "released": "2026",
     "title": "藏物"
-  },
-  {
-    "vid": "v51840",
-    "id": "r125369",
-    "released": "2026",
-    "title": "构想彼方"
-  },
-  {
-    "vid": "v52237",
-    "id": "r126261",
-    "released": "2026",
-    "title": "False Spider"
-  },
-  {
-    "vid": "v52251",
-    "id": "r126286",
-    "released": "2026",
-    "title": "赝作 次元契约 Others"
-  },
-  {
-    "vid": "v52557",
-    "id": "r127029",
-    "released": "2026",
-    "title": "爱之巢"
   }
 ]
