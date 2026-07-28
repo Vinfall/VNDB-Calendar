@@ -111,16 +111,16 @@ wheels = [
 
 [[package]]
 name = "ical"
-version = "14.0.0"
+version = "14.0.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pydantic" },
     { name = "python-dateutil" },
     { name = "tzdata" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/84/5b/0c0dfbf68b7f698243535e692f999b94f99d2cd3bfb8bc4bcac7d6513c0b/ical-14.0.0.tar.gz", hash = "sha256:675c619fff68af665894932f79cec5b53f43afce36a2379d945916f7adb3fca4", size = 148605, upload-time = "2026-07-09T00:01:24.424Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/05/0e/8cdeb5e10f5ab7290d8affe256d1373635d33856b98a27688795d3b0f314/ical-14.0.1.tar.gz", hash = "sha256:444df95a8eb710d87a196fd995b26f0ff7fcf8f779e9eeae898b4393a492be6d", size = 152807, upload-time = "2026-07-19T21:20:28.053Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/96/b2/a6281456a263a95929453da11b9b135ac0c49f91fd67dd6435a1f5d250b2/ical-14.0.0-py3-none-any.whl", hash = "sha256:ae5eeb82e044da1a9bb689225bccaefc4ba9eaa049adfa4f3b5179a67f81f105", size = 139901, upload-time = "2026-07-09T00:01:23.092Z" },
+    { url = "https://files.pythonhosted.org/packages/7f/c6/3cc02d2bebf838126b4d3bed4800b108079a3e82cd39f2374bc6256733c6/ical-14.0.1-py3-none-any.whl", hash = "sha256:02ca21f76a7899dbc093b301d2fd2ce2a36c06a9a53e2cec442d80210724737f", size = 141213, upload-time = "2026-07-19T21:20:26.557Z" },
 ]
 
 [[package]]
@@ -462,6 +462,6 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "dateparser", specifier = ">=1.4.1" },
-    { name = "ical", specifier = ">=14.0.0" },
+    { name = "ical", specifier = ">=14.0.1" },
     { name = "requests", specifier = ">=2.34.2" },
 ]
