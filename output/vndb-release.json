@@ -1,17 +1,5 @@
 [
   {
-    "vid": "v3696",
-    "id": "r161130",
-    "released": "2026-08-03",
-    "title": "My Merry May with be"
-  },
-  {
-    "vid": "v67497",
-    "id": "r161988",
-    "released": "2026-08-03",
-    "title": "失恋者同盟"
-  },
-  {
     "vid": "v65730",
     "id": "r162546",
     "released": "2026-08-05",
@@ -198,6 +186,18 @@
     "title": "ENCORE! plus!"
   },
   {
+    "vid": "v60488",
+    "id": "r163481",
+    "released": "2026-08-16",
+    "title": "星天へ発つ日"
+  },
+  {
+    "vid": "v30229",
+    "id": "r163490",
+    "released": "2026-08-17",
+    "title": "最上邸R"
+  },
+  {
     "vid": "v52743",
     "id": "r127354",
     "released": "2026-08-18",
@@ -218,7 +218,7 @@
   {
     "vid": "v60488",
     "id": "r144697",
-    "released": "2026-08-19",
+    "released": "2026-08-20",
     "title": "星天へ発つ日"
   },
   {
@@ -237,13 +237,13 @@
     "vid": "v2002",
     "id": "r155110",
     "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
+    "title": "STEINS;GATE RE:BOOT - JP"
   },
   {
     "vid": "v2002",
     "id": "r155111",
     "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
+    "title": "STEINS;GATE RE:BOOT - JP"
   },
   {
     "vid": "v2002",
