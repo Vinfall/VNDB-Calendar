@@ -1,17 +1,5 @@
 [
   {
-    "vid": "v63987",
-    "id": "r153409",
-    "released": "2026-08-06",
-    "title": "Sovereign Tower"
-  },
-  {
-    "vid": "v32758",
-    "id": "r162157",
-    "released": "2026-08-06",
-    "title": "イハナシの魔女"
-  },
-  {
     "vid": "v57582",
     "id": "r138199",
     "released": "2026-08-07",
@@ -300,12 +288,6 @@
     "title": "STEINS;GATE RE:BOOT"
   },
   {
-    "vid": "v66206",
-    "id": "r158886",
-    "released": "2026-08-20",
-    "title": "Where Control Ends"
-  },
-  {
     "vid": "v17632",
     "id": "r147768",
     "released": "2026-08-25",
@@ -466,6 +448,12 @@
     "id": "r157931",
     "released": "2026-08",
     "title": "GIFT from GOD"
+  },
+  {
+    "vid": "v66206",
+    "id": "r158886",
+    "released": "2026-08",
+    "title": "Where Control Ends"
   },
   {
     "vid": "v67158",
@@ -966,6 +954,12 @@
     "title": "魔法使いの夜"
   },
   {
+    "vid": "v65042",
+    "id": "r155946",
+    "released": "2026-11-25",
+    "title": "楽園追放 –The Stellar Angel–"
+  },
+  {
     "vid": "v58614",
     "id": "r140215",
     "released": "2026-11-26",
@@ -1198,5 +1192,11 @@
     "id": "r103321",
     "released": "2026",
     "title": "CHAOS;HEAD Love Chu☆Chu!"
+  },
+  {
+    "vid": "v19953",
+    "id": "r103323",
+    "released": "2026",
+    "title": "CHAOS;CHILD Love Chu☆Chu!!"
   }
 ]
