@@ -1,27 +1,9 @@
 [
   {
-    "vid": "v67889",
-    "id": "r162865",
-    "released": "2026-08-08",
-    "title": "Oculo Fluido Tranquillo"
-  },
-  {
-    "vid": "v67848",
-    "id": "r163038",
-    "released": "2026-08-08",
-    "title": "小早川さんはソウルライク"
-  },
-  {
-    "vid": "v67848",
-    "id": "r163039",
-    "released": "2026-08-08",
-    "title": "小早川さんはソウルライク"
-  },
-  {
-    "vid": "v68104",
-    "id": "r163406",
-    "released": "2026-08-08",
-    "title": "お嬢様とともにメイドの死の謎を解き明かしいちゃいちゃHするゲーム"
+    "vid": "v53066",
+    "id": "r162867",
+    "released": "2026-08-09",
+    "title": "Summer Solstice ~夏死~ 中文免 CD 版 v1.1.0"
   },
   {
     "vid": "v67895",
@@ -34,6 +16,12 @@
     "id": "r163398",
     "released": "2026-08-10",
     "title": "孤城の空論"
+  },
+  {
+    "vid": "v63113",
+    "id": "r163715",
+    "released": "2026-08-10",
+    "title": "Замок в Пісках"
   },
   {
     "vid": "v67503",
@@ -666,12 +654,6 @@
     "title": "Clover Memory's"
   },
   {
-    "vid": "v68164",
-    "id": "r163539",
-    "released": "2026-09",
-    "title": "Bone to Pick: Forensic Case Files"
-  },
-  {
     "vid": "v62884",
     "id": "r150148",
     "released": "2026-10-01",
@@ -1080,6 +1062,12 @@
     "title": "Clover Memory's"
   },
   {
+    "vid": "v68221",
+    "id": "r163660",
+    "released": "2026-11",
+    "title": "DISK-Y"
+  },
+  {
     "vid": "v63977",
     "id": "r153357",
     "released": "2026-12-07",
@@ -1198,5 +1186,17 @@
     "id": "r103321",
     "released": "2026",
     "title": "CHAOS;HEAD Love Chu☆Chu!"
+  },
+  {
+    "vid": "v19953",
+    "id": "r103323",
+    "released": "2026",
+    "title": "CHAOS;CHILD Love Chu☆Chu!!"
+  },
+  {
+    "vid": "v44827",
+    "id": "r107771",
+    "released": "2026",
+    "title": "Nowhere Manor"
   }
 ]
