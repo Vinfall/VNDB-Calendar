@@ -318,12 +318,6 @@
     "title": "SAEKO: Giantess Dating Sim"
   },
   {
-    "vid": "v54933",
-    "id": "r132398",
-    "released": "2026-08-28",
-    "title": "心象天儀本線 ~Per aspera ad astra~"
-  },
-  {
     "vid": "v63659",
     "id": "r152398",
     "released": "2026-08-28",
@@ -426,10 +420,10 @@
     "title": "Kingdom Cumquest"
   },
   {
-    "vid": "v55396",
-    "id": "r133516",
-    "released": "2026-08-31",
-    "title": "Toxic Yuri"
+    "vid": "v22783",
+    "id": "r164111",
+    "released": "2026-08-28",
+    "title": "MUSICUS! 人在乐途"
   },
   {
     "vid": "v66098",
@@ -520,6 +514,12 @@
     "id": "r163944",
     "released": "2026-09-10",
     "title": "不確定世界の探偵紳士 ~悪行双麻の事件ファイル~"
+  },
+  {
+    "vid": "v55396",
+    "id": "r133516",
+    "released": "2026-09-15",
+    "title": "Toxic Yuri"
   },
   {
     "vid": "v27153",
@@ -954,10 +954,22 @@
     "title": "留在四月以后"
   },
   {
+    "vid": "v27397",
+    "id": "r164011",
+    "released": "2026-11-04",
+    "title": "雪月の星霜"
+  },
+  {
     "vid": "v68180",
     "id": "r163573",
     "released": "2026-11-09",
     "title": "히루가오"
+  },
+  {
+    "vid": "v68022",
+    "id": "r163169",
+    "released": "2026-11-16",
+    "title": "The Attic: A Mystery Puzzle Game"
   },
   {
     "vid": "v777",
@@ -1158,6 +1170,12 @@
     "title": "わがママ"
   },
   {
+    "vid": "v68391",
+    "id": "r164064",
+    "released": "2026-12",
+    "title": "LUNADUN: LUNATIC DUNGEON"
+  },
+  {
     "vid": "v24207",
     "id": "r59413",
     "released": "2026",
@@ -1180,23 +1198,5 @@
     "id": "r85556",
     "released": "2026",
     "title": "EDEN.schemata();"
-  },
-  {
-    "vid": "v26012",
-    "id": "r87183",
-    "released": "2026",
-    "title": "蘭島物語2：奇滄的幻海"
-  },
-  {
-    "vid": "v36005",
-    "id": "r91486",
-    "released": "2026",
-    "title": "天狐札记"
-  },
-  {
-    "vid": "v36662",
-    "id": "r93117",
-    "released": "2026",
-    "title": "无垢之恋：绽放于春之花海"
   }
 ]
