@@ -1,35 +1,5 @@
 [
   {
-    "vid": "v61161",
-    "id": "r146172",
-    "released": "2026-08-14",
-    "title": "我的女友脑子有问题"
-  },
-  {
-    "vid": "v59595",
-    "id": "r158673",
-    "released": "2026-08-14",
-    "title": "My (♂) Life as a Vampire's Maid (♀)"
-  },
-  {
-    "vid": "v59595",
-    "id": "r159680",
-    "released": "2026-08-14",
-    "title": "My (♂) Life as a Vampire's Maid (♀)"
-  },
-  {
-    "vid": "v67584",
-    "id": "r162214",
-    "released": "2026-08-14",
-    "title": "おばさんじゃない、女だった。〜隣の八百屋の奥さんと越えてはいけない夏〜"
-  },
-  {
-    "vid": "v59595",
-    "id": "r163340",
-    "released": "2026-08-14",
-    "title": "My (♂) Life as a Vampire's Maid (♀) - 18+ Patch"
-  },
-  {
     "vid": "v65863",
     "id": "r157860",
     "released": "2026-08-15",
@@ -309,13 +279,19 @@
     "vid": "v62739",
     "id": "r149797",
     "released": "2026-08-27",
-    "title": "옆집에는 마법소녀/소꿉친구가 산다"
+    "title": "옆집에는 마법소녀 / 소꿉친구가 산다"
   },
   {
     "vid": "v51653",
     "id": "r149821",
     "released": "2026-08-27",
     "title": "SAEKO: Giantess Dating Sim"
+  },
+  {
+    "vid": "v17632",
+    "id": "r147768",
+    "released": "2026-08-28",
+    "title": "Koikata: How Our Love Grows"
   },
   {
     "vid": "v63659",
@@ -328,6 +304,12 @@
     "id": "r152642",
     "released": "2026-08-28",
     "title": "メイクラ~属性盛りすぎメイドロイドと、負けたくないクラスメイトのご奉仕性活~"
+  },
+  {
+    "vid": "v64970",
+    "id": "r155825",
+    "released": "2026-08-28",
+    "title": "给恒星 - For Stella"
   },
   {
     "vid": "v65620",
@@ -1198,5 +1180,23 @@
     "id": "r85556",
     "released": "2026",
     "title": "EDEN.schemata();"
+  },
+  {
+    "vid": "v26012",
+    "id": "r87183",
+    "released": "2026",
+    "title": "蘭島物語2：奇滄的幻海"
+  },
+  {
+    "vid": "v36005",
+    "id": "r91486",
+    "released": "2026",
+    "title": "天狐札记"
+  },
+  {
+    "vid": "v36662",
+    "id": "r93117",
+    "released": "2026",
+    "title": "无垢之恋：绽放于春之花海"
   }
 ]
