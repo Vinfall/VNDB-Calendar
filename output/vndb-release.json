@@ -1,119 +1,5 @@
 [
   {
-    "vid": "v60331",
-    "id": "r144405",
-    "released": "2026-08-16",
-    "title": "とける風花とシロうさぎ"
-  },
-  {
-    "vid": "v61464",
-    "id": "r146877",
-    "released": "2026-08-16",
-    "title": "こんな安楽椅子探偵は嫌だ!"
-  },
-  {
-    "vid": "v66522",
-    "id": "r159587",
-    "released": "2026-08-16",
-    "title": "真空、少女涙を零せるか"
-  },
-  {
-    "vid": "v57527",
-    "id": "r162216",
-    "released": "2026-08-16",
-    "title": "ENCORE! plus!"
-  },
-  {
-    "vid": "v65890",
-    "id": "r162394",
-    "released": "2026-08-16",
-    "title": "GIFT from GOD"
-  },
-  {
-    "vid": "v31686",
-    "id": "r162797",
-    "released": "2026-08-16",
-    "title": "そらのひらけたばしょ -CHORD:OOC-"
-  },
-  {
-    "vid": "v67948",
-    "id": "r163007",
-    "released": "2026-08-16",
-    "title": "きみにふれない夏"
-  },
-  {
-    "vid": "v57527",
-    "id": "r163424",
-    "released": "2026-08-16",
-    "title": "ENCORE! plus!"
-  },
-  {
-    "vid": "v60488",
-    "id": "r163481",
-    "released": "2026-08-16",
-    "title": "星天へ発つ日"
-  },
-  {
-    "vid": "v68233",
-    "id": "r163716",
-    "released": "2026-08-16",
-    "title": "余白 THE GIRLS IN THE MARGINS"
-  },
-  {
-    "vid": "v68313",
-    "id": "r163853",
-    "released": "2026-08-16",
-    "title": "Sex and Drug Girls"
-  },
-  {
-    "vid": "v68350",
-    "id": "r163964",
-    "released": "2026-08-16",
-    "title": "憑かれもの"
-  },
-  {
-    "vid": "v68351",
-    "id": "r163965",
-    "released": "2026-08-16",
-    "title": "創作ライフクライシス"
-  },
-  {
-    "vid": "v68357",
-    "id": "r163979",
-    "released": "2026-08-16",
-    "title": "あまあまお姉さんに癒されたい4 グサデレ後輩に告白されるバレンタインデー"
-  },
-  {
-    "vid": "v68360",
-    "id": "r163981",
-    "released": "2026-08-16",
-    "title": "Smile"
-  },
-  {
-    "vid": "v60331",
-    "id": "r163982",
-    "released": "2026-08-16",
-    "title": "とける風花とシロうさぎ"
-  },
-  {
-    "vid": "v68442",
-    "id": "r164179",
-    "released": "2026-08-16",
-    "title": "AM GAME DISC C108"
-  },
-  {
-    "vid": "v68444",
-    "id": "r164184",
-    "released": "2026-08-16",
-    "title": "同人誌即売会で推しと結婚する方法"
-  },
-  {
-    "vid": "v68451",
-    "id": "r164201",
-    "released": "2026-08-16",
-    "title": "硝子の自鳴琴"
-  },
-  {
     "vid": "v52743",
     "id": "r127354",
     "released": "2026-08-18",
@@ -432,6 +318,12 @@
     "title": "MUSICUS! 人在乐途"
   },
   {
+    "vid": "v19544",
+    "id": "r164367",
+    "released": "2026-08-28",
+    "title": "Kingdom Cumquest"
+  },
+  {
     "vid": "v54584",
     "id": "r131566",
     "released": "2026-08-29",
@@ -446,14 +338,20 @@
   {
     "vid": "v66098",
     "id": "r158462",
-    "released": "2026-08-31",
+    "released": "2026-08-30",
     "title": "君をしってる、はずだった。"
   },
   {
-    "vid": "v65890",
-    "id": "r157931",
-    "released": "2026-08",
-    "title": "GIFT from GOD"
+    "vid": "v68474",
+    "id": "r164279",
+    "released": "2026-08-30",
+    "title": "アオハルインストール"
+  },
+  {
+    "vid": "v68340",
+    "id": "r163921",
+    "released": "2026-08-31",
+    "title": "黄色いリボンがほどけたら"
   },
   {
     "vid": "v67158",
@@ -696,10 +594,10 @@
     "title": "프린세스 메이커: 예언의 아이들"
   },
   {
-    "vid": "v49362",
-    "id": "r118979",
+    "vid": "v65890",
+    "id": "r157931",
     "released": "2026-09",
-    "title": "Clover Memory's"
+    "title": "GIFT from GOD"
   },
   {
     "vid": "v62884",
@@ -1122,12 +1020,6 @@
     "title": "STEINS;GATE 変移空間のオクテット"
   },
   {
-    "vid": "v49362",
-    "id": "r162873",
-    "released": "2026-11",
-    "title": "Clover Memory's"
-  },
-  {
     "vid": "v68221",
     "id": "r163660",
     "released": "2026-11",
@@ -1198,5 +1090,113 @@
     "id": "r59413",
     "released": "2026",
     "title": "頭に爆弾 ~24時間以内にSEXしないと死んじゃう!~"
+  },
+  {
+    "vid": "v24371",
+    "id": "r59792",
+    "released": "2026",
+    "title": "KARAKARA 3"
+  },
+  {
+    "vid": "v24371",
+    "id": "r72929",
+    "released": "2026",
+    "title": "KARAKARA 3"
+  },
+  {
+    "vid": "v33120",
+    "id": "r85556",
+    "released": "2026",
+    "title": "EDEN.schemata();"
+  },
+  {
+    "vid": "v26012",
+    "id": "r87183",
+    "released": "2026",
+    "title": "蘭島物語2：奇滄的幻海"
+  },
+  {
+    "vid": "v36005",
+    "id": "r91486",
+    "released": "2026",
+    "title": "天狐札记"
+  },
+  {
+    "vid": "v36662",
+    "id": "r93117",
+    "released": "2026",
+    "title": "无垢之恋：绽放于春之花海"
+  },
+  {
+    "vid": "v41473",
+    "id": "r101548",
+    "released": "2026",
+    "title": "维罗瓦年代记：绯红之狼"
+  },
+  {
+    "vid": "v41484",
+    "id": "r101565",
+    "released": "2026",
+    "title": "駭獸少女"
+  },
+  {
+    "vid": "v3091",
+    "id": "r103321",
+    "released": "2026",
+    "title": "CHAOS;HEAD Love Chu☆Chu!"
+  },
+  {
+    "vid": "v19953",
+    "id": "r103323",
+    "released": "2026",
+    "title": "CHAOS;CHILD Love Chu☆Chu!!"
+  },
+  {
+    "vid": "v44827",
+    "id": "r107771",
+    "released": "2026",
+    "title": "Nowhere Manor"
+  },
+  {
+    "vid": "v46569",
+    "id": "r111672",
+    "released": "2026",
+    "title": "メルト・アウェイ"
+  },
+  {
+    "vid": "v47849",
+    "id": "r114941",
+    "released": "2026",
+    "title": "梦之彼方-fate prologue"
+  },
+  {
+    "vid": "v47953",
+    "id": "r115186",
+    "released": "2026",
+    "title": "Teacher Seduction"
+  },
+  {
+    "vid": "v50758",
+    "id": "r122872",
+    "released": "2026",
+    "title": "ゆめうつつクインテット"
+  },
+  {
+    "vid": "v51151",
+    "id": "r123822",
+    "released": "2026",
+    "title": "旅人的紫阳"
+  },
+  {
+    "vid": "v51193",
+    "id": "r123955",
+    "released": "2026",
+    "title": "ヒバリでなくナイチンゲールでもなく"
+  },
+  {
+    "vid": "v51828",
+    "id": "r125344",
+    "released": "2026",
+    "title": "藏物"
   }
 ]
