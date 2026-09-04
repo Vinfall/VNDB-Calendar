@@ -1,93 +1,15 @@
 [
   {
-    "vid": "v60488",
-    "id": "r144697",
-    "released": "2026-08-20",
-    "title": "星天へ発つ日"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155108",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155109",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155110",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT - JP"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155111",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT - JP"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155142",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT - JP"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155143",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155144",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155152",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT - JP"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155153",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155154",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155156",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155157",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
-  },
-  {
-    "vid": "v2002",
-    "id": "r155158",
-    "released": "2026-08-20",
-    "title": "STEINS;GATE RE:BOOT"
-  },
-  {
     "vid": "v68208",
     "id": "r163641",
     "released": "2026-08-21",
     "title": "ループシンドローム"
+  },
+  {
+    "vid": "v67848",
+    "id": "r164702",
+    "released": "2026-08-21",
+    "title": "小早川さんはソウルライク"
   },
   {
     "vid": "v66158",
@@ -312,10 +234,16 @@
     "title": "少女，一场雨"
   },
   {
-    "vid": "v68023",
-    "id": "r163170",
+    "vid": "v50737",
+    "id": "r164727",
+    "released": "2026-09-02",
+    "title": "Jugs Bay - Love, Lust, Adventure v1.4.0"
+  },
+  {
+    "vid": "v68634",
+    "id": "r164701",
     "released": "2026-09-03",
-    "title": "我的解体史"
+    "title": "小早川さんはソウルライク 5"
   },
   {
     "vid": "v58950",
@@ -340,6 +268,12 @@
     "id": "r161880",
     "released": "2026-09-04",
     "title": "Coffee Talk Tokyo"
+  },
+  {
+    "vid": "v68023",
+    "id": "r163170",
+    "released": "2026-09-04",
+    "title": "我的解体史"
   },
   {
     "vid": "v59519",
@@ -520,6 +454,12 @@
     "id": "r147978",
     "released": "2026-09-22",
     "title": "대학 조교 생활 -송하윤편-"
+  },
+  {
+    "vid": "v10016",
+    "id": "r164717",
+    "released": "2026-09-24",
+    "title": "時鐘機關的Leyline-於蜃景中彷徨的魔女-"
   },
   {
     "vid": "v61034",
@@ -990,10 +930,28 @@
     "title": "DISK-Y"
   },
   {
+    "vid": "v61533",
+    "id": "r164738",
+    "released": "2026-11",
+    "title": "けものティータイム"
+  },
+  {
+    "vid": "v61533",
+    "id": "r164740",
+    "released": "2026-11",
+    "title": "けものティータイム"
+  },
+  {
     "vid": "v63977",
     "id": "r153357",
     "released": "2026-12-07",
     "title": "神祇"
+  },
+  {
+    "vid": "v68671",
+    "id": "r164789",
+    "released": "2026-12-18",
+    "title": "ユメウツツ補習授業~Hなコトも勉強しないとダメですか?~"
   },
   {
     "vid": "v66779",
@@ -1198,5 +1156,47 @@
     "id": "r127624",
     "released": "2026",
     "title": "Depth Loop"
+  },
+  {
+    "vid": "v32185",
+    "id": "r128192",
+    "released": "2026",
+    "title": "夢見た少女のニルヴァーナ Re:Route"
+  },
+  {
+    "vid": "v53615",
+    "id": "r129415",
+    "released": "2026",
+    "title": "神明高中生"
+  },
+  {
+    "vid": "v53618",
+    "id": "r129421",
+    "released": "2026",
+    "title": "禁忌少女的輪迴之夜"
+  },
+  {
+    "vid": "v53726",
+    "id": "r129689",
+    "released": "2026",
+    "title": "世紀末之詩"
+  },
+  {
+    "vid": "v54032",
+    "id": "r130382",
+    "released": "2026",
+    "title": "Inside Utopia"
+  },
+  {
+    "vid": "v54126",
+    "id": "r130580",
+    "released": "2026",
+    "title": "ファントムゾーン・ラビュリントス"
+  },
+  {
+    "vid": "v54428",
+    "id": "r131189",
+    "released": "2026",
+    "title": "ザワークラウトの中で自転車を漕ぐ"
   }
 ]
