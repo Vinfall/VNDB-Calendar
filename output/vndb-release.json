@@ -174,6 +174,12 @@
     "title": "Kingdom Cumquest"
   },
   {
+    "vid": "v68738",
+    "id": "r164957",
+    "released": "2026-08-28",
+    "title": "上传器"
+  },
+  {
     "vid": "v54584",
     "id": "r131566",
     "released": "2026-08-29",
@@ -258,6 +264,24 @@
     "title": "Coffee Talk Tokyo"
   },
   {
+    "vid": "v68739",
+    "id": "r164967",
+    "released": "2026-09-06",
+    "title": "Welcome Home"
+  },
+  {
+    "vid": "v68739",
+    "id": "r164968",
+    "released": "2026-09-06",
+    "title": "Welcome Home"
+  },
+  {
+    "vid": "v1194",
+    "id": "r165018",
+    "released": "2026-09-06",
+    "title": "缘之空 1080P HD重制版"
+  },
+  {
     "vid": "v59519",
     "id": "r142397",
     "released": "2026-09-10",
@@ -298,12 +322,6 @@
     "id": "r163944",
     "released": "2026-09-10",
     "title": "不確定世界の探偵紳士 ~悪行双麻の事件ファイル~"
-  },
-  {
-    "vid": "v55396",
-    "id": "r133516",
-    "released": "2026-09-15",
-    "title": "Toxic Yuri"
   },
   {
     "vid": "v27153",
@@ -466,6 +484,12 @@
     "id": "r162466",
     "released": "2026-09-25",
     "title": "くりくりクリニック~悩める制服の癒し方~"
+  },
+  {
+    "vid": "v63828",
+    "id": "r164962",
+    "released": "2026-09-25",
+    "title": "王様恋愛"
   },
   {
     "vid": "v67825",
@@ -1174,29 +1198,5 @@
     "id": "r131189",
     "released": "2026",
     "title": "ザワークラウトの中で自転車を漕ぐ"
-  },
-  {
-    "vid": "v54769",
-    "id": "r131936",
-    "released": "2026",
-    "title": "ホロウドライヴ"
-  },
-  {
-    "vid": "v54903",
-    "id": "r132329",
-    "released": "2026",
-    "title": "恋爱泡馍!青春老陕"
-  },
-  {
-    "vid": "v54933",
-    "id": "r132398",
-    "released": "2026",
-    "title": "心象天儀本線 ~Per aspera ad astra~"
-  },
-  {
-    "vid": "v55062",
-    "id": "r132671",
-    "released": "2026",
-    "title": "Nolean: The Space Bartender"
   }
 ]
