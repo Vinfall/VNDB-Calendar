@@ -1,23 +1,5 @@
 [
   {
-    "vid": "v17632",
-    "id": "r147804",
-    "released": "2026-08-25",
-    "title": "Koikata: How Our Love Grows"
-  },
-  {
-    "vid": "v17632",
-    "id": "r163864",
-    "released": "2026-08-25",
-    "title": "Koikata: How Our Love Grows - 18+ Patch"
-  },
-  {
-    "vid": "v54846",
-    "id": "r163926",
-    "released": "2026-08-25",
-    "title": "이클립스 : Special Forces"
-  },
-  {
     "vid": "v62602",
     "id": "r149484",
     "released": "2026-08-26",
@@ -288,10 +270,10 @@
     "title": "破碎童话之歌"
   },
   {
-    "vid": "v68797",
-    "id": "r165084",
-    "released": "2026-09-06",
-    "title": "Before the Fireworks"
+    "vid": "v55286",
+    "id": "r147859",
+    "released": "2026-09-08",
+    "title": "纸房子"
   },
   {
     "vid": "v62697",
@@ -352,12 +334,6 @@
     "id": "r165042",
     "released": "2026-09-10",
     "title": "不確定世界の探偵紳士 ~悪行双麻の事件ファイル~"
-  },
-  {
-    "vid": "v68797",
-    "id": "r165082",
-    "released": "2026-09-10",
-    "title": "Before the Fireworks"
   },
   {
     "vid": "v54933",
@@ -1198,5 +1174,29 @@
     "id": "r127624",
     "released": "2026",
     "title": "Depth Loop"
+  },
+  {
+    "vid": "v32185",
+    "id": "r128192",
+    "released": "2026",
+    "title": "夢見た少女のニルヴァーナ Re:Route"
+  },
+  {
+    "vid": "v53618",
+    "id": "r129421",
+    "released": "2026",
+    "title": "禁忌少女的輪迴之夜"
+  },
+  {
+    "vid": "v53726",
+    "id": "r129689",
+    "released": "2026",
+    "title": "世紀末之詩"
+  },
+  {
+    "vid": "v54032",
+    "id": "r130382",
+    "released": "2026",
+    "title": "Inside Utopia"
   }
 ]
