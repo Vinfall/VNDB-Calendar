@@ -131,6 +131,7 @@ v67372;r161597;どいなかガールズゆーとぴあ;2026-11-27
 v67372;r161598;どいなかガールズゆーとぴあ;2026-11-27
 v67381;r161636;今日の2-X;2026-11-27
 v68172;r163551;カノジョの妹のあざと誘惑~純愛なんてゴミですよ先輩♡~;2026-11-27
+v69033;r165624;夢見るアプリ;2026-11-27
 v59728;r142812;偽りのアリス -Retold Tale-;2026-11
 v61046;r145914;죽어도 좋아!;2026-11
 v56844;r156050;Love or Lust Beach Stories;2026-11
@@ -198,4 +199,3 @@ v56991;r137094;上位存在の命運は私が握るものとする;2026
 v14;r138110;School Days Remastered;2026
 v57814;r138559;箍の外れたビスクドール 一滅外道ノ章;2026
 v57821;r138568;Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges;2026
-v11857;r138872;Magical Charming!;2026
