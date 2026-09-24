@@ -2,6 +2,52 @@
 
 All notable changes to this project will be documented in this file.
 
+## [unreleased]
+
+### 📦 Dependencies
+
+- Bump python matrix to 3.13~3.15-dev
+
+### 🛠️ Chores
+
+- Enable python.compile to allow python-3.15
+
+## [5.13.0] - 2026-09-24
+
+### 📦 Dependencies
+
+- Bump uv.lock
+
+### 🛠️ Chores
+
+- Pin to hash, simplify custom workflow
+- Adapt to new build:custom task
+- Add zizmor config
+- Minify custom output
+
+### Ics
+
+- Update calendar
+
+## [5.12.4] - 2026-09-15
+
+### 📦 Dependencies
+
+- Bump dependencies
+- Bump uv.lock
+- Bump ical from 14.0.1 to 14.1.1
+- Bump dateparser from 1.4.1 to 1.4.2
+- Bump ical from 14.0.0 to 14.0.1
+
+### 🎨 Styling
+
+- Ignore CPY rule in ruff
+
+### 🛠️ Chores
+
+- Update regex & prod filters
+- Ubuntu-slim -> ubuntu-26.04
+
 ## [5.11.0] - 2026-07-17
 
 ### 📦 Dependencies
