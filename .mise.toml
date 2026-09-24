@@ -12,7 +12,11 @@ uvx = true
 
 [tasks."build:custom"]
 description = "build my custom calendar"
-run = "uv run vndb_calendar.py"
+run = """
+#!/usr/bin/env bash
+uv run vndb_calendar.py
+python3 minify.py
+"""
 alias = ["run", "custom", "default"]
 
 [tasks."build:en"]
