@@ -16,13 +16,13 @@ jobs:
       matrix:
         python-version: ["3.14"]
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: true
 
       - name: setup project with mise
         id: setup-mise
-        uses: jdx/mise-action@v4
+        uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
           install: true
           cache: true
@@ -38,17 +38,11 @@ jobs:
         id: check_changes
         run: if [[ $(git diff --name-only HEAD) == *"output/vndb.csv"* ]]; then echo "changes=true" > "$GITHUB_OUTPUT"; else echo "changes=false" > "$GITHUB_OUTPUT"; fi
 
-      - name: commit files only on changes
+      - name: commit files
         if: ${{ steps.check_changes.outputs.changes == 'true' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -u
           git commit -m "ics: update calendar" -a
-
-      - name: push changes
-        if: ${{ steps.check_changes.outputs.changes == 'true' }}
-        uses: ad-m/github-push-action@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          git push origin main
