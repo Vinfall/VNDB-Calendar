@@ -33,8 +33,12 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
     ```diff
     [tasks."build:custom"]
     description = "build my custom calendar"
-    -run = "uv run vndb_calendar.py"
-    +run = "uv run wishlist.py -u 'u2'" # 替换 'u2' 为你的 VNDB ID
+    run = """
+    #!/usr/bin/env bash
+    -uv run vndb_calendar.py
+    -python3 minify.py
+    +uv run wishlist.py -u 'u2' # 替换 'u2' 为你的 VNDB ID
+    """
     alias = ["run", "custom", "default"]
     ```
 

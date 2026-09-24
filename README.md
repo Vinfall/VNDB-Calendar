@@ -36,8 +36,12 @@ Wishlist is recommended for most users.
     ```diff
     [tasks."build:custom"]
     description = "build my custom calendar"
-    -run = "uv run vndb_calendar.py"
-    +run = "uv run wishlist.py -u 'u2'" # Replace 'u2' with your VNDB ID
+    run = """
+    #!/usr/bin/env bash
+    -uv run vndb_calendar.py
+    -python3 minify.py
+    +uv run wishlist.py -u 'u2' # Replace 'u2' with your VNDB ID
+    """
     alias = ["run", "custom", "default"]
     ```
 
@@ -72,7 +76,7 @@ Wishlist is recommended for most users.
 
 </details>
 
-## Contrib
+## Contribute
 
 Any contribution is appreciated!
 
