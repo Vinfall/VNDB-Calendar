@@ -36,7 +36,7 @@ jobs:
 
       - name: check release changes
         id: check_changes
-        run: if [[ $(git diff --name-only HEAD) == *"output/vndb-release.txt"* ]]; then echo "changes=true" > "$GITHUB_OUTPUT"; else echo "changes=false" > "$GITHUB_OUTPUT"; fi
+        run: if [[ $(git diff --name-only HEAD) == *"output/vndb.csv"* ]]; then echo "changes=true" > "$GITHUB_OUTPUT"; else echo "changes=false" > "$GITHUB_OUTPUT"; fi
 
       - name: commit files only on changes
         if: ${{ steps.check_changes.outputs.changes == 'true' }}
@@ -44,7 +44,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -u
-          git commit -m "ics: update release calendar" -a
+          git commit -m "ics: update calendar" -a
 
       - name: push changes
         if: ${{ steps.check_changes.outputs.changes == 'true' }}
