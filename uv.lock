@@ -582,6 +582,6 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "dateparser", specifier = ">=1.4.3" },
-    { name = "ical", specifier = ">=14.2.0" },
+    { name = "ical", specifier = ">=14.3.0" },
     { name = "requests", specifier = ">=2.34.2" },
 ]
