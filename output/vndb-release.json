@@ -78,6 +78,12 @@
     "title": "심장에 해로워"
   },
   {
+    "vid": "v69375",
+    "id": "r166489",
+    "released": "2026-10-14",
+    "title": "MIU"
+  },
+  {
     "vid": "v49307",
     "id": "r162972",
     "released": "2026-10-15",
@@ -90,10 +96,22 @@
     "title": "Tavern Talk Complete Edition"
   },
   {
-    "vid": "v56813",
-    "id": "r136665",
+    "vid": "v54091",
+    "id": "r165023",
     "released": "2026-10-16",
-    "title": "Sign: 碎冠篇"
+    "title": "ステラーコード"
+  },
+  {
+    "vid": "v54091",
+    "id": "r165024",
+    "released": "2026-10-16",
+    "title": "ステラーコード"
+  },
+  {
+    "vid": "v69923",
+    "id": "r167698",
+    "released": "2026-10-16",
+    "title": "我才是奶蛙!"
   },
   {
     "vid": "v47555",
@@ -316,6 +334,12 @@
     "id": "r126027",
     "released": "2026-10",
     "title": "私たちフェイクマリッジ?"
+  },
+  {
+    "vid": "v56813",
+    "id": "r136665",
+    "released": "2026-10",
+    "title": "Sign: 碎冠篇"
   },
   {
     "vid": "v60467",
@@ -1174,29 +1198,5 @@
     "id": "r141488",
     "released": "2026",
     "title": "Depth Loop"
-  },
-  {
-    "vid": "v52836",
-    "id": "r141489",
-    "released": "2026",
-    "title": "Depth Loop"
-  },
-  {
-    "vid": "v59227",
-    "id": "r141520",
-    "released": "2026",
-    "title": "The Chord of “C”"
-  },
-  {
-    "vid": "v59264",
-    "id": "r141620",
-    "released": "2026",
-    "title": "临界吸引力"
-  },
-  {
-    "vid": "v59297",
-    "id": "r141741",
-    "released": "2026",
-    "title": "中国黑龙传说"
   }
 ]
