@@ -2,21 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [5.14.0] - 2026-10-23
+
+### 📚 Docs
+
+- Update wishlist setup diff
 
 ### 📦 Dependencies
 
+- Bump dependencies
+- Bump jdx/mise-action from 5.1.1 to 5.2.1
+- Bump ical from 14.2.0 to 14.3.0
+- Bump python matrix to 3.14~3.15
+- Bump jdx/mise-action from 5.0.1 to 5.1.1
+- Bump jdx/mise-action from 4.3.0 to 5.0.1
 - Bump python matrix to 3.13~3.15-dev
 
 ### 🛠️ Chores
 
+- Hide uv.lock/calendar changelog
+- Disable persist-credentials in actions/checkout
+- Migrate to global templates
 - Enable python.compile to allow python-3.15
 
 ## [5.13.0] - 2026-09-24
-
-### 📦 Dependencies
-
-- Bump uv.lock
 
 ### 🛠️ Chores
 
@@ -25,16 +34,11 @@ All notable changes to this project will be documented in this file.
 - Add zizmor config
 - Minify custom output
 
-### Ics
-
-- Update calendar
-
 ## [5.12.4] - 2026-09-15
 
 ### 📦 Dependencies
 
 - Bump dependencies
-- Bump uv.lock
 - Bump ical from 14.0.1 to 14.1.1
 - Bump dateparser from 1.4.1 to 1.4.2
 - Bump ical from 14.0.0 to 14.0.1
@@ -64,7 +68,6 @@ All notable changes to this project will be documented in this file.
 
 ### 📦 Dependencies
 
-- Bump uv.lock
 - Bump actions/checkout from 6 to 7
 - Bump ics from 0.8.0.dev0 to 0.8.0.dev1
 - Bump requests from 2.30.0 to 2.30.1
@@ -94,7 +97,6 @@ All notable changes to this project will be documented in this file.
 
 ### 📦 Dependencies
 
-- Bump uv.lock, properly
 - Use aqua zizmor
 - Use aqua ty
 
@@ -124,7 +126,6 @@ All notable changes to this project will be documented in this file.
 
 ### 📦 Dependencies
 
-- Bump uv.lock
 - Bump python to 3.14 per PEP 745
 - Bump actions/checkout from 5 to 6
 - Bump Python Matrix to 3.13~3.14 per PEP 745
@@ -174,7 +175,6 @@ All notable changes to this project will be documented in this file.
 ### 📦 Dependencies
 
 - Use aqua zizmor
-- Bump uv.lock
 - Bump dependencies
 
 ### 🎨 Styling
