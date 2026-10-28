@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v69375",
-    "id": "r166489",
-    "released": "2026-10-13",
-    "title": "MIU"
-  },
-  {
     "vid": "v49307",
     "id": "r162972",
     "released": "2026-10-15",
@@ -180,10 +174,16 @@
     "title": "히루가오"
   },
   {
-    "vid": "v1518",
+    "vid": "v324",
     "id": "r168455",
     "released": "2026-10-26",
     "title": "虫爱少女 完全版"
+  },
+  {
+    "vid": "v70148",
+    "id": "r168575",
+    "released": "2026-10-26",
+    "title": "我爸是男娘"
   },
   {
     "vid": "v36175",
@@ -196,12 +196,6 @@
     "id": "r142476",
     "released": "2026-10-27",
     "title": "Cosplaying in Costalia: The Tororo Sisters!"
-  },
-  {
-    "vid": "v69912",
-    "id": "r167662",
-    "released": "2026-10-27",
-    "title": "BUZZ or DIE"
   },
   {
     "vid": "v9887",
@@ -294,7 +288,7 @@
     "title": "西園家のかくしゴト"
   },
   {
-    "vid": "v11071",
+    "vid": "v8038",
     "id": "r162137",
     "released": "2026-10-30",
     "title": "美少女万華鏡 Complete Collection -15th Anniversary Edition-"
@@ -454,12 +448,6 @@
     "id": "r152880",
     "released": "2026-11-10",
     "title": "TORAWASE: The Girl in the Mirror"
-  },
-  {
-    "vid": "v69459",
-    "id": "r166629",
-    "released": "2026-11-10",
-    "title": "異界ノ宿帳"
   },
   {
     "vid": "v25366",
@@ -820,6 +808,12 @@
     "id": "r166429",
     "released": "2026-12-18",
     "title": "ユメウツツ補習授業~Hなコトも勉強しないとダメですか?~"
+  },
+  {
+    "vid": "v67584",
+    "id": "r168571",
+    "released": "2026-12-19",
+    "title": "おばさんじゃない、女だった。〜隣の八百屋の奥さんと越えてはいけない夏〜 +特典CG集付き"
   },
   {
     "vid": "v61046",
@@ -1198,5 +1192,11 @@
     "id": "r138559",
     "released": "2026",
     "title": "箍の外れたビスクドール 一滅外道ノ章"
+  },
+  {
+    "vid": "v57821",
+    "id": "r138568",
+    "released": "2026",
+    "title": "Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges"
   }
 ]
