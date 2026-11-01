@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v50869",
-    "id": "r167756",
-    "released": "2026-10-17",
-    "title": "병원x생활"
-  },
-  {
     "vid": "v57527",
     "id": "r167877",
     "released": "2026-10-19",
@@ -46,6 +40,12 @@
     "id": "r167053",
     "released": "2026-10-21",
     "title": "つきみぷらねっと -CLASSIC REMASTER-"
+  },
+  {
+    "vid": "v18486",
+    "id": "r129897",
+    "released": "2026-10-22",
+    "title": "妻中蜜3"
   },
   {
     "vid": "v61926",
@@ -190,6 +190,12 @@
     "id": "r168789",
     "released": "2026-10-29",
     "title": "涙花ちゃんを救いたい! ~負けヒロインとループする~"
+  },
+  {
+    "vid": "v34121",
+    "id": "r168885",
+    "released": "2026-10-29",
+    "title": "早咲きのくろゆりファミ通 ウェディングDXパック"
   },
   {
     "vid": "v48838",
@@ -346,24 +352,6 @@
     "id": "r166188",
     "released": "2026-10-31",
     "title": "通学路~夏窓~サマーウィンドウ"
-  },
-  {
-    "vid": "v36293",
-    "id": "r92108",
-    "released": "2026-10",
-    "title": "Terminus Historia - 境界戦役 -"
-  },
-  {
-    "vid": "v52146",
-    "id": "r126027",
-    "released": "2026-10",
-    "title": "私たちフェイクマリッジ?"
-  },
-  {
-    "vid": "v68203",
-    "id": "r163626",
-    "released": "2026-10",
-    "title": "留在四月以后"
   },
   {
     "vid": "v39919",
@@ -600,6 +588,12 @@
     "title": "楽園追放 –The Stellar Angel–"
   },
   {
+    "vid": "v65042",
+    "id": "r168873",
+    "released": "2026-11-26",
+    "title": "楽園追放 –The Stellar Angel–"
+  },
+  {
     "vid": "v59728",
     "id": "r142812",
     "released": "2026-11-27",
@@ -694,6 +688,12 @@
     "id": "r168110",
     "released": "2026-11-27",
     "title": "TINTIN-CAMOCAMO ベロチューエスカレーション"
+  },
+  {
+    "vid": "v36293",
+    "id": "r92108",
+    "released": "2026-11",
+    "title": "Terminus Historia - 境界戦役 -"
   },
   {
     "vid": "v61533",
@@ -1056,6 +1056,12 @@
     "title": "藏物"
   },
   {
+    "vid": "v52146",
+    "id": "r126027",
+    "released": "2026",
+    "title": "私たちフェイクマリッジ?"
+  },
+  {
     "vid": "v52237",
     "id": "r126261",
     "released": "2026",
@@ -1192,11 +1198,5 @@
     "id": "r138568",
     "released": "2026",
     "title": "Prolegomena To a Hyperdimensional Interface That Will Be Able to Manifest From Three-Minute Interchanges"
-  },
-  {
-    "vid": "v25725",
-    "id": "r139210",
-    "released": "2026",
-    "title": "SHUFFLE! エピソード2~神にも悪魔にも狙われている男~ コンシューマ版"
   }
 ]
