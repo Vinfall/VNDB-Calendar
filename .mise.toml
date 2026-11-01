@@ -12,7 +12,7 @@ run = """
 uv run vndb_calendar.py
 python3 minify.py
 """
-alias = ["run", "custom", "default"]
+alias = ["custom", "default"]
 
 [tasks."build:en"]
 description = "build VNDB calendar with en & ja releases"
