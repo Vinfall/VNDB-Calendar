@@ -13,7 +13,7 @@ VNDB 目前只对 *Recent Changes* 提供 RSS，*Upcoming Releases* 和 *Just Re
 
 为方便测试，项目默认提供了下列发售日历。如果这些已经满足你的需求，没有必要阅读配置部分。
 
-- ~~[zh][zh]: 尚未发售的中/日视觉小说~~ 待修复
+- [zh][zh]: 尚未发售的中/日视觉小说
 - [zhpatch][zhpatch]: 2026-07 以来发布的民间汉化补丁
 
 ## 配置
