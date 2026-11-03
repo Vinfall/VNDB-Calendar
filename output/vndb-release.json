@@ -1,23 +1,5 @@
 [
   {
-    "vid": "v57527",
-    "id": "r167877",
-    "released": "2026-10-19",
-    "title": "ENCORE!"
-  },
-  {
-    "vid": "v70045",
-    "id": "r168100",
-    "released": "2026-10-19",
-    "title": "花牢の告解"
-  },
-  {
-    "vid": "v70107",
-    "id": "r168369",
-    "released": "2026-10-19",
-    "title": "Insufferedere: Kuudere"
-  },
-  {
     "vid": "v5659",
     "id": "r167821",
     "released": "2026-10-20",
@@ -198,10 +180,34 @@
     "title": "早咲きのくろゆり"
   },
   {
+    "vid": "v9887",
+    "id": "r160093",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE 変移空間のオクテット"
+  },
+  {
     "vid": "v66876",
     "id": "r160501",
     "released": "2026-10-29",
     "title": "故地春寻"
+  },
+  {
+    "vid": "v9887",
+    "id": "r160572",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE 変移空間のオクテット"
+  },
+  {
+    "vid": "v9887",
+    "id": "r160573",
+    "released": "2026-10-29",
+    "title": "STEINS;GATE 変移空間のオクテット"
+  },
+  {
+    "vid": "v64958",
+    "id": "r163851",
+    "released": "2026-10-29",
+    "title": "핏빛 비가 내린 날"
   },
   {
     "vid": "v34121",
@@ -390,10 +396,28 @@
     "title": "血刻継承クレイドペイン ―少女たちの終焉―"
   },
   {
+    "vid": "v11071",
+    "id": "r169137",
+    "released": "2026-10-30",
+    "title": "美少女万華鏡 Complete Collection -15th Anniversary Edition-"
+  },
+  {
     "vid": "v27585",
     "id": "r166188",
     "released": "2026-10-31",
     "title": "通学路~夏窓~サマーウィンドウ"
+  },
+  {
+    "vid": "v9887",
+    "id": "r160091",
+    "released": "2026-11-02",
+    "title": "STEINS;GATE 変移空間のオクテット"
+  },
+  {
+    "vid": "v65662",
+    "id": "r162764",
+    "released": "2026-11-02",
+    "title": "alda"
   },
   {
     "vid": "v39919",
@@ -1174,29 +1198,5 @@
     "id": "r131936",
     "released": "2026",
     "title": "ホロウドライヴ"
-  },
-  {
-    "vid": "v54903",
-    "id": "r132329",
-    "released": "2026",
-    "title": "恋爱泡馍!青春老陕"
-  },
-  {
-    "vid": "v55062",
-    "id": "r132671",
-    "released": "2026",
-    "title": "Nolean: The Space Bartender"
-  },
-  {
-    "vid": "v55620",
-    "id": "r133932",
-    "released": "2026",
-    "title": "橘香仲夏"
-  },
-  {
-    "vid": "v55910",
-    "id": "r134693",
-    "released": "2026",
-    "title": "恋途之夜"
   }
 ]
