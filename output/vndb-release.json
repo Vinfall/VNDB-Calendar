@@ -1,29 +1,5 @@
 [
   {
-    "vid": "v56813",
-    "id": "r136665",
-    "released": "2026-10-26",
-    "title": "Sign: 碎冠篇"
-  },
-  {
-    "vid": "v68180",
-    "id": "r163573",
-    "released": "2026-10-26",
-    "title": "히루가오"
-  },
-  {
-    "vid": "v1518",
-    "id": "r168455",
-    "released": "2026-10-26",
-    "title": "虫爱少女 完全版"
-  },
-  {
-    "vid": "v70148",
-    "id": "r168575",
-    "released": "2026-10-26",
-    "title": "我爸是男娘"
-  },
-  {
     "vid": "v36175",
     "id": "r142474",
     "released": "2026-10-27",
@@ -426,16 +402,34 @@
     "title": "格闘娘マテリア人体改造 Jintai Kaizou THE NOVEL ~コンプリートセット~"
   },
   {
+    "vid": "v24198",
+    "id": "r169715",
+    "released": "2026-11-07",
+    "title": "蝉鸣 Cicadas"
+  },
+  {
     "vid": "v18670",
     "id": "r169554",
     "released": "2026-11-08",
     "title": "夏色心跳日志 本篇+Happy Summer 二合一"
   },
   {
+    "vid": "v49897",
+    "id": "r169696",
+    "released": "2026-11-09",
+    "title": "galaxy ballerina"
+  },
+  {
     "vid": "v43468",
     "id": "r152880",
     "released": "2026-11-10",
     "title": "TORAWASE: The Girl in the Mirror"
+  },
+  {
+    "vid": "v43468",
+    "id": "r169728",
+    "released": "2026-11-10",
+    "title": "TORAWASE: The Girl in the Mirror - 18+ Patch"
   },
   {
     "vid": "v25366",
@@ -1198,5 +1192,11 @@
     "id": "r129689",
     "released": "2026",
     "title": "世紀末之詩"
+  },
+  {
+    "vid": "v54032",
+    "id": "r130382",
+    "released": "2026",
+    "title": "Inside Utopia"
   }
 ]
