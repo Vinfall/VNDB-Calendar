@@ -1,23 +1,5 @@
 [
   {
-    "vid": "v36175",
-    "id": "r142474",
-    "released": "2026-10-27",
-    "title": "Cosplaying in Costalia: The Tororo Sisters!"
-  },
-  {
-    "vid": "v36175",
-    "id": "r142476",
-    "released": "2026-10-27",
-    "title": "Cosplaying in Costalia: The Tororo Sisters!"
-  },
-  {
-    "vid": "v36175",
-    "id": "r168562",
-    "released": "2026-10-27",
-    "title": "Cosplaying in Costalia: The Tororo Sisters! - 18+ Patch"
-  },
-  {
     "vid": "v65721",
     "id": "r157499",
     "released": "2026-10-28",
@@ -285,7 +267,7 @@
     "vid": "v27585",
     "id": "r166188",
     "released": "2026-10-31",
-    "title": "通学路~夏窓~サマーウィンドウ"
+    "title": "通学路~夏窓~サマーウィンドウ完全版"
   },
   {
     "vid": "v9887",
@@ -426,10 +408,22 @@
     "title": "TORAWASE: The Girl in the Mirror"
   },
   {
+    "vid": "v562",
+    "id": "r157884",
+    "released": "2026-11-10",
+    "title": "樱之诗 -起舞于樱花之森上-"
+  },
+  {
     "vid": "v43468",
     "id": "r169728",
     "released": "2026-11-10",
     "title": "TORAWASE: The Girl in the Mirror - 18+ Patch"
+  },
+  {
+    "vid": "v562",
+    "id": "r169784",
+    "released": "2026-11-10",
+    "title": "樱之诗 -起舞于樱花之森上- 10周年纪念版"
   },
   {
     "vid": "v25366",
@@ -556,6 +550,12 @@
     "id": "r165674",
     "released": "2026-11-22",
     "title": "ゾンビポリス ~ゾンビ刑事と凍てつく真夏のお正月~"
+  },
+  {
+    "vid": "v24371",
+    "id": "r72929",
+    "released": "2026-11-24",
+    "title": "KARAKARA3"
   },
   {
     "vid": "v65042",
@@ -780,6 +780,12 @@
     "title": "あさがま~朝からずっとおしっこがまん~"
   },
   {
+    "vid": "v57254",
+    "id": "r137634",
+    "released": "2026-12-02",
+    "title": "台灣霹靂火 Re:Burn"
+  },
+  {
     "vid": "v63977",
     "id": "r153357",
     "released": "2026-12-07",
@@ -976,6 +982,18 @@
     "id": "r168842",
     "released": "2026-12-25",
     "title": "あまえて☆にぃにコンプリート"
+  },
+  {
+    "vid": "v54203",
+    "id": "r169785",
+    "released": "2026-12-25",
+    "title": "やらせてっ!てぃーちゃーリターンズ 3＋4 クリスマス Ver"
+  },
+  {
+    "vid": "v48227",
+    "id": "r169786",
+    "released": "2026-12-25",
+    "title": "やらせてっ!てぃーちゃーリターンズ3＋4 クリスマスVer＋理子クリスマスVer"
   },
   {
     "vid": "v27892",
@@ -1180,23 +1198,5 @@
     "id": "r128192",
     "released": "2026",
     "title": "夢見た少女のニルヴァーナ Re:Route"
-  },
-  {
-    "vid": "v53618",
-    "id": "r129421",
-    "released": "2026",
-    "title": "禁忌少女的輪迴之夜"
-  },
-  {
-    "vid": "v53726",
-    "id": "r129689",
-    "released": "2026",
-    "title": "世紀末之詩"
-  },
-  {
-    "vid": "v54032",
-    "id": "r130382",
-    "released": "2026",
-    "title": "Inside Utopia"
   }
 ]
