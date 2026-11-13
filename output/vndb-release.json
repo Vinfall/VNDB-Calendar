@@ -1,83 +1,5 @@
 [
   {
-    "vid": "v64480",
-    "id": "r154634",
-    "released": "2026-10-29",
-    "title": "它说山雨欲来"
-  },
-  {
-    "vid": "v9887",
-    "id": "r157765",
-    "released": "2026-10-29",
-    "title": "STEINS;GATE 変移空間のオクテット"
-  },
-  {
-    "vid": "v9887",
-    "id": "r157766",
-    "released": "2026-10-29",
-    "title": "STEINS;GATE 変移空間のオクテット"
-  },
-  {
-    "vid": "v9887",
-    "id": "r157767",
-    "released": "2026-10-29",
-    "title": "STEINS;GATE 変移空間のオクテット"
-  },
-  {
-    "vid": "v34121",
-    "id": "r159319",
-    "released": "2026-10-29",
-    "title": "早咲きのくろゆり"
-  },
-  {
-    "vid": "v9887",
-    "id": "r160093",
-    "released": "2026-10-29",
-    "title": "STEINS;GATE 変移空間のオクテット"
-  },
-  {
-    "vid": "v66876",
-    "id": "r160501",
-    "released": "2026-10-29",
-    "title": "故地春寻"
-  },
-  {
-    "vid": "v9887",
-    "id": "r160572",
-    "released": "2026-10-29",
-    "title": "STEINS;GATE 変移空間のオクテット"
-  },
-  {
-    "vid": "v9887",
-    "id": "r160573",
-    "released": "2026-10-29",
-    "title": "STEINS;GATE 変移空間のオクテット"
-  },
-  {
-    "vid": "v34121",
-    "id": "r168689",
-    "released": "2026-10-29",
-    "title": "早咲きのくろゆり"
-  },
-  {
-    "vid": "v69199",
-    "id": "r168789",
-    "released": "2026-10-29",
-    "title": "涙花ちゃんを救いたい! ~負けヒロインとループする~"
-  },
-  {
-    "vid": "v34121",
-    "id": "r168885",
-    "released": "2026-10-29",
-    "title": "早咲きのくろゆりファミ通 ウェディングDXパック"
-  },
-  {
-    "vid": "v70442",
-    "id": "r169561",
-    "released": "2026-10-29",
-    "title": "Luca's Night"
-  },
-  {
     "vid": "v48838",
     "id": "r117440",
     "released": "2026-10-30",
@@ -342,6 +264,18 @@
     "title": "性无能者的空庭"
   },
   {
+    "vid": "v48262",
+    "id": "r168674",
+    "released": "2026-11-05",
+    "title": "Lilac -side Witch-"
+  },
+  {
+    "vid": "v48262",
+    "id": "r168675",
+    "released": "2026-11-05",
+    "title": "Lilac ~side Wizard~"
+  },
+  {
     "vid": "v69168",
     "id": "r165925",
     "released": "2026-11-06",
@@ -438,6 +372,12 @@
     "title": "快盗天使ツインエンジェル 〜時とセカイの迷宮〜 Re:birth"
   },
   {
+    "vid": "v16395",
+    "id": "r170016",
+    "released": "2026-11-12",
+    "title": "きみとぼくときれいごと -CLASSIC REMASTER-"
+  },
+  {
     "vid": "v30132",
     "id": "r167753",
     "released": "2026-11-14",
@@ -448,18 +388,6 @@
     "id": "r167754",
     "released": "2026-11-14",
     "title": "Fate/Empire of Dirt Complete"
-  },
-  {
-    "vid": "v48262",
-    "id": "r168674",
-    "released": "2026-11-15",
-    "title": "Lilac -side Witch-"
-  },
-  {
-    "vid": "v48262",
-    "id": "r168675",
-    "released": "2026-11-15",
-    "title": "Lilac -side Wizard-"
   },
   {
     "vid": "v63472",
@@ -544,6 +472,12 @@
     "id": "r165674",
     "released": "2026-11-22",
     "title": "ゾンビポリス ~ゾンビ刑事と凍てつく真夏のお正月~"
+  },
+  {
+    "vid": "v24371",
+    "id": "r59792",
+    "released": "2026-11-24",
+    "title": "KARAKARA3"
   },
   {
     "vid": "v24371",
@@ -1198,5 +1132,71 @@
     "id": "r129421",
     "released": "2026",
     "title": "禁忌少女的輪迴之夜"
+  },
+  {
+    "vid": "v53726",
+    "id": "r129689",
+    "released": "2026",
+    "title": "世紀末之詩"
+  },
+  {
+    "vid": "v54032",
+    "id": "r130382",
+    "released": "2026",
+    "title": "Inside Utopia"
+  },
+  {
+    "vid": "v54126",
+    "id": "r130580",
+    "released": "2026",
+    "title": "ファントムゾーン・ラビュリントス"
+  },
+  {
+    "vid": "v54428",
+    "id": "r131189",
+    "released": "2026",
+    "title": "ザワークラウトの中で自転車を漕ぐ"
+  },
+  {
+    "vid": "v54769",
+    "id": "r131936",
+    "released": "2026",
+    "title": "ホロウドライヴ"
+  },
+  {
+    "vid": "v54903",
+    "id": "r132329",
+    "released": "2026",
+    "title": "恋爱泡馍!青春老陕"
+  },
+  {
+    "vid": "v55062",
+    "id": "r132671",
+    "released": "2026",
+    "title": "Nolean: The Space Bartender"
+  },
+  {
+    "vid": "v55910",
+    "id": "r134693",
+    "released": "2026",
+    "title": "恋途之夜"
+  },
+  {
+    "vid": "v56141",
+    "id": "r135070",
+    "released": "2026",
+    "title": "Crossover Clover"
+  },
+  {
+    "vid": "v56862",
+    "id": "r136826",
+    "released": "2026",
+    "title": "魔法少女ノ因習村"
+  },
+  {
+    "vid": "v56862",
+    "id": "r136827",
+    "released": "2026",
+    "title": "魔法少女ノ因習村"
   }
 ]
