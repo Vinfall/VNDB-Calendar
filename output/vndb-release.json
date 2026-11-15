@@ -1,11 +1,5 @@
 [
   {
-    "vid": "v27585",
-    "id": "r166188",
-    "released": "2026-10-31",
-    "title": "通学路~夏窓~サマーウィンドウ完全版"
-  },
-  {
     "vid": "v9887",
     "id": "r160091",
     "released": "2026-11-02",
@@ -174,6 +168,12 @@
     "title": "恋爱，我就借走咯"
   },
   {
+    "vid": "v70712",
+    "id": "r170236",
+    "released": "2026-11-11",
+    "title": "知夏"
+  },
+  {
     "vid": "v51021",
     "id": "r168634",
     "released": "2026-11-12",
@@ -196,6 +196,12 @@
     "id": "r170016",
     "released": "2026-11-12",
     "title": "きみとぼくときれいごと -CLASSIC REMASTER-"
+  },
+  {
+    "vid": "v63753",
+    "id": "r167699",
+    "released": "2026-11-14",
+    "title": "Lastrip"
   },
   {
     "vid": "v30132",
@@ -492,6 +498,12 @@
     "title": "TINTIN-CAMOCAMO ベロチューエスカレーション"
   },
   {
+    "vid": "v2655",
+    "id": "r170163",
+    "released": "2026-11-27",
+    "title": "ヌキコレvol.118 姦染 RE:UNION"
+  },
+  {
     "vid": "v58009",
     "id": "r155988",
     "released": "2026-11-28",
@@ -526,12 +538,6 @@
     "id": "r165995",
     "released": "2026-11",
     "title": "涙花ちゃんを救いたい! ~負けヒロインとループする~"
-  },
-  {
-    "vid": "v63753",
-    "id": "r167699",
-    "released": "2026-11",
-    "title": "Lastrip"
   },
   {
     "vid": "v48144",
@@ -820,6 +826,18 @@
     "id": "r169419",
     "released": "2026-12",
     "title": "理想の妹はゲームの中にしかいない"
+  },
+  {
+    "vid": "v22190",
+    "id": "r170143",
+    "released": "2026-12",
+    "title": "フルボッコようちえん-CLASSIC REMASTER-"
+  },
+  {
+    "vid": "v16395",
+    "id": "r170145",
+    "released": "2026-12",
+    "title": "CHARON CLASSIC REMASTER COLLECTION Vol.1"
   },
   {
     "vid": "v24207",
@@ -1180,23 +1198,5 @@
     "id": "r143244",
     "released": "2026",
     "title": "retrospect"
-  },
-  {
-    "vid": "v60137",
-    "id": "r143698",
-    "released": "2026",
-    "title": "It Was That Summer"
-  },
-  {
-    "vid": "v60167",
-    "id": "r143804",
-    "released": "2026",
-    "title": "共生"
-  },
-  {
-    "vid": "v60289",
-    "id": "r144309",
-    "released": "2026",
-    "title": "Unplugged."
   }
 ]
