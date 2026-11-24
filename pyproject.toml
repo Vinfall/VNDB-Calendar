@@ -47,7 +47,7 @@ ignore = [
   "RET505", # superfluous-else-return
   "T20", # print
   # repo specific
-  # intendend Unicode
+  # intended Unicode
   "RUF001",
   "RUF002",
   "RUF003",
@@ -55,4 +55,4 @@ ignore = [
 # unfixable = ["F401"]
 
 [tool.ty.rules]
-unresolved-import = "ignore" # .venv excluded from vsc/zed
+import-not-found = "ignore" # .venv excluded from vsc/zed
