@@ -1,29 +1,5 @@
 [
   {
-    "vid": "v43468",
-    "id": "r152880",
-    "released": "2026-11-10",
-    "title": "TORAWASE: The Girl in the Mirror"
-  },
-  {
-    "vid": "v562",
-    "id": "r157884",
-    "released": "2026-11-10",
-    "title": "樱之诗 -起舞于樱花之森上-"
-  },
-  {
-    "vid": "v43468",
-    "id": "r169728",
-    "released": "2026-11-10",
-    "title": "TORAWASE: The Girl in the Mirror - 18+ Patch"
-  },
-  {
-    "vid": "v562",
-    "id": "r169784",
-    "released": "2026-11-10",
-    "title": "樱之诗 -起舞于樱花之森上- 10周年纪念版"
-  },
-  {
     "vid": "v25366",
     "id": "r154593",
     "released": "2026-11-11",
@@ -114,6 +90,12 @@
     "title": "Monkeys!¡ - 18+ Patch"
   },
   {
+    "vid": "v71048",
+    "id": "r170992",
+    "released": "2026-11-17",
+    "title": "光不归谁"
+  },
+  {
     "vid": "v70793",
     "id": "r170471",
     "released": "2026-11-18",
@@ -202,6 +184,12 @@
     "id": "r72929",
     "released": "2026-11-24",
     "title": "KARAKARA3"
+  },
+  {
+    "vid": "v24371",
+    "id": "r171036",
+    "released": "2026-11-24",
+    "title": "KARAKARA3 - 18+ Patch"
   },
   {
     "vid": "v65042",
@@ -496,6 +484,12 @@
     "id": "r165433",
     "released": "2026-12-18",
     "title": "Summer Days リマスター版"
+  },
+  {
+    "vid": "v61178",
+    "id": "r165631",
+    "released": "2026-12-18",
+    "title": "黄昏幻形者"
   },
   {
     "vid": "v69324",
@@ -1198,5 +1192,11 @@
     "id": "r147786",
     "released": "2026",
     "title": "与你的亿万次重逢"
+  },
+  {
+    "vid": "v24730",
+    "id": "r147798",
+    "released": "2026",
+    "title": "Twilight's Folclore"
   }
 ]
