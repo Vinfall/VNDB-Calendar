@@ -1,23 +1,5 @@
 [
   {
-    "vid": "v25366",
-    "id": "r154593",
-    "released": "2026-11-11",
-    "title": "恋爱，我就借走咯"
-  },
-  {
-    "vid": "v25366",
-    "id": "r170318",
-    "released": "2026-11-11",
-    "title": "恋爱，我就借走咯"
-  },
-  {
-    "vid": "v70750",
-    "id": "r170367",
-    "released": "2026-11-11",
-    "title": "Confess To Me"
-  },
-  {
     "vid": "v51021",
     "id": "r168634",
     "released": "2026-11-12",
@@ -40,6 +22,12 @@
     "id": "r170016",
     "released": "2026-11-12",
     "title": "きみとぼくときれいごと -CLASSIC REMASTER-"
+  },
+  {
+    "vid": "v47121",
+    "id": "r113206",
+    "released": "2026-11-14",
+    "title": "Unexpected Consequences"
   },
   {
     "vid": "v63753",
@@ -196,6 +184,12 @@
     "id": "r155946",
     "released": "2026-11-25",
     "title": "楽園追放 –The Stellar Angel–"
+  },
+  {
+    "vid": "v21216",
+    "id": "r171081",
+    "released": "2026-11-25",
+    "title": "草莓100%~草莓色的日记"
   },
   {
     "vid": "v11857",
@@ -384,6 +378,12 @@
     "title": "ヌキコレvol.118 姦染 RE:UNION"
   },
   {
+    "vid": "v23732",
+    "id": "r171032",
+    "released": "2026-11-27",
+    "title": "pieces/候鸟之梦"
+  },
+  {
     "vid": "v61877",
     "id": "r147791",
     "released": "2026-11-28",
@@ -532,12 +532,6 @@
     "id": "r169579",
     "released": "2026-12-18",
     "title": "コン・かつ! ~狐っ娘と子づくり縁結び~"
-  },
-  {
-    "vid": "v61046",
-    "id": "r145914",
-    "released": "2026-12-24",
-    "title": "죽어도 좋아!"
   },
   {
     "vid": "v66779",
@@ -1198,5 +1192,11 @@
     "id": "r147798",
     "released": "2026",
     "title": "Twilight's Folclore"
+  },
+  {
+    "vid": "v53726",
+    "id": "r147997",
+    "released": "2026",
+    "title": "世紀末之詩 - Modian Campaign"
   }
 ]
