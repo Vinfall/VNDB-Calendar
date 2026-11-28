@@ -24,6 +24,12 @@
     "title": "Fate/Empire of Dirt Complete"
   },
   {
+    "vid": "v581",
+    "id": "r170271",
+    "released": "2026-11-15",
+    "title": "君が主で執事が俺で - Decensor Patch"
+  },
+  {
     "vid": "v63472",
     "id": "r151820",
     "released": "2026-11-16",
@@ -134,7 +140,7 @@
   {
     "vid": "v69051",
     "id": "r165674",
-    "released": "2026-11-22",
+    "released": "2026-11-21",
     "title": "ゾンビポリス ~ゾンビ刑事と凍てつく真夏のお正月~"
   },
   {
@@ -375,13 +381,19 @@
     "vid": "v23732",
     "id": "r171032",
     "released": "2026-11-27",
-    "title": "pieces/候鸟之梦"
+    "title": "pieces/候鸟的梦"
   },
   {
     "vid": "v60331",
     "id": "r171174",
     "released": "2026-11-27",
     "title": "风花融雪兔"
+  },
+  {
+    "vid": "v62739",
+    "id": "r171235",
+    "released": "2026-11-27",
+    "title": "옆집에는 마법소녀 / 소꿉친구가 산다"
   },
   {
     "vid": "v61877",
@@ -442,6 +454,12 @@
     "id": "r153357",
     "released": "2026-12-07",
     "title": "神祇"
+  },
+  {
+    "vid": "v68355",
+    "id": "r163974",
+    "released": "2026-12-09",
+    "title": "Sugar Lies"
   },
   {
     "vid": "v63141",
@@ -1180,23 +1198,5 @@
     "id": "r147767",
     "released": "2026",
     "title": "Twilight's Folclore"
-  },
-  {
-    "vid": "v61872",
-    "id": "r147786",
-    "released": "2026",
-    "title": "与你的亿万次重逢"
-  },
-  {
-    "vid": "v24730",
-    "id": "r147798",
-    "released": "2026",
-    "title": "Twilight's Folclore"
-  },
-  {
-    "vid": "v53726",
-    "id": "r147997",
-    "released": "2026",
-    "title": "世紀末之詩 - Modian Campaign"
   }
 ]
